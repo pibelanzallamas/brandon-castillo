@@ -5,7 +5,7 @@ function Home() {
   const lang = useSelector((state) => state.lang);
 
   console.log(lang);
-  return <div>Home</div>;
+  return <div className="home"> </div>;
 }
 
 export default Home;

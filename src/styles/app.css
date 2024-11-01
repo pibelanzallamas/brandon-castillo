@@ -1,3 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+nav {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+}
+nav ul a {
+  margin-left: 3rem;
+  list-style-type: none;
+}
 
+h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.side-list {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+}
+.side-list a {
+  list-style-type: none;
+  margin-bottom: 5rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: inter;
+  background-color: #D9D9D9;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #F09440;
+}
+
+.content {
+  padding: 3rem 6rem;
+}
+
+.flex {
+  display: flex;
+}
 
 /*# sourceMappingURL=app.css.map */
