@@ -3,7 +3,7 @@ const works = [
     title: "Calles Construction",
     url: "https://calles-construction.vercel.app/",
     video: "https://www.youtube.com/embed/tPLa2s6PF-E",
-    desc: "Web site to showcase Calle's Construction differents works, from drywall, to electricity, it allows to upload jobs with details and images.",
+    desc: "Website for showcasing the work of the construction company from NYC. The admin can receive emails, perform CRUD operations on jobs, descriptions, and images, and showcase the location and information of the company.",
     photos: [
       "https://res.cloudinary.com/daynclfo8/image/upload/v1730124619/calles_zngumy.png",
       "photo2",
@@ -17,7 +17,7 @@ const works = [
     title: "Dreamer Paintings",
     url: "https://dreamer-paintings.vercel.app",
     video: "https://www.youtube.com/embed/QorLsTcNgS0?si=cBHNnpnPMjbMQ9EP",
-    desc: "Web site for the abstract paintings of a talent artist from Buenos Aires, Argentina!",
+    desc: "Website for the abstract paintings of a talented artist from Buenos Aires, Argentina.",
     photos: [
       "https://res.cloudinary.com/daynclfo8/image/upload/v1730124626/dreamer_uz4hqg.png",
       "photo2",
@@ -31,7 +31,7 @@ const works = [
     title: "Carbon Copy",
     url: "http://carbon-copy-omega.vercel.app",
     video: "https://www.youtube.com/embed/UcbWm7Cd8Aw?si=ID007IVDWyYolxHZ",
-    desc: "Educative Project for Plataforma 5. It's web site for formatting and exporting snippets of code. With ten different languages to choose, and styles favorites.",
+    desc: "Educative project for Plataforma 5. It's a website for formatting and exporting snippets of code, with ten different languages to choose from and favorite styles.",
     photos: [
       "https://res.cloudinary.com/daynclfo8/image/upload/v1730124610/carbon_wk0osj.png",
       "photo2",
@@ -45,7 +45,7 @@ const works = [
     title: "House of Dev",
     url: "https://house-of-dev-client.vercel.app",
     video: "https://www.youtube.com/embed/uYUc50qGQXY?si=7xFUkmvLsrWGAYIu",
-    desc: "Educative Project for Plataforma 5. It's a real state site. ",
+    desc: "Integrative project for Plataforma 5. It's a real estate site using Trello and Figma, with the ability to favorite properties, register appointments, and use filters and sorting options. Admin mode includes the ability to perform CRUD operations for users, properties, and appointments.",
     photos: [
       "https://res.cloudinary.com/daynclfo8/image/upload/v1730124604/hod_vkfoxj.png",
       "photo2",
