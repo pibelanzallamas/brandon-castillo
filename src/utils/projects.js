@@ -25,7 +25,7 @@ const projects = [
     url: "https://calles-construction.vercel.app/",
     video: "https://www.youtube.com/embed/uBFMMUuiVNg?si=eEaU3xc94zIVHRlR",
     gh: "http://github.com/pibelanzallamas/calles-construction",
-    desc: "Website for recommend you music depending on your mood.",
+    desc: "Website for recommending music based on your mood.",
   },
   {
     title: "Yu-Gi-Oh! Randomizer!",
@@ -37,8 +37,7 @@ const projects = [
       "img5",
     ],
     url: "https://givemeayugiohcard.vercel.app/",
-    //falta
-    video: "https://www.youtube.com/embed/YhxYqo5ZVUI",
+    video: "https://www.youtube.com/embed/ffR6Gch-64M?si=sXYb7vc3YC0FX-9z",
     gh: "http://github.com/pibelanzallamas/givemeayugiohcard",
     desc: "Website for getting a random Yu-Gi-Oh! card from all cards: monsters, spells, traps, etc. It use the YGOPRODeck API.",
   },
