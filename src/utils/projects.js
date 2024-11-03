@@ -1,10 +1,17 @@
 const projects = [
   {
     title: "Your Elder",
-    images: ["img1", "img2", "img3", "img4", "img5"],
-    url: "url",
-    gh: "gh",
-    desc: "desc",
+    images: [
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1730604495/yourelder_g7n0w7.png",
+      "img2",
+      "img3",
+      "img4",
+      "img5",
+    ],
+    url: "https://yourelder.vercel.app/",
+    video: "https://www.youtube.com/embed/C8Xrna8P8zE",
+    gh: "http://github.com/pibelanzallamas/yourelder",
+    desc: "YouTube song searcher for elders.",
   },
   {
     title: "Mood Checker",
@@ -15,12 +22,13 @@ const projects = [
       "img4",
       "img5",
     ],
-    url: "url",
-    gh: "gh",
-    desc: "desc",
+    url: "https://calles-construction.vercel.app/",
+    video: "https://www.youtube.com/embed/UXWaFguMzNQ",
+    gh: "http://github.com/pibelanzallamas/calles-construction",
+    desc: "Website for recommend you music depending on your mood.",
   },
   {
-    title: "Yu Gi Oh!",
+    title: "Yu-Gi-Oh! Randomizer!",
     images: [
       "https://res.cloudinary.com/daynclfo8/image/upload/v1730124635/ygo_hyolee.png",
       "img2",
@@ -28,10 +36,10 @@ const projects = [
       "img4",
       "img5",
     ],
-    url: "Yu-Gi-Oh! Randomizer!",
-    video: "",
-    gh: "gh",
-    desc: "desc",
+    url: "https://givemeayugiohcard.vercel.app/",
+    video: "https://www.youtube.com/embed/YhxYqo5ZVUI",
+    gh: "http://github.com/pibelanzallamas/givemeayugiohcard",
+    desc: "Website for getting a random Yu-Gi-Oh! card from all cards: monsters, spells, traps, etc. It use the YGOPRODeck API.",
   },
 ];
 
