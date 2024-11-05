@@ -8,6 +8,8 @@ function Navbar() {
     { to: "/education", title: "Education" },
     { to: "/projects", title: "Projects" },
     { to: "/aboutme", title: "About Me" },
+    { to: "/services", title: "Services" },
+    // {to: "/",}
   ];
   return (
     <nav>

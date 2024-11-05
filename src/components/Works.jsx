@@ -11,9 +11,11 @@ function Works() {
     const localStg = localStorage.getItem("link");
     return localStg ? JSON.parse(localStg) : -1;
   });
+  const [isChanged, setIsChanged] = useState(false);
 
   useEffect(() => {
     localStorage.setItem("link", JSON.stringify(link));
+    setIsChanged(!isChanged);
   }, [link]);
 
   useEffect(() => {
@@ -35,7 +37,7 @@ function Works() {
           </a>
         ))}
       </ul>
-      <WorkCard work={selWork} />
+      <WorkCard work={selWork} changed={isChanged} />
     </div>
   );
 }

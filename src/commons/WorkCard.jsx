@@ -1,10 +1,36 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
-function WorkCard({ work }) {
+function WorkCard({ work, changed }) {
+  const [isExpanded, setIsExpanded] = useState(false);
+  const text = work.desc;
+  const limit = 70;
+
+  const toggleExpansion = () => {
+    setIsExpanded(!isExpanded);
+  };
+
+  useEffect(() => {
+    setIsExpanded(false);
+  }, [changed]);
+
+  const isTextLong = text.length > limit;
+  const displayedText =
+    isExpanded || !isTextLong ? text : text.slice(0, limit) + "...";
+
   return (
     <div className="work-card">
       <p className="work-title">{work.title}</p>
-      <p className="work-desc">{work.desc}</p>
+      {displayedText}
+      {isTextLong && (
+        // <p
+        //   className="work-desc"
+        // >
+        //   {work.desc}
+        // </p>
+        <a style={{ cursor: "pointer" }} onClick={toggleExpansion}>
+          {isExpanded ? " Leer menos" : " Leer más"}
+        </a>
+      )}
       {work.photos.length > 0 &&
         work.photos.map(
           (ele, i) =>
