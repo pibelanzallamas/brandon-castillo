@@ -16,19 +16,19 @@ function WorkCard({ work }) {
         )}
       <div className="work-links">
         <figure>
-          <a href={work.url} target="_blank">
+          <a href={work.gh} target="_blank">
             <img
-              src="https://res.cloudinary.com/daynclfo8/image/upload/v1730563754/Group_3_butzfd.svg"
-              alt={`link for ${work.title}`}
+              src="https://res.cloudinary.com/daynclfo8/image/upload/v1730563776/Vector_aejcoc.svg"
+              alt={`github link for ${work.title}`}
               srcset=""
             />
           </a>
         </figure>
         <figure>
-          <a href={work.gh} target="_blank">
+          <a href={work.url} target="_blank">
             <img
-              src="https://res.cloudinary.com/daynclfo8/image/upload/v1730563776/Vector_aejcoc.svg"
-              alt={`github link for ${work.title}`}
+              src="https://res.cloudinary.com/daynclfo8/image/upload/v1730563754/Group_3_butzfd.svg"
+              alt={`link for ${work.title}`}
               srcset=""
             />
           </a>

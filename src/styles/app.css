@@ -17,8 +17,13 @@ h1 {
   font-weight: 500;
 }
 
+.work-content {
+  display: grid;
+  grid-template-columns: 25% 60%;
+}
+
 .side-list {
-  width: 30vw;
+  width: 50vw;
   display: flex;
   flex-direction: column;
 }
@@ -39,7 +44,7 @@ h1 {
 }
 
 .work-images {
-  width: 65vw;
+  width: 40vw;
   border: 2px solid black;
 }
 
@@ -72,11 +77,7 @@ a:hover {
 }
 
 .content {
-  padding: 2rem;
-}
-
-.flex {
-  display: flex;
+  padding: 2rem 3rem;
 }
 
 img {

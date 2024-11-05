@@ -1,7 +1,7 @@
 const projects = [
   {
     title: "Your Elder",
-    images: [
+    photos: [
       "https://res.cloudinary.com/daynclfo8/image/upload/v1730604495/yourelder_g7n0w7.png",
       "img2",
       "img3",
@@ -15,7 +15,7 @@ const projects = [
   },
   {
     title: "Mood Checker",
-    images: [
+    photos: [
       "https://res.cloudinary.com/daynclfo8/image/upload/v1730124633/mood_ac8ky0.png",
       "img2",
       "img3",
@@ -29,7 +29,7 @@ const projects = [
   },
   {
     title: "Yu-Gi-Oh! Randomizer!",
-    images: [
+    photos: [
       "https://res.cloudinary.com/daynclfo8/image/upload/v1730124635/ygo_hyolee.png",
       "img2",
       "img3",
