@@ -11,7 +11,9 @@ function Navbar() {
   ];
   return (
     <nav>
-      <h1>Brandon Castillo</h1>
+      <h1>
+        <Link to={"/"}>Brandon Castillo</Link>
+      </h1>
       <ul>
         {links.length > 0 &&
           links.map((ele, i) => (
