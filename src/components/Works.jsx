@@ -16,6 +16,10 @@ function Works() {
     localStorage.setItem("link", JSON.stringify(link));
   }, [link]);
 
+  useEffect(() => {
+    setLink(0);
+  }, []);
+
   return (
     <div className="work-content">
       <ul className="side-list">
