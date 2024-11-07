@@ -17,6 +17,59 @@ h1 {
   font-weight: 500;
 }
 
+.home p {
+  font-size: 19px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.about-content h2 {
+  font-weight: 400;
+  text-decoration: underline;
+  font-size: 1.9rem;
+}
+
+.profile-pic {
+  width: 250px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.profile-pic img {
+  border-radius: 50%;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+}
+.links figure {
+  width: 2rem;
+}
+
+.profile-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.profile-texts section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.profile-texts section h3 {
+  font-weight: 500;
+  font-size: 1.6rem;
+  text-align: left;
+}
+.profile-texts section p {
+  font-size: 1.4rem;
+}
+
 .work-content {
   display: grid;
   grid-template-columns: 25% 60%;
@@ -76,14 +129,14 @@ a:hover {
   color: #F09440;
 }
 
-.content {
-  padding: 2rem 3rem;
-}
-
 img {
   width: 100%;
   height: 100%;
   display: block;
+}
+
+.content {
+  padding: 1rem;
 }
 
 /*# sourceMappingURL=app.css.map */
