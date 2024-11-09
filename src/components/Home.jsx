@@ -7,13 +7,13 @@ function Home() {
   console.log(lang);
   return (
     <div className="home">
-      <h2 style={{ textAlign: "center" }}>Full Stack Developer</h2>
+      {/* <h2 style={{ textAlign: "center" }}>Full Stack Developer</h2>
       <br />
       <p>
         I'm capable of doing website from zero to complete, doing pair
         programming, work with in teams, agile methos etc.'
       </p>
-      <br />
+      <br /> */}
     </div>
   );
 }
