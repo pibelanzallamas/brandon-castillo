@@ -52,7 +52,7 @@ function Navbar() {
           </figure>
         </a>
       </nav>
-      <div className={hambu ? "hambu" : "notHambu"}>
+      <div className={hambu ? "hambu off" : "notHambu"}>
         <ul>
           {links.length > 0 &&
             links.map((ele, i) => (
