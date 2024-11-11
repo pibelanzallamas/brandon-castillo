@@ -1,5 +1,4 @@
 .nav
-  padding: 2rem
   display: flex
   justify-content: space-between
   align-items: center
@@ -10,8 +9,8 @@
     width: 2rem
     aspect-ratio: 1/1
 
-.nav-desktop
-  display: none
+.nav-desktop, .notHambu
+  display: none 
 
 .hambu
   display: flex
@@ -25,14 +24,12 @@
     a
       font-size: 1.2rem
 
-.notHambu
-  display: none 
-
 @media (min-width: 700px)
   .nav-mobile, .off
     display: none
   .nav-desktop
     display: flex
+    padding: 2rem
     ul
       display: flex
       a

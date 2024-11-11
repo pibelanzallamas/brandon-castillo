@@ -18,9 +18,6 @@ function Navbar() {
   };
 
   return (
-    //compo mobile y otro para desktop
-    //
-
     <>
       <nav className="nav nav-desktop">
         <h1>
