@@ -63,28 +63,28 @@ function Home() {
         <h3>Technologies</h3>
         <div className="tech-lists">
           <ul>
-            <li>html5</li>
-            <li>css3</li>
-            <li>javascript</li>
-            <li>node</li>
-            <li>unix</li>
-            <li>sql</li>
+            <li>Html5</li>
+            <li>Css3</li>
+            <li>Javascript</li>
+            <li>Node</li>
+            <li>Unix</li>
+            <li>Sql</li>
           </ul>
 
           <ul>
-            <li>express</li>
-            <li>sequelize</li>
-            <li>react</li>
-            <li>redux</li>
-            <li>sass</li>
-            <li>vite</li>
+            <li>Express</li>
+            <li>Sequelize</li>
+            <li>React</li>
+            <li>Redux</li>
+            <li>Sass</li>
+            <li>Vite</li>
           </ul>
         </div>
       </section>
 
       <section className="soft-skills">
         <h3>Soft skills</h3>
-        <p>scrum - agile method - team work - sosl - hole - the - ground</p>
+        <p>agile methods - scrum - team work - pair programming </p>
       </section>
     </main>
   );
