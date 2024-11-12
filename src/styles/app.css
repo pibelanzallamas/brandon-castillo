@@ -96,6 +96,10 @@
   width: 100%;
 }
 
+.soft-skills {
+  width: 100%;
+}
+
 .profile-texts {
   display: flex;
   flex-direction: column;

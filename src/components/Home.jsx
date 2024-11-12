@@ -49,10 +49,13 @@ function Home() {
       <section id="about">
         <h3>About</h3>
         <p>
-          I belive that the most simple solution is better. I live in Buenos
-          Aires, Argentina. I finish a Javascript Bootcamp, and I study software
-          development in a University. I use React and Node as main
-          technologies.
+          Hello, my name is Brandon, and I'm an enthusiastic technology
+          developer. I live and breathe code. I like innovation and good ideas.
+          I believe that the best solution is the simplest and the easiest. I
+          study software development at my local technical university. I did a
+          Full Stack Bootcamp where I embraced the globalized world. I believe
+          we are living a new industrial revolution, and I believe it's pretty
+          exciting for everyone.
         </p>
       </section>
 
@@ -79,7 +82,7 @@ function Home() {
         </div>
       </section>
 
-      <section>
+      <section className="soft-skills">
         <h3>Soft skills</h3>
         <p>scrum - agile method - team work - sosl - hole - the - ground</p>
       </section>
