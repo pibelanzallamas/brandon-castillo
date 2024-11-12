@@ -80,14 +80,17 @@
   width: 2rem;
 }
 
-.techonologies {
-  border: 1px solid red;
+.technologies {
+  width: 100%;
 }
 
 .tech-lists {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  width: 100%;
+}
+.tech-lists ul {
+  padding-left: 20px;
 }
 .tech-lists ul li {
   width: 100%;
