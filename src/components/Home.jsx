@@ -26,12 +26,17 @@ function Home() {
         <a
           href="https://drive.google.com/file/d/1aWjYJvjbn3KkS_K5ZzTUhsnGN88RpvuE/view?usp=sharing"
           title="CV"
+          target="_blank"
         >
           <figure>
             <img src={cv} alt="" />
           </figure>
         </a>
-        <a href="https://github.com/pibelanzallamas" title="Github Page">
+        <a
+          href="https://github.com/pibelanzallamas"
+          title="Github Page"
+          target="_blank"
+        >
           <figure>
             <img src={github} alt="" />
           </figure>
@@ -39,6 +44,7 @@ function Home() {
         <a
           href="https://linkedin.com/in/brandon-castillo-dev"
           title="LinkedIn Page"
+          target="_blank"
         >
           <figure>
             <img src={likedin} alt="" />
