@@ -91,6 +91,7 @@
 }
 .tech-lists ul {
   padding-left: 20px;
+  list-style-type: circle;
 }
 .tech-lists ul li {
   width: 100%;

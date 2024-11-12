@@ -82,9 +82,20 @@ function Home() {
         </div>
       </section>
 
-      <section className="soft-skills">
+      <section className="soft-skills technologies">
         <h3>Soft skills</h3>
-        <p>agile methods - scrum - team work - pair programming </p>
+        <div className="tech-lists">
+          {/* <p>Agile Methods - Scrum - Team Work - Pair Programming</p> */}
+          <ul>
+            <li>Agile Methods</li>
+            <li>Scrum</li>
+          </ul>
+
+          <ul>
+            <li>Team Work</li>
+            <li>Pair Programming</li>
+          </ul>
+        </div>
       </section>
     </main>
   );
