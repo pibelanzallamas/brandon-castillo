@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 1px solid red;
 }
 
 .nav-mobile {
@@ -120,6 +121,19 @@
   font-size: 1.4rem;
 }
 
+.home-projects {
+  display: flex;
+  gap: 1rem;
+}
+
+#experience {
+  border: 1px solid red;
+}
+
+.content {
+  border: 1px green solid;
+}
+
 .work-content {
   display: grid;
   grid-template-columns: 25% 60%;
@@ -187,6 +201,13 @@ img {
 
 .content {
   padding: 1rem;
+}
+
+footer {
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  border: 1px solid blue;
 }
 
 @media (min-width: 700px) {

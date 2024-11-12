@@ -1,21 +1,23 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./Home";
-// import Experience from "./Experience";
-import Works from "./Works";
 import Education from "./Education";
+import Services from "./Services";
+import Works from "./Works";
+import Experience from "./Experience";
 import Projects from "./Projects";
-import AboutMe from "./AboutMe";
+import Contact from "./Contact";
 
 function AppRoutes() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="works" element={<Works />} />
       <Route path="education" element={<Education />} />
+      <Route path="services" element={<Services />} />
+      <Route path="works" element={<Works />} />
+      <Route path="experience" element={<Experience />} />
       <Route path="projects" element={<Projects />} />
-      {/* <Route path="experience" element={<Experience />} /> */}
-      <Route path="aboutme" element={<AboutMe />} />
+      <Route path="contact" element={<Contact />} />
     </Routes>
   );
 }

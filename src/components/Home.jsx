@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 import cv from "../assets/cv2.svg";
 import likedin from "../assets/linkedin.svg";
 import github from "../assets/github2.svg";
+import { Link } from "react-router-dom";
 
 function Home() {
   const lang = useSelector((state) => state.lang);
@@ -91,7 +92,6 @@ function Home() {
       <section className="soft-skills technologies">
         <h3>Soft skills</h3>
         <div className="tech-lists">
-          {/* <p>Agile Methods - Scrum - Team Work - Pair Programming</p> */}
           <ul>
             <li>Agile Methods</li>
             <li>Scrum</li>
