@@ -51,11 +51,11 @@ function Home() {
         <p>
           Hello, my name is Brandon, and I'm an enthusiastic technology
           developer. I live and breathe code. I like innovation and good ideas.
-          I believe that the best solution is the simplest and the easiest. I
-          study software development at my local technical university. I did a
-          Full Stack Bootcamp where I embraced the globalized world. I believe
-          we are living a new industrial revolution, and I believe it's pretty
-          exciting for everyone.
+          I believe that the best solutions are the simplest and easiest to
+          implement. I study software development at my local (technical)
+          university. I did a Full Stack Bootcamp where I embraced the
+          globalized world. I believe we are living a new industrial revolution,
+          and I believe it's pretty exciting for everyone.
         </p>
       </section>
 
