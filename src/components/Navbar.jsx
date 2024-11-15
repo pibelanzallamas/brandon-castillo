@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 function Navbar() {
-  const [link, setLink] = useState(-1);
-  const [hambu, setHambu] = useState(false);
   const links = [
     { to: "/education", title: "Education" },
     { to: "/experience", title: "Experience" },
@@ -12,9 +10,11 @@ function Navbar() {
     { to: "/services", title: "Services" },
     { to: "/contact", title: "Contact" },
   ];
+  const [link, setLink] = useState(-1);
+  const [clicked, setClicked] = useState(false);
 
   const handleHambu = () => {
-    setHambu(!hambu);
+    setClicked(!clicked);
   };
 
   return (
@@ -27,25 +27,23 @@ function Navbar() {
           <figure>
             <img
               src={
-                !hambu
-                  ? "https://res.cloudinary.com/daynclfo8/image/upload/v1731162233/menu_h06lbd.svg"
-                  : "https://res.cloudinary.com/daynclfo8/image/upload/v1731163324/x_lqjkvf.svg"
+                clicked
+                  ? "https://res.cloudinary.com/daynclfo8/image/upload/v1731163324/x_lqjkvf.svg"
+                  : "https://res.cloudinary.com/daynclfo8/image/upload/v1731162233/menu_h06lbd.svg"
               }
               alt="hamburger-icon"
             ></img>
           </figure>
         </a>
       </nav>
-      <div className={hambu ? "hambu off" : "notHambu"}>
-        <ul>
-          {links.length > 0 &&
-            links.map((ele, i) => (
-              <Link to={ele.to} onClick={() => setLink(i)} key={i}>
-                {link == i ? <u>{ele.title}</u> : ele.title}
-              </Link>
-            ))}
-        </ul>
-      </div>
+      <ul className={clicked ? "hambu" : "notHambu"}>
+        {links.length > 0 &&
+          links.map((ele, i) => (
+            <Link to={ele.to} onClick={() => setLink(i)} key={i}>
+              {link == i ? <u>{ele.title}</u> : ele.title}
+            </Link>
+          ))}
+      </ul>
       <nav className="nav nav-desktop">
         <h1>
           <Link to={"/"}>Brandon Castillo</Link>

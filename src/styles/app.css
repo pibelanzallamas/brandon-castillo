@@ -3,24 +3,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.nav-mobile {
   padding: 1rem;
 }
+
 .nav-mobile figure {
   width: 2rem;
   aspect-ratio: 1/1;
 }
 
-.nav-desktop, .notHambu {
-  display: none;
-}
-
 .hambu {
-  display: flex;
-}
-.hambu ul {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -28,17 +19,20 @@
   padding: 0.3rem 0.8rem;
   gap: 0.3rem;
 }
-.hambu ul a {
+.hambu a {
   font-size: 1.2rem;
 }
 
+.notHambu, .nav-desktop {
+  display: none;
+}
+
 @media (min-width: 700px) {
-  .nav-mobile, .off {
+  .nav-mobile, .hambu {
     display: none;
   }
   .nav-desktop {
     display: flex;
-    padding: 2rem;
   }
   .nav-desktop ul {
     display: flex;
