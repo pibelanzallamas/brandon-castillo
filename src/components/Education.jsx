@@ -11,8 +11,9 @@ function Education() {
   }, []);
 
   return (
-    <main className="work-content">
-      <ul className="side-list">
+    <main>
+      <h3>Education</h3>
+      <div className="links final-links">
         {edu.map((ed, i) => (
           <a
             key={i}
@@ -24,8 +25,8 @@ function Education() {
             {link === i ? <u>{ed.title}</u> : ed.title}
           </a>
         ))}
-      </ul>
-      <EduCard work={selWork} />
+      </div>
+      {/* <EduCard work={selWork} /> */}
     </main>
   );
 }

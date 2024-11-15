@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   const [link, setLink] = useState(-1);
+  const [hambu, setHambu] = useState(false);
   const links = [
     { to: "/education", title: "Education" },
     { to: "/experience", title: "Experience" },
@@ -12,32 +13,17 @@ function Navbar() {
     { to: "/contact", title: "Contact" },
   ];
 
-  const [hambu, setHambu] = useState(false);
-
   const handleHambu = () => {
     setHambu(!hambu);
   };
 
   return (
     <>
-      <nav className="nav nav-desktop">
-        <h1>
-          <Link to={"/"}>Brandon Castillo</Link>
-        </h1>
-        <ul>
-          {links.length > 0 &&
-            links.map((ele, i) => (
-              <Link to={ele.to} onClick={() => setLink(i)} key={i}>
-                {link == i ? <u>{ele.title}</u> : ele.title}
-              </Link>
-            ))}
-        </ul>
-      </nav>
       <nav className="nav nav-mobile">
         <h1>
           <Link to={"/"}>Brandon Castillo</Link>
         </h1>
-        <a onClick={handleHambu}>
+        <a onClick={handleHambu} href="#">
           <figure>
             <img
               src={
@@ -60,6 +46,19 @@ function Navbar() {
             ))}
         </ul>
       </div>
+      <nav className="nav nav-desktop">
+        <h1>
+          <Link to={"/"}>Brandon Castillo</Link>
+        </h1>
+        <ul>
+          {links.length > 0 &&
+            links.map((ele, i) => (
+              <Link to={ele.to} onClick={() => setLink(i)} key={i}>
+                {link == i ? <u>{ele.title}</u> : ele.title}
+              </Link>
+            ))}
+        </ul>
+      </nav>
     </>
   );
 }
