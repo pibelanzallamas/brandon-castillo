@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+import setMenu from "../state/menu";
 
 function Navbar() {
   const links = [
@@ -10,8 +12,8 @@ function Navbar() {
     { to: "/services", title: "Services" },
     { to: "/contact", title: "Contact" },
   ];
-  const [link, setLink] = useState(-1);
   const [clicked, setClicked] = useState(false);
+  const [link, setLink] = useState("");
 
   const handleHambu = () => {
     setClicked(!clicked);
@@ -20,10 +22,16 @@ function Navbar() {
   return (
     <>
       <nav className="nav nav-mobile">
-        <Link className="home-button" to={"/"}>
-          Brandon Castillo
+        <Link
+          className="home-button"
+          to={"/"}
+          onClick={() => {
+            setLink("Home");
+          }}
+        >
+          {link == "Home" ? <u>Brandon Castillo</u> : <>Brandon Castillo</>}
         </Link>
-        <a onClick={handleHambu} href="#">
+        <a onClick={() => handleHambu()} href="#">
           <figure>
             <img
               src={
@@ -39,20 +47,26 @@ function Navbar() {
       <ul className={clicked ? "hambu" : "notHambu"}>
         {links.length > 0 &&
           links.map((ele, i) => (
-            <Link to={ele.to} onClick={() => setLink(i)} key={i}>
-              {link == i ? <u>{ele.title}</u> : ele.title}
+            <Link to={ele.to} onClick={() => setLink(ele.title)} key={i}>
+              {link == ele.title ? <u>{ele.title}</u> : ele.title}
             </Link>
           ))}
       </ul>
       <nav className="nav nav-desktop">
-        <Link className="home-button" to={"/"}>
-          Brandon Castillo
+        <Link
+          className="home-button"
+          to={"/"}
+          onClick={() => {
+            setLink("Home");
+          }}
+        >
+          {link == "Home" ? <u>Brandon Castillo</u> : <>Brandon Castillo</>}
         </Link>
         <ul>
           {links.length > 0 &&
             links.map((ele, i) => (
-              <Link to={ele.to} onClick={() => setLink(i)} key={i}>
-                {link == i ? <u>{ele.title}</u> : ele.title}
+              <Link to={ele.to} onClick={() => setLink(ele.title)} key={i}>
+                {link == ele.title ? <u>{ele.title}</u> : ele.title}
               </Link>
             ))}
         </ul>
