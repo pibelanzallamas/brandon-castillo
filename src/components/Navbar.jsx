@@ -20,9 +20,9 @@ function Navbar() {
   return (
     <>
       <nav className="nav nav-mobile">
-        <h1>
-          <Link to={"/"}>Brandon Castillo</Link>
-        </h1>
+        <Link className="home-button" to={"/"}>
+          Brandon Castillo
+        </Link>
         <a onClick={handleHambu} href="#">
           <figure>
             <img
@@ -45,9 +45,9 @@ function Navbar() {
           ))}
       </ul>
       <nav className="nav nav-desktop">
-        <h1>
-          <Link to={"/"}>Brandon Castillo</Link>
-        </h1>
+        <Link className="home-button" to={"/"}>
+          Brandon Castillo
+        </Link>
         <ul>
           {links.length > 0 &&
             links.map((ele, i) => (
