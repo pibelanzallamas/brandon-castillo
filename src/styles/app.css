@@ -156,13 +156,15 @@ footer {
   flex-wrap: wrap;
   column-gap: 1rem;
   row-gap: 0.3rem;
-  justify-content: center;
 }
 
 @media (min-width: 800px) {
   footer {
     width: 50vw;
     margin: 0 auto;
+  }
+  .footer-links {
+    justify-content: center;
   }
 }
 * {
