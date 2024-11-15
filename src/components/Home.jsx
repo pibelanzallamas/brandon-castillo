@@ -1,15 +1,13 @@
 import React from "react";
-import { useSelector } from "react-redux";
 import cv from "../assets/cv2.svg";
 import likedin from "../assets/linkedin.svg";
 import github from "../assets/github2.svg";
-import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <main className="home">
       <section id="hero">
-        <h2>Hello World 👋</h2>
+        <p className="presentation">Hello World 👋</p>
         <h1>I'm Brandon Castillo a Full Stack Developer</h1>
 
         <figure className="profile-pic">
@@ -20,7 +18,7 @@ function Home() {
         </figure>
       </section>
 
-      <section className="links">
+      <section id="home-icons">
         <a
           href="https://drive.google.com/file/d/1aWjYJvjbn3KkS_K5ZzTUhsnGN88RpvuE/view?usp=sharing"
           title="CV"
@@ -63,7 +61,7 @@ function Home() {
         </p>
       </section>
 
-      <section className="technologies">
+      <section id="technologies">
         <h3>Technologies</h3>
         <div className="tech-lists">
           <ul>
@@ -86,7 +84,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="soft-skills technologies">
+      <section id="soft-skills">
         <h3>Soft skills</h3>
         <div className="tech-lists">
           <ul>

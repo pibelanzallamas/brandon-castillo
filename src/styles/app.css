@@ -60,6 +60,10 @@
   align-items: center;
   gap: 0.4rem;
 }
+#hero .presentation {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
 
 .profile-pic {
   width: 250px;
@@ -71,15 +75,19 @@
   border-radius: 50%;
 }
 
-.links {
+#home-icons {
   display: flex;
   gap: 1rem;
 }
-.links figure {
+#home-icons figure {
   width: 2rem;
 }
 
-.technologies {
+#technologies {
+  width: 100%;
+}
+
+#soft-skills {
   width: 100%;
 }
 
@@ -94,29 +102,6 @@
 }
 .tech-lists ul li {
   width: 100%;
-}
-
-.soft-skills {
-  width: 100%;
-}
-
-.profile-texts {
-  display: flex;
-  flex-direction: column;
-  gap: 2.5rem;
-}
-.profile-texts section {
-  display: flex;
-  flex-direction: column;
-  gap: 0.3rem;
-}
-.profile-texts section h3 {
-  font-weight: 500;
-  font-size: 1.6rem;
-  text-align: left;
-}
-.profile-texts section p {
-  font-size: 1.4rem;
 }
 
 .home-projects {
