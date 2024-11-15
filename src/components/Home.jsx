@@ -6,9 +6,6 @@ import github from "../assets/github2.svg";
 import { Link } from "react-router-dom";
 
 function Home() {
-  const lang = useSelector((state) => state.lang);
-
-  console.log(lang);
   return (
     <main className="home">
       <section id="hero">

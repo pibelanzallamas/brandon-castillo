@@ -4,11 +4,12 @@ import { Link } from "react-router-dom";
 function Navbar() {
   const [link, setLink] = useState(-1);
   const links = [
-    { to: "/works", title: "Works" },
     { to: "/education", title: "Education" },
+    { to: "/experience", title: "Experience" },
+    { to: "/works", title: "Works" },
     { to: "/projects", title: "Projects" },
-    { to: "/aboutme", title: "About Me" },
     { to: "/services", title: "Services" },
+    { to: "/contact", title: "Contact" },
   ];
 
   const [hambu, setHambu] = useState(false);

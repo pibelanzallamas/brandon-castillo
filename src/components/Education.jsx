@@ -11,7 +11,7 @@ function Education() {
   }, []);
 
   return (
-    <div className="work-content">
+    <main className="work-content">
       <ul className="side-list">
         {edu.map((ed, i) => (
           <a
@@ -26,7 +26,7 @@ function Education() {
         ))}
       </ul>
       <EduCard work={selWork} />
-    </div>
+    </main>
   );
 }
 
