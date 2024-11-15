@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import setMenu from "../state/menu";
 
 function Navbar() {
+  const location = useLocation();
   const links = [
     { to: "/education", title: "Education" },
     { to: "/experience", title: "Experience" },
@@ -18,18 +19,17 @@ function Navbar() {
   const handleHambu = () => {
     setClicked(!clicked);
   };
+  useEffect(() => {
+    if (location.pathname == "/") {
+      setLink("");
+    }
+  }, [location]);
 
   return (
     <>
       <nav className="nav nav-mobile">
-        <Link
-          className="home-button"
-          to={"/"}
-          onClick={() => {
-            setLink("Home");
-          }}
-        >
-          {link == "Home" ? <u>Brandon Castillo</u> : <>Brandon Castillo</>}
+        <Link className="home-button" to={"/"}>
+          Brandon Castillo
         </Link>
         <a onClick={() => handleHambu()} href="#">
           <figure>
@@ -60,7 +60,7 @@ function Navbar() {
             setLink("Home");
           }}
         >
-          {link == "Home" ? <u>Brandon Castillo</u> : <>Brandon Castillo</>}
+          Brandon Castillo
         </Link>
         <ul>
           {links.length > 0 &&

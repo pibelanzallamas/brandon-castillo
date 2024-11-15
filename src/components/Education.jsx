@@ -3,31 +3,29 @@ import edu from "../utils/edu";
 import EduCard from "../commons/EduCard";
 
 function Education() {
-  const [selWork, setSelWork] = useState(edu[0]);
-  const [link, setLink] = useState(-1);
-
-  useEffect(() => {
-    setLink(0);
-  }, []);
+  const [selEdu, setSelEdu] = useState(edu[0]);
 
   return (
-    <main>
+    <main className="edu">
       <h3>Education</h3>
-      <div className="footer-links">
+      <div className="front-page-links footer-links">
         {edu.map((ed, i) => (
           <a
             key={i}
             onClick={() => {
-              setSelWork(ed);
-              setLink(i);
+              setSelEdu(ed);
             }}
             href="#"
           >
-            {link === i ? <u>{ed.title}</u> : ed.title}
+            {selEdu.title == ed.title ? <u>{ed.title}</u> : ed.title}
           </a>
         ))}
       </div>
-      {/* <EduCard work={selWork} /> */}
+      <div className="edu-card">
+        <h3>{selEdu.title}</h3>
+        <p>{selEdu.desc}</p>
+        <p>{selEdu.carrera}</p>
+      </div>
     </main>
   );
 }

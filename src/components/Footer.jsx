@@ -1,7 +1,9 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 function Footer() {
+  const location = useLocation();
+
   const links = [
     { to: "/education", title: "Education" },
     { to: "/experience", title: "Experience" },
@@ -11,6 +13,13 @@ function Footer() {
     { to: "/contact", title: "Contact" },
   ];
   const [link, setLink] = useState("");
+  useEffect(() => {
+    if (location.pathname == "/") {
+      setLink("");
+    }
+  }, [location]);
+
+  console.log(location.pathname);
   return (
     <footer>
       <h3>Menu</h3>
