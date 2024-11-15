@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer>
-      <h3>Commits</h3>
-      <div className="links final-links">
+      <h3>Menu</h3>
+      <div className="footer-links">
         <Link to="/education">Education</Link>
         <Link to="/experience">Experience</Link>
         <Link to="/works">Works</Link>
