@@ -28,15 +28,7 @@ function Home() {
             <img src={cv} alt="" />
           </figure>
         </a>
-        <a
-          href="https://github.com/pibelanzallamas"
-          title="Github Page"
-          target="_blank"
-        >
-          <figure>
-            <img src={github} alt="" />
-          </figure>
-        </a>
+
         <a
           href="https://linkedin.com/in/brandon-castillo-dev"
           title="LinkedIn Page"
@@ -46,10 +38,20 @@ function Home() {
             <img src={likedin} alt="" />
           </figure>
         </a>
+
+        <a
+          href="https://github.com/pibelanzallamas"
+          title="Github Page"
+          target="_blank"
+        >
+          <figure>
+            <img src={github} alt="" />
+          </figure>
+        </a>
       </section>
 
       <section id="about">
-        <h3>About</h3>
+        <h3>Profile</h3>
         <p>
           Hello, my name is Brandon, and I'm an enthusiastic technology
           developer. I live and breathe code. I like innovation and good ideas.
