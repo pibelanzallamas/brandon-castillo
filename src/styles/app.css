@@ -111,8 +111,15 @@
 }
 
 .front-page-links {
-  overflow-x: scroll;
-  flex-wrap: nowrap;
+  display: flex;
+  overflow-x: auto;
+  flex-wrap: nowrap !important;
+  white-space: nowrap;
+  column-gap: 0;
+  row-gap: 0;
+}
+.front-page-links a {
+  flex-shrink: 0;
 }
 
 .left-border {
