@@ -61,8 +61,8 @@
   gap: 0.4rem;
 }
 #hero .presentation {
-  font-size: 1.4rem;
-  font-weight: 600;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 #hero h1 {
   text-align: center;
@@ -115,14 +115,6 @@
 
 .front-page-links {
   display: flex;
-  overflow-x: auto;
-  flex-wrap: nowrap !important;
-  white-space: nowrap;
-  column-gap: 0;
-  row-gap: 0;
-}
-.front-page-links a {
-  flex-shrink: 0;
 }
 
 .edu-card {
@@ -132,22 +124,6 @@
 }
 .edu-card figure {
   width: 100%;
-}
-
-.left-border {
-  border-left: 1px solid black;
-}
-
-.right-border {
-  border-right: 1px solid black;
-}
-
-.top-border {
-  border-top: 1px solid black;
-}
-
-.bottom-border {
-  border-bottom: 1px solid black;
 }
 
 .work-content {

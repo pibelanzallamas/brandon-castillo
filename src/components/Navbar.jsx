@@ -27,7 +27,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className="nav nav-mobile">
+      <nav id="Navbar" className="nav nav-mobile">
         <Link className="home-button" to={"/"}>
           Brandon Castillo
         </Link>

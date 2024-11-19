@@ -17,6 +17,10 @@ function Footer() {
     if (location.pathname == "/") {
       setLink("");
     }
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
   }, [location]);
 
   return (

@@ -7,8 +7,8 @@ function Home() {
   return (
     <main className="home">
       <section id="hero">
-        <p className="presentation">Hello World 👋</p>
-        <h1>I'm Brandon Castillo a Full Stack Developer</h1>
+        <p className="presentation">Hi!👋 my name is</p>
+        <h1>Brandon Castillo and I'm a Full Stack Developer</h1>
 
         <figure className="profile-pic">
           <img
@@ -72,17 +72,17 @@ function Home() {
             <li>Css3</li>
             <li>Javascript</li>
             <li>Node</li>
+            <li>Python</li>
             <li>Unix</li>
-            <li>Sql</li>
           </ul>
 
           <ul>
+            <li>Sql</li>
             <li>Express</li>
             <li>Sequelize</li>
             <li>React</li>
             <li>Redux</li>
             <li>Sass</li>
-            <li>Vite</li>
           </ul>
         </div>
       </section>
