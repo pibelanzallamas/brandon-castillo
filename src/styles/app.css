@@ -86,11 +86,7 @@
   width: 2rem;
 }
 
-#technologies {
-  width: 100%;
-}
-
-#soft-skills {
+.technologies {
   width: 100%;
 }
 
@@ -104,6 +100,10 @@
   list-style-type: circle;
 }
 .tech-lists ul li {
+  width: 100%;
+}
+
+#soft-skills {
   width: 100%;
 }
 
@@ -122,8 +122,9 @@
   flex-direction: column;
   gap: 0.8rem;
 }
-.edu-card figure {
-  width: 100%;
+.edu-card figure img {
+  aspect-ratio: 1200/628;
+  object-fit: cover;
 }
 
 .work-content {

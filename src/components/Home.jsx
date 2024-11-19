@@ -51,7 +51,7 @@ function Home() {
       </section>
 
       <section id="about">
-        <h3>Profile</h3>
+        <h3>Who I Am and What I Do</h3>
         <p>
           Hello, my name is Brandon, and I'm an enthusiastic technology
           developer. I live and breathe code. I like innovation and good ideas.
@@ -64,31 +64,50 @@ function Home() {
         </p>
       </section>
 
-      <section id="technologies">
-        <h3>Technologies</h3>
+      <section className="technologies">
+        <h3>Technologies I Use Daily</h3>
         <div className="tech-lists">
           <ul>
-            <li>Html5</li>
-            <li>Css3</li>
-            <li>Javascript</li>
-            <li>Node</li>
-            <li>Python</li>
-            <li>Unix</li>
-          </ul>
+            <li>Linux</li>
+            <li>Terminal</li>
+            <li>Visual Studio Code</li>
+            <li>NodeJs</li>
+            <li>Sass</li>
 
+            <li>Git</li>
+            <li>Github</li>
+            <li>Html</li>
+          </ul>
           <ul>
-            <li>Sql</li>
-            <li>Express</li>
-            <li>Sequelize</li>
+            <li>Javascript</li>
+            <li>NextJs</li>
+            <li>Typescript</li>
             <li>React</li>
             <li>Redux</li>
-            <li>Sass</li>
+            <li>Tailwind</li>
+          </ul>
+        </div>
+      </section>
+
+      <section className="technologies">
+        <h3>Technologies I Have Experience With</h3>
+        <div className="tech-lists">
+          <ul>
+            <li>Mui</li>
+            <li>Chakra Ux</li>
+            <li>Postgres</li>
+            <li>Sequelize</li>
+            <li>Express</li>
+            <li>NodeJs</li>
+          </ul>
+          <ul>
+            <li>Python</li>
           </ul>
         </div>
       </section>
 
       <section id="soft-skills">
-        <h3>Soft skills</h3>
+        <h3>Core Professional Skills</h3>
         <div className="tech-lists">
           <ul>
             <li>Agile Methods</li>
