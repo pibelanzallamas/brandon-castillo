@@ -8,6 +8,7 @@ function Education() {
   return (
     <main className="edu">
       <h3>Education</h3>
+      {/* titulos */}
       <div className="front-page-links footer-links">
         {edu.map((ed, i) => (
           <a
@@ -21,11 +22,8 @@ function Education() {
           </a>
         ))}
       </div>
-      <div className="edu-card">
-        <h3>{selEdu.title}</h3>
-        <p>{selEdu.desc}</p>
-        <p>{selEdu.carrera}</p>
-      </div>
+      {/* descripciones */}
+      <EduCard card={selEdu} />
     </main>
   );
 }

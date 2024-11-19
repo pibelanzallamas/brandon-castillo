@@ -1,25 +1,43 @@
 import React from "react";
 
-function EduCard({ work }) {
+function EduCard({ card }) {
   return (
     <div>
-      <div className="work-card">
-        <p className="work-title">
-          {work.title} - {work.carrera}
-        </p>
+      <div className="edu-card">
+        <h3>{card.title}</h3>
+        <figure>
+          <img src={card.photos[0]} alt={card.title} />
+        </figure>
+        {card.title ==
+          "National School of Cinematographic Experimentation and Realization (ENERC)" && (
+          <>
+            <p>
+              <u>Series Narrative Course </u>
+            </p>
+            <p>
+              Narrative course at the National School of Cinematographic
+              Experimentation and Realization (ENERC) in Buenos Aires. This
+              course focused on the art of writing and producing narrative
+              series for television and digital platforms. The curriculum
+              covered key areas such as narrative structure, character
+              development, and episodic storytelling.
+            </p>
+
+            <p>
+              <b>Start Date:</b> Ago 2015 - <b>End Date:</b> Dec 2015
+            </p>
+            <hr />
+          </>
+        )}
         <p>
-          {work.inicio} - {work.final}
+          <u>{card.carrera}</u>
         </p>
-        <p className="work-desc">{work.desc}</p>
-        {/* {work.photos.length > 0 &&
-          work.photos.map(
-            (ele, i) =>
-              ele.length > 10 && (
-                <figure className="work-images" key={i}>
-                  <img src={ele} alt={`${work.title} image N* ${i}`} />
-                </figure>
-              )
-          )} */}
+        <p>{card.desc}</p>
+
+        <p>
+          <b>Start Date:</b> {card.inicio} - <b>End Date:</b> {card.final}
+        </p>
+        <hr />
       </div>
     </div>
   );

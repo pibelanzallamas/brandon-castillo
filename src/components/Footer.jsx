@@ -21,7 +21,8 @@ function Footer() {
 
   return (
     <footer>
-      <h3>More About Me</h3>
+      {/* <hr /> */}
+      <h3>More About</h3>
       <div className="footer-links">
         {links.length > 0 &&
           links.map((ele, i) => (
