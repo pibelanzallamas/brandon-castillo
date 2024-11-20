@@ -69,20 +69,23 @@ function Home() {
         <div className="tech-lists">
           <ul>
             <li>Linux</li>
-            <li>Terminal (Unix)</li>
+            <li>Terminal</li>
             <li>Visual Studio Code</li>
             <li>Git</li>
             <li>Github</li>
             <li>NodeJs</li>
-            <li>Sass</li>
           </ul>
           <ul>
-            <li>Html</li>
-            <li>Css</li>
-            <li>Javascript</li>
-            <li>React</li>
-            <li>React Router Dom</li>
+            <li>ReactJs</li>
+            <li>VainillaJs</li>
+            <li>Html5</li>
+            <li>Sass</li>
             <li>Redux</li>
+            {/* <li>Css3</li> */}
+            <li>PostgreSQL</li>
+
+            {/* <li></li> */}
+            {/* <li></li> */}
           </ul>
         </div>
       </section>
@@ -91,24 +94,19 @@ function Home() {
         <h3>Technologies I Have Experience With</h3>
         <div className="tech-lists">
           <ul>
-            <li>Php</li>
             <li>Python</li>
-            <li>PostgreSQL</li>
             <li>Sqlite3</li>
-            <li>Figma</li>
-            <li>Trello</li>
-            <li>TypeScript</li>
-            <li>Astro</li>
-          </ul>
-          <ul>
             <li>Express</li>
             <li>Sequelize</li>
             <li>JWT</li>
-            <li>DotEnv</li>
+          </ul>
+          <ul>
+            <li>Figma</li>
+            <li>Trello</li>
             <li>Tailwind</li>
             <li>MUI</li>
             <li>Chakra Ux</li>
-            <li>Bulma</li>
+            {/* <li>Bulma</li> */}
           </ul>
         </div>
       </section>

@@ -5,7 +5,7 @@ function EduCard({ card }) {
     <div>
       <div className="edu-card">
         <h3>{card.title}</h3>
-        <figure>
+        <figure style={{ aspectRatio: card.res }}>
           <img src={card.photos[0]} alt={card.title} />
         </figure>
         {card.title ==
