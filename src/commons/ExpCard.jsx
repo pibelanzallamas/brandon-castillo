@@ -1,9 +1,13 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import left from "../assets/arrow-left-circle.svg";
 import right from "../assets/arrow-right-circle.svg";
 
-function ExpCard({ card }) {
+function ExpCard({ card, disparador }) {
   const [numImg, setNumImg] = useState(0);
+
+  useEffect(() => {
+    setNumImg(0);
+  }, [disparador]);
 
   return (
     <div className="edu-card">

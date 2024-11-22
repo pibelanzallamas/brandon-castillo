@@ -5,7 +5,7 @@ const exp = [
     inicio: "May 2023",
     final: "Sep 2023",
     github: "https://github.com/pibelanzallamas/house-of-dev-client-deploy",
-    youtube: "https://www.youtube.com/watch?v=ihdiqy8aBIU",
+    youtube: "https://www.youtube.com/watch?v=LiaV7xHjJmk",
     web: "https://house-of-dev-client.vercel.app",
     desc: "Real State Website that give you diferent filters and sorts for rental and selling properties, make appointments and admin mode to control everythin. Real State Website that give you diferent filters and sorts for rental and selling properties, make appointments and admin mode to control everythin.Real State Website that give you diferent filters and sorts for rental and selling properties, make appointments and admin mode to control everythin.Real State Website that give you diferent filters and sorts for rental and selling properties, make appointments and admin mode to control everythin.",
     photos: [
@@ -22,7 +22,7 @@ const exp = [
     inicio: "May 2023",
     final: "Sep 2023",
     github: "https://github.com/pibelanzallamas/carbon-copy",
-    youtube: "https://www.youtube.com/watch?v=Nm8IPGoRfsI",
+    youtube: "https://www.youtube.com/watch?v=bb8RomFHFdg",
     web: "http://carbon-copy-omega.vercel.app",
     desc: "Website for give format and style to pieces of code and exporting like and image.",
     photos: [
@@ -35,7 +35,7 @@ const exp = [
     inicio: "May 2023",
     final: "Sep 2023",
     github: "https://github.com/pibelanzallamas",
-    youtube: "https://vimeo.com/897978371?share=copy",
+    youtube: "https://www.youtube.com/watch?v=j-qgyoaeJN4",
     web: "https://my-movie-crib-front.vercel.app/",
     desc: "Website for looking for the leatest movies and search your favorites and save them.",
     photos: [

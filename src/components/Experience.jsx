@@ -4,6 +4,7 @@ import ExpCard from "../commons/ExpCard";
 
 function Experience() {
   const [selExp, setSelExp] = useState(exp[0]);
+  const [changeItem, setChangeItem] = useState(false);
 
   return (
     <main className="edu">
@@ -15,6 +16,7 @@ function Experience() {
             key={i}
             onClick={() => {
               setSelExp(ex);
+              setChangeItem(!changeItem);
             }}
             href="#"
           >
@@ -23,7 +25,7 @@ function Experience() {
         ))}
       </div>
       {/* descripciones */}
-      <ExpCard card={selExp} />
+      <ExpCard card={selExp} disparador={changeItem} />
     </main>
   );
 }
