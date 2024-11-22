@@ -16,7 +16,7 @@ function ExpCard({ card, disparador }) {
       </section>
 
       <section className="works-image">
-        <figure style={{ aspectRatio: card.res }}>
+        <figure style={{ aspectRatio: "1278 / 741" }}>
           <img src={card.photos[numImg]} alt={card.title} />
           {numImg > 0 && (
             <figcaption
@@ -59,7 +59,7 @@ function ExpCard({ card, disparador }) {
         </p>
       </section>
       <section className="works-desc">
-        <h4>Description</h4>
+        <h4>Description:</h4>
         <p>{card.desc}</p>
       </section>
       <section className="works-date">
@@ -115,6 +115,27 @@ function ExpCard({ card, disparador }) {
             <a href="" target="_blank">
               Figma
             </a>
+          </li>
+        </ul>
+      </section>
+      <section className="main-features">
+        <h4>Main Difficulties:</h4>
+        <ul className="works-features">
+          <li>
+            <b>Responsive Design:</b> Optimized for seamless navigation across
+            mobile devices, tablets, and desktops.
+          </li>
+          <li>
+            <b>Dynamic Interface:</b> Built with modern technologies to deliver
+            engaging animations and an attractive visual experience.
+          </li>
+          <li>
+            <b>Talent Connection:</b> Detailed profiles highlight skills,
+            specializations, and featured projects.
+          </li>
+          <li>
+            <b>Scalability:</b> Developed using technologies that support future
+            growth and adaptability.
           </li>
         </ul>
       </section>

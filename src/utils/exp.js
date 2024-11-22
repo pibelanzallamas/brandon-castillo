@@ -4,14 +4,13 @@ const exp = [
     date: "Dec 2023",
     inicio: "May 2023",
     final: "Sep 2023",
+
     github: "https://github.com/pibelanzallamas/house-of-dev-client-deploy",
     youtube: "https://www.youtube.com/watch?v=LiaV7xHjJmk",
     web: "https://house-of-dev-client.vercel.app",
     desc: "Real State Website that give you diferent filters and sorts for rental and selling properties, make appointments and admin mode to control everythin. Real State Website that give you diferent filters and sorts for rental and selling properties, make appointments and admin mode to control everythin.Real State Website that give you diferent filters and sorts for rental and selling properties, make appointments and admin mode to control everythin.Real State Website that give you diferent filters and sorts for rental and selling properties, make appointments and admin mode to control everythin.",
     photos: [
       "https://res.cloudinary.com/daynclfo8/image/upload/v1730124604/hod_vkfoxj.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1730124610/carbon_wk0osj.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732158213/crib2.png",
     ],
     features: [{ title: "", description: "" }],
     technologies: ["sass", "react", "nodejs"],
