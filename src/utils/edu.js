@@ -58,7 +58,7 @@ const edu = [
     final: "Dec 2013",
     res: "960 / 540",
     encurso: false,
-    desc: "I completed my secondary education at Benito Quinquela Martín Secondary School in Guernica, Buenos Aires, earning a high school diploma with a focus on Social Sciences. During this period, I developed critical and analytical skills in areas such as history, sociology, and communication, as well as values of teamwork and social responsibility. The education I received provided me with a solid foundation for adapting to new academic and professional challenges, fostering my interest in continuous learning and technology and arts.",
+    desc: "I completed my secondary education at Benito Quinquela Martín Secondary School in Guernica, Buenos Aires, earning a high school diploma with a focus on Social Sciences. During this period, I developed critical and analytical skills in areas such as history, sociology, and communication, as well as values of teamwork and social responsibility. The education I received provided me with a solid foundation for adapting to new academic and professional challenges, fostering my interest in continuous learning, technology and arts.",
     photos: [
       "https://scontent.feze8-2.fna.fbcdn.net/v/t39.30808-6/464317693_951324127016971_4130143820267826490_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=-JS6FlHXDvwQ7kNvgG27kjb&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=A6jT4SygyCVXg5zbpb7VQzG&oh=00_AYAJ42Pjhr9krMwhscuNmGpBXCu0BQ5CGWHImAnEeZ-GGw&oe=67428440",
     ],

@@ -23,7 +23,7 @@ function Works() {
   }, []);
 
   return (
-    <div className="work-content">
+    <main className="work-content">
       <ul className="side-list">
         {works.map((work, i) => (
           <a
@@ -38,7 +38,7 @@ function Works() {
         ))}
       </ul>
       <WorkCard work={selWork} changed={isChanged} />
-    </div>
+    </main>
   );
 }
 

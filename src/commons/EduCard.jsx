@@ -29,11 +29,11 @@ function EduCard({ card }) {
             <hr />
           </>
         )}
+
         <p>
           <u>{card.carrera}</u>
         </p>
         <p>{card.desc}</p>
-
         <p>
           <b>Start Date:</b> {card.inicio} - <b>End Date:</b> {card.final}
         </p>
