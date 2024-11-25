@@ -70,22 +70,11 @@ function ExpCard({ card, disparador }) {
       <section className="main-features">
         <h4>Main Features:</h4>
         <ul className="works-features">
-          <li>
-            <b>Responsive Design:</b> Optimized for seamless navigation across
-            mobile devices, tablets, and desktops.
-          </li>
-          <li>
-            <b>Dynamic Interface:</b> Built with modern technologies to deliver
-            engaging animations and an attractive visual experience.
-          </li>
-          <li>
-            <b>Talent Connection:</b> Detailed profiles highlight skills,
-            specializations, and featured projects.
-          </li>
-          <li>
-            <b>Scalability:</b> Developed using technologies that support future
-            growth and adaptability.
-          </li>
+          {card.mainFeat.map((ele) => (
+            <li>
+              <b>{ele.title}</b> {ele.desc}
+            </li>
+          ))}
         </ul>
       </section>
       <section className="works-techs">
