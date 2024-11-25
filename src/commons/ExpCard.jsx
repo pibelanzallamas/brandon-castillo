@@ -80,34 +80,30 @@ function ExpCard({ card, disparador }) {
       <section className="works-techs">
         <h4>Technologies used:</h4>
         <ul className="tech-lists  works-features">
-          <li>NodeJs</li>
-          <li>ReacJs</li>
-          <li>Express</li>
-          <li>Sequelize</li>
-          <li>Jwt</li>
-          <li>Postgres</li>
-          <li>Redux</li>
-          <li>Axios</li>
+          {card.techs.map((ele) => (
+            <li>{ele}</li>
+          ))}
         </ul>
       </section>
       <section className="works-tools">
         <h4>Tools for Planning and Design</h4>
         <ul className="tech-lists  works-features">
-          <li>Scrum</li>
-          <li>Agile</li>
-          <li>
-            <a href="" target="_blank">
-              Trello
-            </a>
-          </li>
-          <li>
-            <a href="" target="_blank">
-              Figma
-            </a>
-          </li>
+          {card.tools.map((ele) => (
+            <li>{ele}</li>
+          ))}
+          {card.linksTools && (
+            <li>
+              <a href={card.linksTools[0]} target="_blank">
+                <u>Trello</u>
+              </a>
+              <a href={card.linksTools[1]} target="_blank">
+                <u>Figma</u>
+              </a>
+            </li>
+          )}
         </ul>
       </section>
-      <section className="main-features">
+      {/* <section className="main-features">
         <h4>Main Difficulties:</h4>
         <ul className="works-features">
           <li>
@@ -127,7 +123,7 @@ function ExpCard({ card, disparador }) {
             growth and adaptability.
           </li>
         </ul>
-      </section>
+      </section> */}
       <hr />
     </div>
   );

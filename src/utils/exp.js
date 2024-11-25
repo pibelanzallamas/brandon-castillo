@@ -46,6 +46,8 @@ const exp = [
     photos: [
       "https://res.cloudinary.com/daynclfo8/image/upload/v1730124610/carbon_wk0osj.png",
     ],
+    tools: ["Scrum Methology", "Dailys", "Figma", "Trello"],
+    linksTools: ["TRELLO ", "FIGMA"],
   },
   {
     title: "House of Dev",
@@ -96,6 +98,8 @@ const exp = [
       "react-oauth2",
       "flatpickr",
     ],
+    tools: ["Scrum Methology", "Dailys", "Figma", "Trello"],
+    linksTools: ["Trello", "Figma"],
   },
   {
     title: "My Movie Crib",
@@ -140,6 +144,7 @@ const exp = [
       "Axios",
       "Sass",
     ],
+    tools: ["Scrum Methology"],
   },
 ];
 
