@@ -48,7 +48,7 @@ const exp = [
     ],
     tools: ["Scrum Methology", "Dailys"],
     linksTools: [
-      "https://trello.com/es",
+      "https://trello.com/invite/b/653037248cb51c4fa29a9071/ATTIfbd09fa0e24e0c5245823a38f310d4acD31E87F4/carbon-copy",
       "https://www.figma.com/design/9mFFJxLH0ydY1XPal0tKy9/CarbonCopy?node-id=33-106&t=oHca0x4xOd34HpkH-1",
     ],
   },
@@ -103,7 +103,7 @@ const exp = [
     ],
     tools: ["Scrum Methology", "Dailys"],
     linksTools: [
-      "Trello",
+      "https://trello.com/invite/b/64dfc6c9543cee307423fb0f/ATTIfa1adb0194e4caae7238055fa4f0dab5B54EECB1/houseofdev",
       "https://www.figma.com/design/EIQHhLYGbQIcoeNqQwustP/C%C3%A1psula-Integrador---House-of-Dev?node-id=0-1&t=Cgs2XdDDXqV3a2q4-1",
     ],
   },
