@@ -10,10 +10,6 @@ const works = [
     desc: "Website for showcasing the work of the construction company from NYC. The admin can receive emails, perform CRUD operations on jobs, descriptions, and images, and showcase the location and information of the company.",
     photos: [
       "https://res.cloudinary.com/daynclfo8/image/upload/v1730124619/calles_zngumy.png",
-      "photo2",
-      "photo3",
-      "photo4",
-      "photo5",
     ],
     mainFeat: [
       {

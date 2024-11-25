@@ -46,8 +46,11 @@ const exp = [
     photos: [
       "https://res.cloudinary.com/daynclfo8/image/upload/v1730124610/carbon_wk0osj.png",
     ],
-    tools: ["Scrum Methology", "Dailys", "Figma", "Trello"],
-    linksTools: ["TRELLO ", "FIGMA"],
+    tools: ["Scrum Methology", "Dailys"],
+    linksTools: [
+      "https://trello.com/es",
+      "https://www.figma.com/design/9mFFJxLH0ydY1XPal0tKy9/CarbonCopy?node-id=33-106&t=oHca0x4xOd34HpkH-1",
+    ],
   },
   {
     title: "House of Dev",
@@ -98,8 +101,11 @@ const exp = [
       "react-oauth2",
       "flatpickr",
     ],
-    tools: ["Scrum Methology", "Dailys", "Figma", "Trello"],
-    linksTools: ["Trello", "Figma"],
+    tools: ["Scrum Methology", "Dailys"],
+    linksTools: [
+      "Trello",
+      "https://www.figma.com/design/EIQHhLYGbQIcoeNqQwustP/C%C3%A1psula-Integrador---House-of-Dev?node-id=0-1&t=Cgs2XdDDXqV3a2q4-1",
+    ],
   },
   {
     title: "My Movie Crib",
