@@ -8,7 +8,7 @@ const exp = [
     github: "https://github.com/pibelanzallamas/house-of-dev-client-deploy",
     youtube: "https://www.youtube.com/watch?v=LiaV7xHjJmk",
     web: "https://house-of-dev-client.vercel.app",
-    desc: "Real State Website that give you diferent filters and sorts for rental and selling properties, make appointments and admin mode to control everythin. Real State Website that give you diferent filters and sorts for rental and selling properties, make appointments and admin mode to control everythin.Real State Website that give you diferent filters and sorts for rental and selling properties, make appointments and admin mode to control everythin.Real State Website that give you diferent filters and sorts for rental and selling properties, make appointments and admin mode to control everythin.",
+    desc: "Website showcasing various properties in the city of Buenos Aires. It is an educational project from Plataforma 5, featuring a variety of functionalities. The website allows users to manage property listings (create, edit, delete) and schedule appointments with confirmation emails. It includes user account management and the ability to like properties. Advanced filtering options let users search by city, neighborhood, number of rooms, and more. Properties can be displayed based on specific rules, such as for sale or rent. The platform provides a seamless experience for browsing and interacting with properties.",
     photos: [
       "https://res.cloudinary.com/daynclfo8/image/upload/v1730124604/hod_vkfoxj.png",
     ],
@@ -23,7 +23,7 @@ const exp = [
     github: "https://github.com/pibelanzallamas/carbon-copy",
     youtube: "https://www.youtube.com/watch?v=bb8RomFHFdg",
     web: "http://carbon-copy-omega.vercel.app",
-    desc: "Website for give format and style to pieces of code and exporting like and image.",
+    desc: "A website developed primarily with React and Node.js that allows users to format, style a code snippet, and export it as an image. A website developed primarily with React and Node.js that allows users to format, style a code snippet, and export it as an image.",
     photos: [
       "https://res.cloudinary.com/daynclfo8/image/upload/v1730124610/carbon_wk0osj.png",
     ],
@@ -36,7 +36,7 @@ const exp = [
     github: "https://github.com/pibelanzallamas",
     youtube: "https://www.youtube.com/watch?v=j-qgyoaeJN4",
     web: "https://my-movie-crib-front.vercel.app/",
-    desc: "Website for looking for the leatest movies and search your favorites and save them.",
+    desc: "Website for looking for the leatest movies and search your favorites and save them. The website allows users to search for the latest releases and most popular movies, as well as filter by title using The Movie Database API. Built with React, Node.js, Express, Sequelize and Bulma. Users can register and log in",
     photos: [
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732158213/crib2.png",
     ],
