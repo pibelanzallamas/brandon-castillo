@@ -51,8 +51,8 @@ const works = [
   },
   {
     title: "Dreamer Paintings",
-    final: "May 2024",
-    inicio: "Apr 2024",
+    final: "Apr 2024",
+    inicio: "May 2024",
     web: "https://dreamer-paintings.vercel.app",
     youtube: "https://www.youtube.com/watch?v=onv0uQ7Y_1I",
     github: "https://github.com/pibelanzallamas/dreamers-paintings",

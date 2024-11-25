@@ -1,33 +1,32 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import projects from "../utils/projects";
-import WorkCard from "../commons/WorkCard";
+import ExpCard from "../commons/ExpCard";
 
 function Projects() {
-  const [selWork, setSelWork] = useState(projects[0]);
-  const [link, setLink] = useState(-1);
-
-  useEffect(() => {
-    setLink(0);
-  }, []);
+  const [selExp, setSelExp] = useState(projects[0]);
+  const [changeItem, setChangeItem] = useState(false);
 
   return (
-    <div className="work-content">
-      <ul className="side-list">
-        {projects.map((project, i) => (
+    <main className="edu">
+      <h3>Projects</h3>
+      {/* titulos */}
+      <div className="front-page-links footer-links">
+        {projects.map((ex, i) => (
           <a
             key={i}
             onClick={() => {
-              setSelWork(project);
-              setLink(i);
+              setSelExp(ex);
+              setChangeItem(!changeItem);
             }}
+            href="#"
           >
-            {link === i ? <u>{project.title}</u> : project.title}
+            {selExp.title == ex.title ? <u>{ex.title}</u> : ex.title}
           </a>
         ))}
-      </ul>
-
-      <WorkCard work={selWork} />
-    </div>
+      </div>
+      {/* descripciones */}
+      <ExpCard card={selExp} disparador={changeItem} />
+    </main>
   );
 }
 
