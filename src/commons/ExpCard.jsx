@@ -64,7 +64,15 @@ function ExpCard({ card, disparador }) {
       </section>
       <section className="works-date">
         <p>
-          <b>Start Date:</b> {card.inicio} - <b>End Date:</b> {card.final}
+          {card.date ? (
+            <>
+              <b>Date:</b> {card.date}
+            </>
+          ) : (
+            <>
+              <b>Start Date:</b> {card.inicio} - <b>End Date:</b> {card.final}
+            </>
+          )}
         </p>
       </section>
       <section className="main-features">
@@ -128,7 +136,7 @@ function ExpCard({ card, disparador }) {
           </li>
         </ul>
       </section> */}
-      <hr />
+      {/* <hr /> */}
     </div>
   );
 }
