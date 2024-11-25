@@ -1,7 +1,6 @@
 const exp = [
   {
     title: "Carbon Copy",
-    date: "Dec 2023",
     inicio: "Dec 2023",
     final: "Jan 2024",
     github: "https://github.com/pibelanzallamas/carbon-copy",
@@ -44,9 +43,12 @@ const exp = [
       "downloadjs",
     ],
     photos: [
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1730124610/carbon_wk0osj.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732568128/carbon.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732569610/carbon2.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732569609/carbon3.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732569609/carbon4.png2",
     ],
-    tools: ["Scrum Methology", "Dailys"],
+    tools: ["Scrum Methodology", "Dailys"],
     linksTools: [
       "https://trello.com/invite/b/653037248cb51c4fa29a9071/ATTIfbd09fa0e24e0c5245823a38f310d4acD31E87F4/carbon-copy",
       "https://www.figma.com/design/9mFFJxLH0ydY1XPal0tKy9/CarbonCopy?node-id=33-106&t=oHca0x4xOd34HpkH-1",
@@ -54,7 +56,6 @@ const exp = [
   },
   {
     title: "House of Dev",
-    date: "Dec 2023",
     inicio: "Ago 2023",
     final: "Sep 2023",
     github: "https://github.com/pibelanzallamas/house-of-dev-client-deploy",
@@ -62,7 +63,10 @@ const exp = [
     web: "https://house-of-dev-client.vercel.app",
     desc: "Website showcasing various properties in the city of Buenos Aires. It is an educational project from Plataforma 5, featuring a variety of functionalities. The website allows users to manage property listings (create, edit, delete) and schedule appointments with confirmation emails. It includes user account management and the ability to like properties. Advanced filtering options let users search by city, neighborhood, number of rooms, and more. Properties can be displayed based on specific rules, such as for sale or rent. The platform provides a seamless experience for browsing and interacting with properties.",
     photos: [
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1730124604/hod_vkfoxj.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732568386/house.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732569056/house2.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732569102/house3.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732569107/house4.png",
     ],
     mainFeat: [
       {
@@ -101,7 +105,7 @@ const exp = [
       "react-oauth2",
       "flatpickr",
     ],
-    tools: ["Scrum Methology", "Dailys"],
+    tools: ["Scrum Methodology", "Dailys"],
     linksTools: [
       "https://trello.com/invite/b/64dfc6c9543cee307423fb0f/ATTIfa1adb0194e4caae7238055fa4f0dab5B54EECB1/houseofdev",
       "https://www.figma.com/design/EIQHhLYGbQIcoeNqQwustP/C%C3%A1psula-Integrador---House-of-Dev?node-id=0-1&t=Cgs2XdDDXqV3a2q4-1",
@@ -109,15 +113,18 @@ const exp = [
   },
   {
     title: "My Movie Crib",
-    date: "Dec 2023",
+    date: "Jul 2023",
     inicio: "Jul 2023",
     final: "Jul 2023",
     github: "https://github.com/pibelanzallamas",
     youtube: "https://www.youtube.com/watch?v=j-qgyoaeJN4",
     web: "https://my-movie-crib-front.vercel.app/",
-    desc: "Website for looking for the leatest movies and search your favorites and save them. The website allows users to search for the latest releases and most popular movies, as well as filter by title using The Movie Database API. Built with React, Node.js, Express, Sequelize and Bulma. Users can register and log in",
+    desc: "Website for looking for the leatest movies and search your favorites and save them. The website allows users to search for the latest releases and most popular movies, as well as filter by title using The Movie Database API. Built with React, Node.js, Express, Sequelize and Bulma. Users can register and log in.",
     photos: [
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732158213/crib2.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732567910/crib.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732571274/crib2.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732571148/crib3.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732571168/crib4.png",
     ],
     mainFeat: [
       {
@@ -150,7 +157,7 @@ const exp = [
       "Axios",
       "Sass",
     ],
-    tools: ["Scrum Methology"],
+    tools: ["Scrum Methodology"],
   },
 ];
 

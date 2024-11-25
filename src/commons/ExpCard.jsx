@@ -64,7 +64,15 @@ function ExpCard({ card, disparador }) {
       </section>
       <section className="works-date">
         <p>
-          <b>Start Date:</b> {card.inicio} - <b>End Date:</b> {card.final}
+          {card.date ? (
+            <>
+              <b>Date:</b> {card.date}
+            </>
+          ) : (
+            <>
+              <b>Start Date:</b> {card.inicio} - <b>End Date:</b> {card.final}
+            </>
+          )}
         </p>
       </section>
       <section className="main-features">
@@ -85,28 +93,30 @@ function ExpCard({ card, disparador }) {
           ))}
         </ul>
       </section>
-      <section className="works-tools">
-        <h4>Tools for Planning and Design</h4>
-        <ul className="tech-lists  works-features">
-          {card.tools.map((ele) => (
-            <li>{ele}</li>
-          ))}
-          {card.linksTools && (
-            <>
-              <li>
-                <a href={card.linksTools[0]} target="_blank">
-                  <u>Trello</u>
-                </a>
-              </li>
-              <li>
-                <a href={card.linksTools[1]} target="_blank">
-                  <u>Figma</u>
-                </a>
-              </li>
-            </>
-          )}
-        </ul>
-      </section>
+      {card.tools && (
+        <section className="works-tools">
+          <h4>Tools for Planning and Design</h4>
+          <ul className="tech-lists  works-features">
+            {card.tools.map((ele) => (
+              <li>{ele}</li>
+            ))}
+            {card.linksTools && (
+              <>
+                <li>
+                  <a href={card.linksTools[0]} target="_blank">
+                    <u>Trello</u>
+                  </a>
+                </li>
+                <li>
+                  <a href={card.linksTools[1]} target="_blank">
+                    <u>Figma</u>
+                  </a>
+                </li>
+              </>
+            )}
+          </ul>
+        </section>
+      )}
       {/* <section className="main-features">
         <h4>Main Difficulties:</h4>
         <ul className="works-features">

@@ -1,7 +1,6 @@
 const works = [
   {
     title: "Calles Construction",
-    date: "Jul 2024",
     incio: "Jun 2024",
     final: "Jul 2024",
     web: "https://calles-construction.vercel.app/",
