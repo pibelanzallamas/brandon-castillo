@@ -106,6 +106,7 @@ const projects = [
       },
     ],
     techs: [
+<<<<<<< HEAD
       "React",
       "Sass",
       "Axios",
@@ -113,6 +114,16 @@ const projects = [
       "youtube-api-search",
       "google-api-client",
       "react-router-dom",
+=======
+      "NodeJs",
+      "Express",
+      "youtube-api-search",
+      "React Router Dom",
+      "dotEnv",
+      "React",
+      "Axios",
+      "Sass",
+>>>>>>> 3e286183393f70ebb4589380a7e398e6e6c6be6a
     ],
   },
 ];

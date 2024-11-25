@@ -138,7 +138,7 @@ function ExpCard({ card, disparador }) {
           </li>
         </ul>
       </section> */}
-      <hr />
+      {/* <hr /> */}
     </div>
   );
 }

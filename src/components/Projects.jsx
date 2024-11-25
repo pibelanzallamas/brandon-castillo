@@ -24,7 +24,6 @@ function Projects() {
           </a>
         ))}
       </div>
-      {/* descripciones */}
       <ExpCard card={selExp} disparador={changeItem} />
     </main>
   );
