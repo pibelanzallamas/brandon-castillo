@@ -1,14 +1,14 @@
 const works = [
   {
     title: "Calles Construction",
-    incio: "Jun 2024",
+    inicio: "Jun 2024",
     final: "Jul 2024",
     web: "https://calles-construction.vercel.app/",
     youtube: "https://www.youtube.com/watch?v=mOV8O6jPwC4",
     github: "https://github.com/pibelanzallamas/calles-construction",
     desc: "Website built with NodeJs and React, primarily used to showcase the work of Calles Construction, a construction company based in New Jersey. It provides detailed coverage of each project, organized into subcategories according to their respective fields. The site includes an exclusive image gallery, subdivided for better organization, and a section for submitting direct inquiries to the company. There is also an admin section for uploading and editing all projects, along with information about the company and its main location.",
     photos: [
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1730124619/calles_zngumy.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732610191/calles.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732610816/calles2.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732611117/calles3.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732611161/calles4.png",
@@ -66,9 +66,8 @@ const works = [
     desc: "Website for the abstract paintings of a talented artist from Buenos Aires, Argentina.",
     photos: [
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732626769/dreamer.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732626769/dreamer2.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732626770/dreamer3.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732628246/ujjm0zojlz3p02jmrehw.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732626770/dreamer2.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732628246/dreamer3.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732626770/dreamer4.png",
     ],
     mainFeat: [
@@ -106,7 +105,6 @@ const works = [
       "htmltocanvas",
       "downloadjs",
     ],
-    // tools: ["Scrum Methology", "Dailys"],
   },
 ];
 

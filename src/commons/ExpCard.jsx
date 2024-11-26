@@ -23,6 +23,13 @@ function ExpCard({ card, disparador }) {
               id="left"
               onClick={() => setNumImg(numImg - 1)}
               className="left-right-buttons"
+              tabIndex={0}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  e.preventDefault();
+                  setNumImg(numImg - 1);
+                }
+              }}
             >
               <img src={left} alt="" />
             </figcaption>
@@ -33,6 +40,13 @@ function ExpCard({ card, disparador }) {
               id="right"
               onClick={() => setNumImg(numImg + 1)}
               className="left-right-buttons"
+              tabIndex={0}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  e.preventDefault();
+                  setNumImg(numImg + 1);
+                }
+              }}
             >
               <img src={right} alt="" />
             </figcaption>
