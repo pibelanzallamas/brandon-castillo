@@ -65,11 +65,11 @@ const works = [
     github: "https://github.com/pibelanzallamas/dreamers-paintings",
     desc: "Website for the abstract paintings of a talented artist from Buenos Aires, Argentina.",
     photos: [
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1730124626/dreamer_uz4hqg.png",
-      "photo2",
-      "photo3",
-      "photo4",
-      "photo5",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732626769/dreamer.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732626769/dreamer2.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732626770/dreamer3.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732628246/ujjm0zojlz3p02jmrehw.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732626770/dreamer4.png",
     ],
     mainFeat: [
       {
