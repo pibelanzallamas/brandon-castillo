@@ -63,48 +63,34 @@ const works = [
     web: "https://dreamer-paintings.vercel.app",
     youtube: "https://www.youtube.com/watch?v=onv0uQ7Y_1I",
     github: "https://github.com/pibelanzallamas/dreamers-paintings",
-    desc: "Website for the abstract paintings of a talented artist from Buenos Aires, Argentina.",
+    desc: "A website showcasing the work of a talented artist from Buenos Aires, specializing in action painting with a consistent format and a signature color palette (black, blue, red, green). Each painting is available as an NFT. Learn about the artist’s techniques, connect through social media, and explore paintings in full resolution. The site supports English and Spanish for a broader audience.", //media flaca
     photos: [
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732626769/dreamer.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732626770/dreamer2.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732628246/dreamer3.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732626770/dreamer4.png",
     ],
+
     mainFeat: [
       {
-        title: "Custom Styling",
-        desc: "Format and style code snippets with your preferred colors and designs.",
+        title: "Gallery Exploration",
+        desc: "Browse the gallery to explore the artist's action paintings in full resolution.",
       },
       {
-        title: "Export as Image",
-        desc: "Easily export your styled snippets as images for sharing.",
+        title: "Language Support",
+        desc: "Switch languages (English/Spanish) using the menu for a personalized experience.",
       },
       {
-        title: "Favorites Management",
-        desc: "Save and manage your favorite styles for quick reuse.",
+        title: "Artistic Insights",
+        desc: "Learn about techniques and the artist's creative process.",
       },
       {
-        title: "Mobile Responsive",
-        desc: "Enjoy a seamless experience across all devices.",
+        title: "NFT and Social Links",
+        desc: "Purchase NFTs and connect with the artist via social media links.",
       },
     ],
-    techs: [
-      "NodeJs",
-      "Express",
-      "PostgreSQL",
-      "Sequelize",
-      "jsonwebtoken",
-      "React",
-      "Redux",
-      "Mui",
-      "Axios",
-      "Sass",
-      "react-syntax-highlighter",
-      "react-notifications-component",
-      "react-ace",
-      "htmltocanvas",
-      "downloadjs",
-    ],
+
+    techs: ["React", "Redux", "Sass", "react-router-dom"], // falta
   },
 ];
 

@@ -103,7 +103,7 @@ const exp = [
       "Axios",
       "React",
       "Redux",
-      "Mui",
+      "MUI",
       "Sass",
       "react-notifications-component",
       "styled-components",
