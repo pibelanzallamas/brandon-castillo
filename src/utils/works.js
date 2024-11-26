@@ -77,10 +77,6 @@ const works = [
         desc: "Browse the gallery to explore the artist's action paintings in full resolution.",
       },
       {
-        title: "Language Support",
-        desc: "Switch languages (English/Spanish) using the menu for a personalized experience.",
-      },
-      {
         title: "Artistic Insights",
         desc: "Learn about techniques and the artist's creative process.",
       },
@@ -88,9 +84,13 @@ const works = [
         title: "NFT and Social Links",
         desc: "Purchase NFTs and connect with the artist via social media links.",
       },
+      {
+        title: "Language Support",
+        desc: "Switch languages (English/Spanish) using the menu for a personalized experience.",
+      },
     ],
 
-    techs: ["React", "Redux", "Sass", "react-router-dom"], // falta
+    techs: ["React", "Redux", "Sass", "react-router-dom"],
   },
 ];
 

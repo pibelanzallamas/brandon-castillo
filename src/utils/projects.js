@@ -2,25 +2,25 @@ const projects = [
   {
     title: "Yu-Gi-Oh! Randomizer!",
     photos: [
-      //poner una imagen más
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1730124635/ygo_hyolee.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732652065/yugi.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732652983/yugi2.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732653099/yugi3.png",
     ],
     inicio: "Jul 2024",
     final: "Jul 2024",
     date: "Jul 2024",
     web: "https://givemeayugiohcard.vercel.app/",
     youtube: "https://www.youtube.com/watch?v=NEzQ7VnWCLI",
-    github: "http://github.com/pibelanzallamas/givemeayugiohcard", //modificar el readme
+    github: "http://github.com/pibelanzallamas/givemeayugiohcard",
     desc: "Website for getting a random Yu-Gi-Oh! card from all cards: monsters, spells, traps, etc. It use the YGOPRODeck API.",
     mainFeat: [
-      //hacer estos
       {
-        title: "Custom Styling",
-        desc: "Format and style code snippets with your preferred colors and designs.",
+        title: "Get a random YGO! Card!",
+        desc: "Get a random card from the most large Yu-Gi-Oh! database that keeps updating.",
       },
       {
-        title: "Export as Image",
-        desc: "Easily export your styled snippets as images for sharing.",
+        title: "Save the image",
+        desc: "Click on the card image to save it in full resolution.",
       },
     ],
     techs: [
