@@ -6,7 +6,7 @@ const exp = [
     github: "https://github.com/pibelanzallamas/carbon-copy",
     youtube: "https://www.youtube.com/watch?v=bb8RomFHFdg",
     web: "http://carbon-copy-omega.vercel.app",
-    desc: "A website developed primarily with React and Node.js that allows users to format, style a code snippet, and export it as an image. A website developed primarily with React and Node.js that allows users to format, style a code snippet, and export it as an image.",
+    desc: "A website built with React and Node.js that allows users to format and style code snippets with custom colors and designs, then export them as images. Users can save and manage their favorite styles for quick reuse and enjoy a fully responsive experience across all devices. Designed with an intuitive interface, it simplifies the process of creating and sharing visually appealing code snippets.",
     mainFeat: [
       {
         title: "Custom Styling",
@@ -119,7 +119,7 @@ const exp = [
     github: "https://github.com/pibelanzallamas",
     youtube: "https://www.youtube.com/watch?v=j-qgyoaeJN4",
     web: "https://my-movie-crib-front.vercel.app/",
-    desc: "Website for looking for the leatest movies and search your favorites and save them. The website allows users to search for the latest releases and most popular movies, as well as filter by title using The Movie Database API. Built with React, Node.js, Express, Sequelize and Bulma. Users can register and log in.",
+    desc: "Website for looking for the latest movies, search your favorites and save them. The website allows users to search for the latest releases and most popular movies, as well as filter by title using The Movie Database API. Built with React, Node.js, Express, Sequelize and Bulma. Users can register and log in.",
     photos: [
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732567910/crib.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732571274/crib2.png",
