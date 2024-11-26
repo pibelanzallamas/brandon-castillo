@@ -106,7 +106,7 @@ const works = [
       "htmltocanvas",
       "downloadjs",
     ],
-    tools: ["Scrum Methology", "Dailys"],
+    // tools: ["Scrum Methology", "Dailys"],
   },
 ];
 

@@ -48,7 +48,7 @@ const exp = [
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732569609/carbon3.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732569609/carbon4.png",
     ],
-    tools: ["Scrum Methodology", "Dailys"],
+    tools: ["Scrum Methodology"],
     linksTools: [
       {
         title: "Trello",
