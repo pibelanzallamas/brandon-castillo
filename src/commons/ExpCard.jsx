@@ -100,20 +100,14 @@ function ExpCard({ card, disparador }) {
             {card.tools.map((ele) => (
               <li>{ele}</li>
             ))}
-            {card.linksTools && (
-              <>
+            {card.linksTools &&
+              card.linksTools.map((ele) => (
                 <li>
-                  <a href={card.linksTools[0]} target="_blank">
-                    <u>Trello</u>
+                  <a href={ele.link} target="_blank">
+                    <u>{ele.title}</u>
                   </a>
                 </li>
-                <li>
-                  <a href={card.linksTools[1]} target="_blank">
-                    <u>Figma</u>
-                  </a>
-                </li>
-              </>
-            )}
+              ))}
           </ul>
         </section>
       )}
