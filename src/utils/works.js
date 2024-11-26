@@ -9,6 +9,9 @@ const works = [
     desc: "Website built with NodeJs and React, primarily used to showcase the work of Calles Construction, a construction company based in New Jersey. It provides detailed coverage of each project, organized into subcategories according to their respective fields. The site includes an exclusive image gallery, subdivided for better organization, and a section for submitting direct inquiries to the company. There is also an admin section for uploading and editing all projects, along with information about the company and its main location.",
     photos: [
       "https://res.cloudinary.com/daynclfo8/image/upload/v1730124619/calles_zngumy.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732610816/calles2.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732611117/calles3.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732611161/calles4.png",
     ],
     mainFeat: [
       {
