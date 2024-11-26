@@ -46,7 +46,7 @@ const exp = [
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732568128/carbon.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732569610/carbon2.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732569609/carbon3.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732569609/carbon4.png2",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732569609/carbon4.png",
     ],
     tools: ["Scrum Methodology", "Dailys"],
     linksTools: [
