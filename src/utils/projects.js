@@ -1,6 +1,6 @@
 const projects = [
   {
-    title: "Give me a Yu-Gi-Oh! Card!",
+    title: "Yu-Gi-Oh! Randomizer!",
     photos: [
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732663508/yugi.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732664481/yugi2.png",
@@ -12,11 +12,11 @@ const projects = [
     web: "https://givemeayugiohcard.vercel.app/",
     youtube: "https://www.youtube.com/watch?v=NEzQ7VnWCLI",
     github: "http://github.com/pibelanzallamas/givemeayugiohcard",
-    desc: "Website for getting a random Yu-Gi-Oh! card from the whole collection. Build it with simples technologies.",
+    desc: "Website for getting a random Yu-Gi-Oh! card from the whole collection. Build it with NodeJs, Express and React. It use an external API.",
     mainFeat: [
       {
-        title: "Get a random Yu-Gi-Oh Card!",
-        desc: "Get a random card from the largest Yu-Gi-Oh! API, YGOPRODeck, that keeps updating regularly.",
+        title: "Draw a Random Card",
+        desc: "Fetch a random Yu-Gi-Oh! card from YGOPRODeck, the most comprehensive and regularly updated Yu-Gi-Oh! API.",
       },
       {
         title: "Save the image",
@@ -25,10 +25,10 @@ const projects = [
     ],
     techs: [
       "NodeJs",
-      "Express",
-      "Curl",
+      "express",
+      "axios",
+      "curl",
       "YGOPRODeck API",
-      "Axios",
       "React",
       "Javascript",
       "Sass",
@@ -45,14 +45,14 @@ const projects = [
     web: "https://mood-checker.vercel.app/",
     youtube: "https://www.youtube.com/watch?v=LliCjVK8ZBQ",
     github: "https://github.com/pibelanzallamas/mood-checker",
-    desc: "Website for recommending music based on your mood.",
+    desc: "A website that recommends music tailored to your mood.",
     inicio: "May 2024",
     final: "May 2024",
     date: "May 2024",
     mainFeat: [
       {
-        title: "Get random songs",
-        desc: "From the mood you choose.",
+        title: "Discover Random Songs",
+        desc: "Receive song recommendations tailored to the mood you select.",
       },
     ],
     techs: ["React", "Css", "react-router-dom"],
@@ -70,12 +70,12 @@ const projects = [
     web: "https://yourelder.vercel.app/",
     youtube: "https://www.youtube.com/watch?v=VXR-ek3Ez50",
     github: "http://github.com/pibelanzallamas/yourelder",
-    desc: "YouTube song searcher for elders.",
+    desc: "A tool designed to help elders easily search for songs on YouTube.",
 
     mainFeat: [
       {
-        title: "Old Songs",
-        desc: "Search your old song more easy with this tool.",
+        title: "Classic Songs",
+        desc: "Easily search for your favorite old songs with this intuitive tool.",
       },
     ],
     techs: [
