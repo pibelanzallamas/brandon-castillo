@@ -2,9 +2,9 @@ const projects = [
   {
     title: "Yu-Gi-Oh! Randomizer!",
     photos: [
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732652065/yugi.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732652983/yugi2.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732653099/yugi3.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732663508/yugi.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732664481/yugi2.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732652065/yugi3.png",
     ],
     inicio: "Jul 2024",
     final: "Jul 2024",
@@ -12,11 +12,11 @@ const projects = [
     web: "https://givemeayugiohcard.vercel.app/",
     youtube: "https://www.youtube.com/watch?v=NEzQ7VnWCLI",
     github: "http://github.com/pibelanzallamas/givemeayugiohcard",
-    desc: "Website for getting a random Yu-Gi-Oh! card from all cards: monsters, spells, traps, etc. It use the YGOPRODeck API.",
+    desc: "Website for getting a random Yu-Gi-Oh! card from the whole collection thanks to YGOPRODeck API. Build it just with Node.js, Express, Axios, React, and Sass.",
     mainFeat: [
       {
-        title: "Get a random YGO! Card!",
-        desc: "Get a random card from the most large Yu-Gi-Oh! database that keeps updating.",
+        title: "Get a random yu-gi-oh Card!",
+        desc: "Get a random card from the largest Yu-Gi-Oh! API, that keeps updating.",
       },
       {
         title: "Save the image",
@@ -38,12 +38,13 @@ const projects = [
   {
     title: "Mood Checker",
     photos: [
-      //usar una imagén más
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1730124633/mood_ac8ky0.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732664586/mood.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732664747/mood2.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732664769/mood3.png",
     ],
     web: "https://calles-construction.vercel.app/",
     youtube: "https://www.youtube.com/watch?v=LliCjVK8ZBQ",
-    github: "https://github.com/pibelanzallamas/mood-checker", //modificar el readime
+    github: "https://github.com/pibelanzallamas/mood-checker",
     desc: "Website for recommending music based on your mood.", //agrandar un pooc
     inicio: "May 2024",
     final: "May 2024",
@@ -64,28 +65,27 @@ const projects = [
   {
     title: "Your Elder",
     photos: [
-      //agregarle dos imagénes más
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1730604495/yourelder_g7n0w7.png",
-      "img2",
-      "img3",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732665477/elder.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732665526/elder2.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732665526/elder3.png",
     ],
     inicio: "Mar 2024",
     final: "Mar 2024",
     date: "Mar 2024",
     web: "https://yourelder.vercel.app/",
     youtube: "https://www.youtube.com/watch?v=VXR-ek3Ez50",
-    github: "http://github.com/pibelanzallamas/yourelder", //mod readme
+    github: "http://github.com/pibelanzallamas/yourelder",
     desc: "YouTube song searcher for elders.",
 
     mainFeat: [
       //hacer estos
       {
-        title: "Custom Styling",
-        desc: "Format and style code snippets with your preferred colors and designs.",
+        title: "",
+        desc: "",
       },
       {
-        title: "Export as Image",
-        desc: "Easily export your styled snippets as images for sharing.",
+        title: "",
+        desc: "",
       },
     ],
     techs: [

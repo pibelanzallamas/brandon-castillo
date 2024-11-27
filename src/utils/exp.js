@@ -111,7 +111,7 @@ const exp = [
       "react-oauth2",
       "flatpickr",
     ],
-    tools: ["Scrum Methodology", "Dailys"],
+    tools: ["Scrum Methodology", "Dailies"],
     linksTools: [
       {
         title: "Trello",
@@ -144,16 +144,16 @@ const exp = [
         desc: "Search for the latest releases, popular movies, or by title.",
       },
       {
-        title: "Favorite Movies",
-        desc: "Add and manage your favorite movies for quick access.",
-      },
-      {
         title: "User Registration",
         desc: "Sign up and log in with email and password for personalized features.",
       },
       {
+        title: "Favorite Movies",
+        desc: "Add and manage your favorite movies for quick access.",
+      },
+      {
         title: "Movie Details",
-        desc: "View detailed information about each movie, including ratings and descriptions.",
+        desc: "View detailed information about each movie, including websites and descriptions.",
       },
     ],
     techs: [
@@ -165,11 +165,11 @@ const exp = [
       "jsonwebtoken",
       "React",
       "Redux",
-      "Bulma",
       "Axios",
+      "Bulma",
       "Sass",
     ],
-    tools: ["Scrum Methodology"],
+    tools: ["Scrum Methodology", "Solo Week"],
   },
 ];
 

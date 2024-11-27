@@ -63,7 +63,7 @@ const works = [
     web: "https://dreamer-paintings.vercel.app",
     youtube: "https://www.youtube.com/watch?v=onv0uQ7Y_1I",
     github: "https://github.com/pibelanzallamas/dreamers-paintings",
-    desc: "A website showcasing the work of a talented artist from Buenos Aires, specializing in action painting with a consistent format and a signature color palette (black, blue, red, green). Each painting is available as an NFT. Learn about the artist’s techniques, connect through social media, and explore paintings in full resolution. The site supports English and Spanish for a broader audience.", //media flaca
+    desc: "A website showcasing the work of a talented artist from Buenos Aires, specializing in action painting with a consistent format and a signature color palette (black, blue, red, green). Each painting is available as an NFT. Learn about the artist’s techniques, connect through social media, and explore paintings in full resolution. The site supports English and Spanish for a broader audience.",
     photos: [
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732626769/dreamer.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732626770/dreamer2.png",
@@ -90,7 +90,14 @@ const works = [
       },
     ],
 
-    techs: ["React", "Redux", "Sass", "react-router-dom"],
+    techs: [
+      "React",
+      "Redux",
+      "Sass",
+      "react-router-dom",
+      "react-modal-image",
+      "react-persist",
+    ],
   },
 ];
 
