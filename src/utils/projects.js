@@ -1,6 +1,6 @@
 const projects = [
   {
-    title: "Yu-Gi-Oh! Randomizer!",
+    title: "Give me a Yu-Gi-Oh! Card!",
     photos: [
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732663508/yugi.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732664481/yugi2.png",
@@ -12,11 +12,11 @@ const projects = [
     web: "https://givemeayugiohcard.vercel.app/",
     youtube: "https://www.youtube.com/watch?v=NEzQ7VnWCLI",
     github: "http://github.com/pibelanzallamas/givemeayugiohcard",
-    desc: "Website for getting a random Yu-Gi-Oh! card from the whole collection thanks to YGOPRODeck API. Build it just with Node.js, Express, Axios, React, and Sass.",
+    desc: "Website for getting a random Yu-Gi-Oh! card from the whole collection. Build it with simples technologies.",
     mainFeat: [
       {
-        title: "Get a random yu-gi-oh Card!",
-        desc: "Get a random card from the largest Yu-Gi-Oh! API, that keeps updating.",
+        title: "Get a random Yu-Gi-Oh Card!",
+        desc: "Get a random card from the largest Yu-Gi-Oh! API, YGOPRODeck, that keeps updating regularly.",
       },
       {
         title: "Save the image",
@@ -45,19 +45,14 @@ const projects = [
     web: "https://calles-construction.vercel.app/",
     youtube: "https://www.youtube.com/watch?v=LliCjVK8ZBQ",
     github: "https://github.com/pibelanzallamas/mood-checker",
-    desc: "Website for recommending music based on your mood.", //agrandar un pooc
+    desc: "Website for recommending music based on your mood.",
     inicio: "May 2024",
     final: "May 2024",
     date: "May 2024",
     mainFeat: [
-      //hacer estos
       {
-        title: "Custom Styling",
-        desc: "Format and style code snippets with your preferred colors and designs.",
-      },
-      {
-        title: "Export as Image",
-        desc: "Easily export your styled snippets as images for sharing.",
+        title: "Get random songs",
+        desc: "From the mood you choose.",
       },
     ],
     techs: ["React", "Css", "react-router-dom"],
@@ -78,14 +73,9 @@ const projects = [
     desc: "YouTube song searcher for elders.",
 
     mainFeat: [
-      //hacer estos
       {
-        title: "",
-        desc: "",
-      },
-      {
-        title: "",
-        desc: "",
+        title: "Old Songs",
+        desc: "Search your old song more easy with this tool.",
       },
     ],
     techs: [
