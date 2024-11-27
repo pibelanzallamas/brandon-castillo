@@ -25,14 +25,13 @@ const projects = [
     ],
     techs: [
       "NodeJs",
-      "express",
-      "axios",
-      "curl",
+      "Express",
+      "Curl",
       "YGOPRODeck API",
       "React",
       "Javascript",
+      "Axios",
       "Sass",
-      "react-router-dom",
     ],
   },
   {
@@ -55,7 +54,7 @@ const projects = [
         desc: "Receive song recommendations tailored to the mood you select.",
       },
     ],
-    techs: ["React", "Css", "react-router-dom"],
+    techs: ["React", "Javascript", "Sass"],
   },
   {
     title: "Your Elder",
@@ -80,9 +79,10 @@ const projects = [
     ],
     techs: [
       "React",
-      "Sass",
+      "Javascript",
       "Axios",
       "dotEnv",
+      "Sass",
       "youtube-api-search",
       "google-api-client",
       "react-router-dom",
