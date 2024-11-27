@@ -42,7 +42,7 @@ const projects = [
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732664747/mood2.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732664769/mood3.png",
     ],
-    web: "https://calles-construction.vercel.app/",
+    web: "https://mood-checker.vercel.app/",
     youtube: "https://www.youtube.com/watch?v=LliCjVK8ZBQ",
     github: "https://github.com/pibelanzallamas/mood-checker",
     desc: "Website for recommending music based on your mood.",
