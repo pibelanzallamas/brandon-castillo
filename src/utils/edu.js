@@ -16,11 +16,11 @@ const edu = [
     carrera: "Technical University Degree in Programming",
     inicio: "Jul 2022",
     final: "Dec 2022",
-    res: "1200 / 628",
+    res: "1600 /1067",
     encurso: false,
     desc: "I completed the first semester of the Technical University Degree in Programming at UTN, where I gained foundational knowledge in programming, data structures, and computational logic. During this period, I worked with languages like C and SQL, developing skills in problem-solving and creating efficient solutions in computing environments. This learning experience provided me with a solid foundation in software development and motivated me to continue specializing in modern technologies and Full Stack development.",
     photos: [
-      "https://www.utn.edu.ar/images/Secretarias/ACYPI/2021/utn-mdp.png",
+      "https://extensionfra.com.ar/wp-content/uploads/2018/06/DSC_0102-scaled.jpg",
       "https://utn.edu.ar/images/Secretarias/ACYPI/2021/utn-mdp.png",
     ],
   },
@@ -60,7 +60,7 @@ const edu = [
     encurso: false,
     desc: "I completed my secondary education at Benito Quinquela Martín Secondary School in Guernica, Buenos Aires, earning a high school diploma with a focus on Social Sciences. During this period, I developed critical and analytical skills in areas such as history, sociology, and communication, as well as values of teamwork and social responsibility. The education I received provided me with a solid foundation for adapting to new academic and professional challenges, fostering my interest in continuous learning, technology and arts.",
     photos: [
-      "https://scontent.feze8-2.fna.fbcdn.net/v/t39.30808-6/464317693_951324127016971_4130143820267826490_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=-JS6FlHXDvwQ7kNvgG27kjb&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=A6jT4SygyCVXg5zbpb7VQzG&oh=00_AYAJ42Pjhr9krMwhscuNmGpBXCu0BQ5CGWHImAnEeZ-GGw&oe=67428440",
+      "https://static.wixstatic.com/media/4a1513_f084e6effd0c472eb1af8cb291915f2b~mv2.jpg/v1/fill/w_980,h_550,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4a1513_f084e6effd0c472eb1af8cb291915f2b~mv2.jpg",
     ],
   },
 ];
