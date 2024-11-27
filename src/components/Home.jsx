@@ -1,7 +1,7 @@
 import React from "react";
-import cv from "../assets/cv2.svg";
+import cv from "../assets/cv.svg";
 import likedin from "../assets/linkedin.svg";
-import github from "../assets/github2.svg";
+import github from "../assets/github.png";
 
 function Home() {
   return (

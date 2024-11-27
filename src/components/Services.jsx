@@ -16,8 +16,7 @@ function Services() {
             <li>Designing Databases</li>
             <li>Creating Rest API's</li>
             <li>Using External APIs</li>
-            {/* <li>Server Developing</li> */}
-            <li>Designing Busniess Logic</li>
+            <li>Designing Business Logic</li>
             <li>Comunication with DBs</li>
             <li>Authentication</li>
           </ul>
@@ -29,7 +28,7 @@ function Services() {
 
           <h4>Front End Developer</h4>
           <ul>
-            <li>Designing Attractive Components</li>
+            <li>Designing Attractive Websites</li>
             <li>Connecting to APIs</li>
             <li>Responsive Design</li>
             <li>Design to Code in simple steps</li>

@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
 import { Link, useLocation } from "react-router-dom";
-import setMenu from "../state/menu";
 
 function Navbar() {
   const location = useLocation();
@@ -19,11 +17,20 @@ function Navbar() {
   const handleHambu = () => {
     setClicked(!clicked);
   };
+
   useEffect(() => {
     if (location.pathname == "/") {
       setLink("");
     }
   }, [location]);
+
+  // useEffect(() => {
+  //   const s = document.getElementById("thing").style;
+  //   s.opacity = 1;
+  //   (function fade() {
+  //     (s.opacity -= 0.1) < 0 ? (s.display = "none") : setTimeout(fade, 40);
+  //   })();
+  // }, []);
 
   return (
     <>
@@ -31,6 +38,7 @@ function Navbar() {
         <Link className="home-button" to={"/"}>
           Brandon Castillo
         </Link>
+        {/* <div id="thing"> Cool</div> */}
         <a onClick={() => handleHambu()} href="#">
           <figure>
             <img

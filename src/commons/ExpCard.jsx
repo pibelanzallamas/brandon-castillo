@@ -16,7 +16,7 @@ function ExpCard({ card, disparador }) {
       </section>
 
       <section className="works-image">
-        <figure style={{ aspectRatio: "1280 / 715" }}>
+        <figure style={{ aspectRatio: "1280 / 714" }}>
           <img src={card.photos[numImg]} alt={card.title} />
           {numImg > 0 && (
             <figcaption
@@ -31,7 +31,7 @@ function ExpCard({ card, disparador }) {
                 }
               }}
             >
-              <img src={left} alt="" />
+              <img src={left} alt="left-arrow-button" />
             </figcaption>
           )}
 
@@ -48,7 +48,7 @@ function ExpCard({ card, disparador }) {
                 }
               }}
             >
-              <img src={right} alt="" />
+              <img src={right} alt="right-arrow-button" />
             </figcaption>
           )}
         </figure>
