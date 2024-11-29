@@ -124,7 +124,7 @@ function Home() {
       </section>
 
       <section id="technologies">
-        <h3>Github Contributions</h3>
+        <h3>Contributions</h3>
         <img
           src="http://ghchart.rshah.org/3fc761/pibelanzallamas"
           alt="pibelanzallamas's Github chart"
