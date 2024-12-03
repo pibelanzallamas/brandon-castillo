@@ -6,7 +6,7 @@ const works = [
     web: "https://calles-construction.vercel.app/",
     youtube: "https://www.youtube.com/watch?v=mOV8O6jPwC4",
     github: "https://github.com/pibelanzallamas/calles-construction",
-    desc: "Website built with NodeJs and React, primarily used to showcase the work of Calles Construction, a construction company based in New Jersey. It provides detailed coverage of each project, organized into subcategories according to their respective fields. The site includes an exclusive image gallery, subdivided for better organization, and a section for submitting direct inquiries to the company. There is also an admin section for uploading and editing all projects, along with information about the company and its main location.",
+    desc: "New York City general contracting, Calle's Construction, website. It provides detailed coverage of each project realized, organized into subcategories according to their respective fields. The site includes an exclusive image gallery, and a section for submitting direct question to the company. Admin mode for uploading and editing projects. The website is fully developed and ready to be used, but it is currently awaiting activation by the client.",
     photos: [
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732610191/calles.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732610816/calles2.png",
