@@ -19,16 +19,16 @@ const works = [
         desc: "Enjoy a seamless browsing experience across all devices, ensuring accessibility for every user.",
       },
       {
-        title: "Direct Inquiries",
-        desc: "Visitors can send messages directly to the company's email to request quotes or ask questions.",
+        title: "Detailed Project Management",
+        desc: "Add projects with titles, subcategories (e.g., drywall, painting, plumbing, electrical), completion dates, descriptions, and as many images as needed.",
       },
       {
-        title: "Detailed Project Management",
-        desc: "Add projects with titles, categories (e.g., drywall, painting, plumbing, electrical), completion dates, descriptions, and as many images as needed.",
+        title: "Direct Inquiries",
+        desc: "Visitors can send messages directly to the company's email to request quotes or inquire about any questions.",
       },
       {
         title: "Company Information",
-        desc: "Learn about the services offered, the company's history, and its main location for direct contact.",
+        desc: "A detailed description of the company's services and philosophy.",
       },
     ],
 
