@@ -24,7 +24,7 @@ function Home() {
           title="CV"
           target="_blank"
         >
-          <figure>
+          <figure style={{ aspectRatio: " 1/1" }}>
             <img src={cv} alt="" />
           </figure>
         </a>
