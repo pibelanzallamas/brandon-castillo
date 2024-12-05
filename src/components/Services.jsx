@@ -8,8 +8,11 @@ function Services() {
       <div className="services-lists">
         <section className="service">
           <h4>Back End Developer</h4>
-          <figure className="service-image">
-            <img src="https://ddi-dev.com/uploads/backend-is.png"></img>
+          <figure
+            style={{ aspectRatio: "1440 / 969" }}
+            className="service-image"
+          >
+            <img src="https://res.cloudinary.com/daynclfo8/image/upload/v1733414684/backend-is.png"></img>
           </figure>
 
           <h4>Main Functions:</h4>
@@ -24,8 +27,11 @@ function Services() {
         </section>
         <section className="service">
           <h4>Front End Developer</h4>
-          <figure className="service-image">
-            <img src="https://res.cloudinary.com/proxify-io/image/upload/c_fit,f_auto,q_auto,dpr_auto,w_900/v1/cms/images/gallery/xizwtpiwqewW9qZVGgeXy5Ee0kOc8MAHrkFwEXtm.png"></img>
+          <figure
+            style={{ aspectRatio: "900 / 590" }}
+            className="service-image"
+          >
+            <img src="https://res.cloudinary.com/daynclfo8/image/upload/v1733415003/frontend.webp"></img>
           </figure>
           <h4>Main Functions:</h4>
           <ul>

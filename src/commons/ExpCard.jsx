@@ -94,7 +94,7 @@ function ExpCard({ card, disparador }) {
         <ul className="works-features">
           {card.mainFeat.map((ele) => (
             <li>
-              <b>{ele.title}</b> {ele.desc}
+              <b>{ele.title} -</b> {ele.desc}
             </li>
           ))}
         </ul>
