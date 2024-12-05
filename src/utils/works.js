@@ -6,7 +6,7 @@ const works = [
     web: "https://calles-construction.vercel.app/",
     youtube: "https://www.youtube.com/watch?v=mOV8O6jPwC4",
     github: "https://github.com/pibelanzallamas/calles-construction",
-    desc: "New York City general contracting, Calle's Construction, website. It provides detailed coverage of each project realized, organized into subcategories according to their respective fields. The site includes an exclusive image gallery, and a section for submitting direct question to the company. Admin mode for uploading and editing projects. The website is fully developed and ready to be used, but it is currently awaiting activation by the client.",
+    desc: "New York City general contracting, Calle's Construction, website. It provides detailed coverage of each project realized, organized into categories according to their respective fields. The site includes an exclusive image gallery, and a section for submitting direct question to the company. Admin mode for uploading and editing projects. The website is fully developed and ready to be used, but it is currently awaiting activation by the client.",
     photos: [
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732610191/calles.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732610816/calles2.png",
@@ -15,20 +15,20 @@ const works = [
     ],
     mainFeat: [
       {
-        title: "Mobile Responsive",
-        desc: "Enjoy a seamless browsing experience across all devices, ensuring accessibility for every user.",
+        title: "Company Information",
+        desc: "A detailed description of the company's services, projects and philosophy.",
       },
       {
         title: "Detailed Project Management",
-        desc: "Add projects with titles, subcategories (e.g., drywall, painting, plumbing, electrical), completion dates, descriptions, and as many images as needed.",
+        desc: "Add projects with titles, categories (e.g., drywall, painting, plumbing, electrical), dates, descriptions, and as many images as needed.",
       },
       {
         title: "Direct Inquiries",
         desc: "Visitors can send messages directly to the company's email to request quotes or inquire about any questions.",
       },
       {
-        title: "Company Information",
-        desc: "A detailed description of the company's services and philosophy.",
+        title: "Mobile Responsive",
+        desc: "Enjoy a seamless browsing experience across all devices, ensuring accessibility for every user.",
       },
     ],
 
@@ -77,16 +77,16 @@ const works = [
         desc: "Browse the gallery to explore the artist's action paintings in full resolution.",
       },
       {
-        title: "Language and Mobile Support",
-        desc: "Switch languages using the menu for a personalized experience. Fully optimized for mobile devices.",
+        title: "NFT and Social Links",
+        desc: "Purchase NFTs and connect with the artist via social media links.",
       },
       {
         title: "Artistic Insights",
         desc: "Learn about techniques and the artist's creative process.",
       },
       {
-        title: "NFT and Social Links",
-        desc: "Purchase NFTs and connect with the artist via social media links.",
+        title: "Language and Mobile Support",
+        desc: "Switch languages using the menu for a personalized experience. Fully optimized for mobile devices.",
       },
     ],
 
