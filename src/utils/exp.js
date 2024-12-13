@@ -70,6 +70,7 @@ const exp = [
     web: "https://house-of-dev-client.vercel.app",
     desc: "Website showcasing various properties in the city of Buenos Aires. It is an educational project from Plataforma 5, featuring a variety of functionalities. The website allows users to manage property listings (create, edit, delete) and schedule appointments with confirmation emails. It includes user account management and the ability to like properties. Advanced filtering options let users search by city, neighborhood, number of rooms, and more. Properties can be displayed based on specific rules, such as for sale or rent. The platform provides a seamless experience for browsing and interacting with properties.",
     photos: [
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1734132973/housegif.gif",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732568386/house.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732569056/house2.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732569102/house3.png",
