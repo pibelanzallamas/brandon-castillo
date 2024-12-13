@@ -43,6 +43,7 @@ const exp = [
       "downloadjs",
     ],
     photos: [
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1734132600/carbongif.gif",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732568128/carbon.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732569610/carbon2.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732569609/carbon3.png",
