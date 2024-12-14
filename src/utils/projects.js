@@ -37,7 +37,7 @@ const projects = [
   {
     title: "Mood Checker",
     photos: [
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1734131390/moodgif.gif",
+      // "https://res.cloudinary.com/daynclfo8/image/upload/v1734131390/moodgif.gif",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732664586/mood.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732664747/mood2.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732664769/mood3.png",
