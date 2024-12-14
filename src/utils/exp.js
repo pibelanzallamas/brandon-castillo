@@ -135,6 +135,7 @@ const exp = [
     web: "https://my-movie-crib-front.vercel.app/",
     desc: "Website for looking for the latest movies, search your favorites and save them. The website allows users to search for the latest releases and most popular movies, as well as filter by title using The Movie Database API. Built with React, Node.js, Express, Sequelize and Bulma. Users can register and log in.",
     photos: [
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1734134428/moviegif.gif",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732567910/crib.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732571274/crib2.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732571148/crib3.png",
