@@ -60,6 +60,7 @@ const projects = [
   {
     title: "Your Elder",
     photos: [
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1734539224/youreldergif.gif",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732665477/elder.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732665526/elder2.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732665526/elder3.png",
