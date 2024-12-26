@@ -8,7 +8,7 @@ const works = [
     github: "https://github.com/pibelanzallamas/calles-construction",
     desc: "New York City general contracting, Calle's Construction, website. It provides detailed coverage of each project realized, organized into categories according to their respective fields. The site includes an exclusive image gallery, and a section for submitting direct question to the company. Admin mode for uploading and editing projects. The website is fully developed and ready to be used, but it is currently awaiting activation by the client.",
     photos: [
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1734135148/callesgif.gif",
+      // "https://res.cloudinary.com/daynclfo8/image/upload/v1734135148/callesgif.gif",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732610191/calles.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732610816/calles2.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732611117/calles3.png",
