@@ -10,6 +10,10 @@ const works = [
     photos: [
       // "https://res.cloudinary.com/daynclfo8/image/upload/v1734135148/callesgif.gif",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732610191/calles.png",
+      // "https://res.cloudinary.com/daynclfo8/image/upload/v1737254883/calles5.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1737254893/calles6.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1737254906/calles7.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1737254945/calles8.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732610816/calles2.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732611117/calles3.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732611161/calles4.png",
@@ -68,6 +72,7 @@ const works = [
     photos: [
       // "https://res.cloudinary.com/daynclfo8/image/upload/v1734135489/dreamergif.gif",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732626769/dreamer.png",
+
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732626770/dreamer2.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732628246/dreamer3.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732626770/dreamer4.png",
