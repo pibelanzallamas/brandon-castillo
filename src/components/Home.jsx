@@ -79,7 +79,7 @@ function Home() {
             <li>ReactJs</li>
             <li>VainillaJs</li>
             <li>Html5</li>
-            <li>Sass</li>
+            <li>Tailwind Css</li>
             <li>Redux</li>
             <li>PostgreSQL</li>
           </ul>
