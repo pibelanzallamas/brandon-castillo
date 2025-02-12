@@ -25,7 +25,6 @@ function Footer() {
 
   return (
     <footer>
-      {/* <hr /> */}
       <h3>More About</h3>
       <div className="footer-links">
         {links.length > 0 &&
