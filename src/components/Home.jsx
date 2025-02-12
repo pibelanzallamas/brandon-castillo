@@ -20,7 +20,7 @@ function Home() {
 
       <section id="home-icons">
         <a
-          href="https://drive.google.com/file/d/1__AgEnqwyy6zLTL9wazfJQhS0HkgFevk/view?usp=sharing"
+          href="https://drive.google.com/file/d/1duS1ydTmP1OacWb7DfP7ABO36ZfNTK6l/view?usp=sharing"
           title="CV"
           target="_blank"
         >
