@@ -57,19 +57,15 @@ function ExpCard({ card, disparador }) {
       <section className="works-links">
         <p>
           <b>Links: </b>
-          {/* <b> */}
           <a href={card.youtube} target="_blank">
-            Demo
+            <u>Demo</u>
           </a>
-          {/* </b>{" "} */} - {/* <b> */}
           <a href={card.github} target="_blank">
-            Github
+            <u>Github</u>
           </a>
-          {/* </b>{" "} */} - {/* <b> */}
           <a href={card.web} target="_blank">
-            Website
+            <u>Website</u>
           </a>
-          {/* </b> */}
         </p>
       </section>
       <section className="works-desc">
