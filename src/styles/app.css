@@ -110,13 +110,13 @@
   .profile-pic {
     width: 230px;
   }
+  .charts {
+    margin-bottom: 1rem;
+  }
 }
 @media (min-width: 1024px) {
   .profile-pic {
     width: 230px;
-  }
-  .charts {
-    margin-bottom: 1rem;
   }
 }
 .edu {
@@ -275,12 +275,6 @@ footer {
   row-gap: 0.3rem;
 }
 
-@media (min-width: 768px) {
-  footer {
-    width: 70vw;
-    margin: 0 auto;
-  }
-}
 @media (min-width: 1024px) {
   footer {
     width: 60vw;
@@ -318,14 +312,9 @@ a:hover {
   text-decoration: underline;
 }
 
-@media (min-width: 768px) {
-  main {
-    width: 70vw;
-    margin: 0 auto;
-  }
-}
 @media (min-width: 1024px) {
   main {
+    margin: 0 auto;
     width: 60vw;
   }
 }
