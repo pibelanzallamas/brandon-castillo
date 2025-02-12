@@ -106,9 +106,17 @@
   width: 100%;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 768px) {
   .profile-pic {
     width: 230px;
+  }
+}
+@media (min-width: 1024px) {
+  .profile-pic {
+    width: 230px;
+  }
+  .charts {
+    margin-bottom: 1rem;
   }
 }
 .edu {
@@ -267,11 +275,17 @@ footer {
   row-gap: 0.3rem;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 768px) {
+  footer {
+    width: 50vw;
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
+}
+@media (min-width: 1024px) {
   footer {
     width: 60vw;
     margin: 0 auto;
-    margin-top: 1rem;
   }
 }
 * {

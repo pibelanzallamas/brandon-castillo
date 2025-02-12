@@ -36,7 +36,7 @@ function EduCard({ card }) {
       <p>
         <b>Start Date:</b> {card.inicio} - <b>End Date:</b> {card.final}
       </p>
-      <hr />
+      {/* <hr /> */}
     </div>
   );
 }

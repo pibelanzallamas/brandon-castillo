@@ -123,7 +123,7 @@ function Home() {
         </div>
       </section>
 
-      <section id="technologies">
+      <section id="technologies" className="charts">
         <h3>Charts</h3>
         <img
           style={{ marginTop: "0.5rem" }}
