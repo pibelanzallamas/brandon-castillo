@@ -301,6 +301,7 @@ a {
 
 a:hover {
   color: #F09440;
+  text-decoration: underline;
 }
 
 @media (min-width: 768px) {
@@ -311,7 +312,7 @@ a:hover {
 }
 @media (min-width: 1024px) {
   main {
-    width: 80vw;
+    width: 60vw;
   }
 }
 
