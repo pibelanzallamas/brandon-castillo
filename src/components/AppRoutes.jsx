@@ -6,7 +6,6 @@ import Experience from "./Experience";
 import Works from "./Works";
 import Projects from "./Projects";
 import Services from "./Services";
-import Blog from "./Blog";
 import Contact from "./Contact";
 
 function AppRoutes() {
@@ -17,7 +16,6 @@ function AppRoutes() {
       <Route path="experience" element={<Experience />} />
       <Route path="works" element={<Works />} />
       <Route path="projects" element={<Projects />} />
-      {/* <Route path="blog" element={<Blog />} /> */}
       <Route path="services" element={<Services />} />
       <Route path="contact" element={<Contact />} />
     </Routes>
