@@ -34,7 +34,11 @@ function Contact() {
         <h4>Email:</h4>
         <p>
           <u>
-            <i>notasbrandon@icloud.com</i>
+            <i>
+              <a href="mailto:notasbrandon@icloud.com" target="_blank">
+                notasbrandon@icloud.com
+              </a>
+            </i>
           </u>
         </p>
       </section>
