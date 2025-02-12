@@ -24,21 +24,12 @@ function Navbar() {
     }
   }, [location]);
 
-  // useEffect(() => {
-  //   const s = document.getElementById("thing").style;
-  //   s.opacity = 1;
-  //   (function fade() {
-  //     (s.opacity -= 0.1) < 0 ? (s.display = "none") : setTimeout(fade, 40);
-  //   })();
-  // }, []);
-
   return (
     <>
       <nav id="Navbar" className="nav nav-mobile">
         <Link className="home-button" to={"/"}>
           Brandon Castillo
         </Link>
-        {/* <div id="thing"> Cool</div> */}
         <a onClick={() => handleHambu()} href="#">
           <figure>
             <img

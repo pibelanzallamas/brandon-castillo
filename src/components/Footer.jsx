@@ -15,13 +15,18 @@ function Footer() {
   ];
 
   useEffect(() => {
-    if (location.pathname == "/") {
+    if (location.pathname === "/") {
       setLink("");
     }
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
+
+    const timer = setTimeout(() => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    }, 100);
+
+    return () => clearTimeout(timer);
   }, [location]);
 
   return (
