@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 
 function Footer() {
   const location = useLocation();
+  const [link, setLink] = useState("");
 
   const links = [
     { to: "/education", title: "Education" },
@@ -12,7 +13,7 @@ function Footer() {
     { to: "/services", title: "Services" },
     { to: "/contact", title: "Contact" },
   ];
-  const [link, setLink] = useState("");
+
   useEffect(() => {
     if (location.pathname == "/") {
       setLink("");
