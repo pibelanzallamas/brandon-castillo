@@ -59,9 +59,11 @@ function ExpCard({ card, disparador }) {
           <b>Links: </b>
           <a href={card.youtube} target="_blank">
             <u>Demo</u>
+            <span> </span>
           </a>
           <a href={card.github} target="_blank">
             <u>Github</u>
+            <span> </span>
           </a>
           <a href={card.web} target="_blank">
             <u>Website</u>
