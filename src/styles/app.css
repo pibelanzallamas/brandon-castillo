@@ -38,9 +38,8 @@
   }
   .nav-desktop {
     display: flex;
-    padding-right: 3rem;
-    padding-left: 3rem;
-    padding-top: 1.5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
   }
   .nav-desktop ul {
     display: flex;

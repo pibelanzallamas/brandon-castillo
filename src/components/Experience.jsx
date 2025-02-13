@@ -8,8 +8,7 @@ function Experience() {
 
   return (
     <main className="edu">
-      <h3>Experience</h3>
-      {/* titulos */}
+      <h3 className="titles">Experience</h3>
       <div className="front-page-links footer-links">
         {exp.map((ex, i) => (
           <a
@@ -24,7 +23,6 @@ function Experience() {
           </a>
         ))}
       </div>
-      {/* descripciones */}
       <ExpCard card={selExp} disparador={changeItem} />
     </main>
   );

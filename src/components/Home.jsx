@@ -7,7 +7,8 @@ function Home() {
   return (
     <main className="home">
       <section id="hero">
-        <h1>Hi I'm Brandon Castillo 👋</h1>
+        <h1 className="titles">Hi I'm Brandon Castillo 👋</h1>
+        {/* <h2 style={{ fontSize: "1.8rem" }}>Full Stack Developer</h2> */}
         <h2>Full Stack Developer</h2>
 
         <figure className="profile-pic">
@@ -21,7 +22,7 @@ function Home() {
       <section id="home-icons">
         <a
           href="https://drive.google.com/file/d/1duS1ydTmP1OacWb7DfP7ABO36ZfNTK6l/view?usp=sharing"
-          title="CV"
+          title="Cv"
           target="_blank"
         >
           <figure style={{ aspectRatio: " 1/1" }}>
@@ -31,7 +32,7 @@ function Home() {
 
         <a
           href="https://linkedin.com/in/brandon-castillo-dev"
-          title="LinkedIn Page"
+          title="LinkedIn"
           target="_blank"
         >
           <figure>
@@ -41,7 +42,7 @@ function Home() {
 
         <a
           href="https://github.com/pibelanzallamas"
-          title="Github Page"
+          title="Github"
           target="_blank"
         >
           <figure>

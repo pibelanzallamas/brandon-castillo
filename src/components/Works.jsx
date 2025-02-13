@@ -8,8 +8,7 @@ function Works() {
 
   return (
     <main className="edu">
-      <h3>Works</h3>
-      {/* titulos */}
+      <h3 className="titles">Works</h3>
       <div className="front-page-links footer-links">
         {works.map((ex, i) => (
           <a

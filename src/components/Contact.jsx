@@ -12,9 +12,8 @@ function Contact() {
   return (
     <main className="edu">
       <section className="contact-header">
-        <h3>Contact</h3>
+        <h3 className="titles">Contact</h3>
       </section>
-
       <section className="links">
         <h4>Links:</h4>
         {contact.map((ele) => (
@@ -29,7 +28,6 @@ function Contact() {
           </p>
         ))}
       </section>
-
       <section>
         <h4>Email:</h4>
         <p>

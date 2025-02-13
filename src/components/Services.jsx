@@ -3,8 +3,7 @@ import React from "react";
 function Services() {
   return (
     <main className="edu">
-      <h3>Services</h3>
-
+      <h3 className="titles">Services</h3>
       <div className="services-lists">
         <section className="service">
           <h4>Back End Developer</h4>
@@ -14,7 +13,6 @@ function Services() {
           >
             <img src="https://res.cloudinary.com/daynclfo8/image/upload/v1733414684/backend-is.png"></img>
           </figure>
-
           <h4>Main Functions:</h4>
           <ul>
             <li>Designing Databases</li>
