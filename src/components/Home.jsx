@@ -18,7 +18,7 @@ function Home() {
         </figure>
       </section>
 
-      <section id="home-icons">
+      <div id="home-icons">
         <a
           href="https://drive.google.com/file/d/1duS1ydTmP1OacWb7DfP7ABO36ZfNTK6l/view?usp=sharing"
           title="Cv"
@@ -51,7 +51,7 @@ function Home() {
             <img src={github} alt="GitHub profile" />
           </figure>
         </a>
-      </section>
+      </div>
 
       <section id="about">
         <h3>Who I Am and What I Do</h3>
@@ -118,7 +118,6 @@ function Home() {
             <li>Agile Methods</li>
             <li>Scrum</li>
           </ul>
-
           <ul>
             <li>Team Work</li>
             <li>Pair Programming</li>
