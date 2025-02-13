@@ -18,7 +18,7 @@ const edu = [
     final: "Dec 2022",
     res: "1600 /1067",
     encurso: false,
-    desc: "I completed the first semester of the Technical University Degree in Programming at UTN, where I gained foundational knowledge in programming, data structures, and computational logic. During this period, I worked with languages like C and SQL, developing skills in problem-solving and creating efficient solutions in computing environments. This learning experience provided me with a solid foundation in software development and motivated me to continue specializing in modern technologies and Full Stack development.",
+    desc: "I completed the first semester of the Technical University Degree in Programming at UTN, where I gained foundational knowledge in programming, data structures, and computational logic. During this period, I worked with languages like C and SQL, developing skills in problem-solving and creating efficient solutions in computing environments. This learning experience provided me with a solid foundation in software development and motivated me to continue specializing in modern technologies like Full Stack development.",
     photos: [
       "https://extensionfra.com.ar/wp-content/uploads/2018/06/DSC_0102-scaled.jpg",
       "https://utn.edu.ar/images/Secretarias/ACYPI/2021/utn-mdp.png",

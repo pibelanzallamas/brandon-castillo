@@ -13,7 +13,6 @@ const works = [
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732611117/calles3.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732611161/calles4.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1737254883/calles5.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1737254893/calles6.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1737254906/calles7.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1737254945/calles8.png",
     ],
