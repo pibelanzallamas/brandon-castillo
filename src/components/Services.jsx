@@ -6,7 +6,7 @@ function Services() {
       <h3 className="titles">Services</h3>
       <div className="services-lists">
         <section className="service">
-          <h4>Back End Developer</h4>
+          <h4 className="sub-title">Back End Developer</h4>
           <figure
             style={{ aspectRatio: "1440 / 969" }}
             className="service-image"
@@ -24,7 +24,7 @@ function Services() {
           </ul>
         </section>
         <section className="service">
-          <h4>Front End Developer</h4>
+          <h3 className="sub-title">Front End Developer</h3>
           <figure
             style={{ aspectRatio: "900 / 590" }}
             className="service-image"

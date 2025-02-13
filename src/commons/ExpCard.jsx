@@ -12,7 +12,7 @@ function ExpCard({ card, disparador }) {
   return (
     <div className="edu-card">
       <section className="works-header">
-        <h3>{card.title}</h3>
+        <h3 className="sub-title">{card.title}</h3>
       </section>
 
       <section className="works-image">

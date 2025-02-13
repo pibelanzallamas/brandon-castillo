@@ -314,6 +314,14 @@ a:hover {
   text-decoration: underline;
 }
 
+.titles {
+  font-size: 1.7rem;
+}
+
+.sub-title {
+  font-size: 1.3rem;
+}
+
 @media (min-width: 1024px) {
   main {
     margin: 0 auto;

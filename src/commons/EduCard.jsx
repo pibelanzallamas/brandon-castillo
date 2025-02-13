@@ -3,7 +3,7 @@ import React from "react";
 function EduCard({ card }) {
   return (
     <div className="edu-card">
-      <h3>{card.title}</h3>
+      <h3 className="sub-title">{card.title}</h3>
       <figure style={{ aspectRatio: card.res }}>
         <img src={card.photos[0]} alt={card.title} />
       </figure>
