@@ -1,6 +1,6 @@
 import React from "react";
 import cv from "../assets/cv.svg";
-import likedin from "../assets/linkedin.svg";
+import linkedin from "../assets/linkedin.svg";
 import github from "../assets/github.png";
 
 function Home() {
@@ -8,13 +8,12 @@ function Home() {
     <main className="home">
       <section id="hero">
         <h1 className="titles">Hi I'm Brandon Castillo 👋</h1>
-        {/* <h2 style={{ fontSize: "1.8rem" }}>Full Stack Developer</h2> */}
         <h2>Full Stack Developer</h2>
 
         <figure className="profile-pic">
           <img
             src="https://res.cloudinary.com/daynclfo8/image/upload/v1730995825/first-linkedin_1_zrrswp.png"
-            alt=""
+            alt="Brandon Castillo's profile picture"
           />
         </figure>
       </section>
@@ -24,9 +23,10 @@ function Home() {
           href="https://drive.google.com/file/d/1duS1ydTmP1OacWb7DfP7ABO36ZfNTK6l/view?usp=sharing"
           title="Cv"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <figure style={{ aspectRatio: " 1/1" }}>
-            <img src={cv} alt="" />
+            <img src={cv} alt="Download CV" />
           </figure>
         </a>
 
@@ -34,19 +34,21 @@ function Home() {
           href="https://linkedin.com/in/brandon-castillo-dev"
           title="LinkedIn"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <figure>
-            <img src={likedin} alt="" />
+            <img src={linkedin} alt="LinkedIn profile" />
           </figure>
         </a>
 
         <a
           href="https://github.com/pibelanzallamas"
-          title="Github"
+          title="GitHub"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <figure>
-            <img src={github} alt="" />
+            <img src={github} alt="GitHub profile" />
           </figure>
         </a>
       </section>
@@ -56,12 +58,12 @@ function Home() {
         <p>
           Hello, my name is Brandon, and I'm an enthusiastic technology
           developer. I live and breathe code. I like innovation and good ideas.
-          I believe that the best solutions are the simplest {/*and easiest */}{" "}
-          to implement. I study software development at my local{" "}
-          {/* (technical) */}
-          university. I did a Full Stack Bootcamp where I embraced the
-          globalized world. I believe we are living a new industrial revolution,
-          and I believe it's pretty exciting for everyone.
+          I believe that the best solutions are the simplest to implement. I
+          study software development at my local university. I completed a Full
+          Stack Bootcamp where I embraced the globalized world. I believe we are
+          living a new industrial revolution, and I find it incredibly exciting
+          for everyone.
+          {/*I believe it's pretty exciting for everyr */}
         </p>
       </section>
 
@@ -69,20 +71,20 @@ function Home() {
         <h3>Technologies I Use Daily</h3>
         <div className="tech-lists">
           <ul>
-            <li>Linux</li>
-            <li>Terminal</li>
+            <li>GNU/Linux</li>
+            <li>Unix</li>
             <li>Visual Studio Code</li>
             <li>Git</li>
-            <li>Github</li>
-            <li>NodeJs</li>
+            <li>GitHub</li>
+            <li>Node.js</li>
           </ul>
           <ul>
-            <li>ReactJs</li>
-            <li>VainillaJs</li>
-            <li>Html5</li>
-            <li>Tailwind Css</li>
+            <li>React</li>
+            <li>JavaScript</li>
+            <li>HTML5</li>
+            <li>Tailwind CSS</li>
             <li>Redux</li>
-            <li>PostgreSQL</li>
+            <li>Axios</li>
           </ul>
         </div>
       </section>
@@ -92,19 +94,19 @@ function Home() {
         <div className="tech-lists">
           <ul>
             <li>Python</li>
-            <li>Sqlite3</li>
-            <li>Express</li>
+            <li>SQLite</li>
+            <li>Express.js</li>
             <li>Sequelize</li>
-            <li>Jwt</li>
+            <li>JWT</li>
             <li>EmailJs</li>
           </ul>
           <ul>
             <li>Trello</li>
             <li>Figma</li>
             <li>MUI</li>
-            <li>Tailwind</li>
             <li>Chakra Ux</li>
-            <li>Axios</li>
+            <li>Sass</li>
+            <li>PostgreSQL</li>
           </ul>
         </div>
       </section>
