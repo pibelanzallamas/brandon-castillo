@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function EduCard({ card }) {
   return (
@@ -36,7 +37,21 @@ function EduCard({ card }) {
       <p>
         <b>Start Date:</b> {card.inicio} - <b>End Date:</b> {card.final}
       </p>
-      {/* <hr /> */}
+
+      {card.title == "Plataforma 5" && (
+        <p style={{ display: "flex", gap: "0.4rem" }}>
+          <b>Final Jobs:</b>{" "}
+          <Link to="/experience" state={{ finalJob: 0 }}>
+            <u>Carbon Copy</u>
+          </Link>
+          <Link to="/experience" state={{ finalJob: 1 }}>
+            <u>House of Dev</u>
+          </Link>
+          <Link to="/experience" state={{ finalJob: 2 }}>
+            <u>My Movie Crib</u>
+          </Link>
+        </p>
+      )}
     </div>
   );
 }

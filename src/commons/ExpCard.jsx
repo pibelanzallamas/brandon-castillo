@@ -10,7 +10,7 @@ function ExpCard({ card, disparador }) {
   }, [disparador]);
 
   return (
-    <div className="edu-card">
+    <div className="edu-card" style={{ fontSize: "1.1rem" }}>
       <section className="works-header">
         <h3 className="sub-title">{card.title}</h3>
       </section>

@@ -6,7 +6,7 @@ const edu = [
     final: "Sep 2023",
     res: "1200 / 480",
     encurso: false,
-    desc: "I completed an intensive Full Stack Developer bootcamp at Plataforma 5, focusing on modern technologies such as JavaScript, React, Node.js, Express, and relational and non-relational databases like PostgreSQL and MongoDB. Throughout the program, I developed hands-on projects simulating real-world environments, working on both frontend and backend, and strengthening my skills in agile methodologies and teamwork. This bootcamp prepared me to design and develop full-fledged web applications, from server architecture to interactive user interfaces.",
+    desc: "I completed an intensive Full Stack Developer bootcamp at Plataforma 5, focusing on modern technologies such as JavaScript, React, Node.js, Express.js, PostgreSQL and MongoDB. Throughout the program, I developed hands-on projects simulating real-world environments, working on both frontend and backend, and strengthening my skills in agile methodologies and teamwork. This bootcamp prepared me to design and develop full-fledged web applications.", //from server architecture to interactive user interfaces.",
     photos: [
       "https://static-cdn.jtvnw.net/jtv_user_pictures/3e96bdbb-0ca9-4961-8ad6-f34ee9da6bdb-profile_banner-480.png",
     ],

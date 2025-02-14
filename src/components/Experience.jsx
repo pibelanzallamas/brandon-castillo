@@ -1,10 +1,18 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import exp from "../utils/exp";
 import ExpCard from "../commons/ExpCard";
+import { useLocation } from "react-router-dom";
 
 function Experience() {
-  const [selExp, setSelExp] = useState(exp[0]);
+  const location = useLocation();
+  const [selExp, setSelExp] = useState(exp[location.state?.finalJob] || exp[0]);
   const [changeItem, setChangeItem] = useState(false);
+
+  // useEffect(() => {
+  //   if (location.state?.finalJob) {
+  //     setPreSel(location.state.finalJob);
+  //   }
+  // }, [location.state]);
 
   return (
     <main className="edu">
