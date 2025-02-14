@@ -47,9 +47,6 @@ function EduCard({ card }) {
           <Link to="/experience" state={{ finalJob: 1 }}>
             <u>House of Dev</u>
           </Link>
-          <Link to="/experience" state={{ finalJob: 2 }}>
-            <u>My Movie Crib</u>
-          </Link>
         </p>
       )}
     </div>
