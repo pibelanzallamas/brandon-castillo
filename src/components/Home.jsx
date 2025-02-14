@@ -20,7 +20,7 @@ function Home() {
 
       <div id="home-icons">
         <a
-          href="https://drive.google.com/file/d/1duS1ydTmP1OacWb7DfP7ABO36ZfNTK6l/view?usp=sharing"
+          href="https://drive.google.com/file/d/17QFNa-D39p_TwNwOyTISDT3r1s4g__ub/view?usp=sharing" //<-----CV
           title="Cv"
           target="_blank"
           rel="noopener noreferrer"
