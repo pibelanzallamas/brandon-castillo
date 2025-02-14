@@ -141,6 +141,12 @@
   object-fit: cover;
 }
 
+.final-jobs {
+  display: flex;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+}
+
 .exp {
   display: flex;
   flex-direction: column;
@@ -318,14 +324,13 @@ a:hover {
   font-size: 1.7rem;
 }
 
-.sub-title {
-  font-size: 1.3rem;
-}
-
 @media (min-width: 1024px) {
   main {
     margin: 0 auto;
     width: 60vw;
+  }
+  .sub-title {
+    font-size: 1.3rem;
   }
 }
 

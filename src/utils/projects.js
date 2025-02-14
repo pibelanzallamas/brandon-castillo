@@ -37,7 +37,6 @@ const projects = [
   {
     title: "Mood Checker",
     photos: [
-      // "https://res.cloudinary.com/daynclfo8/image/upload/v1734131390/moodgif.gif",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732664586/mood.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732664747/mood2.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732664769/mood3.png",
@@ -60,10 +59,7 @@ const projects = [
   {
     title: "Your Elder",
     photos: [
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732665477/elder.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1734539224/youreldergif.gif",
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732665526/elder2.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732665526/elder3.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1739567387/elder_2.png",
     ],
     inicio: "Mar 2024",
     final: "Mar 2024",

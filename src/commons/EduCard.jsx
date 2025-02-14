@@ -39,8 +39,8 @@ function EduCard({ card }) {
       </p>
 
       {card.title == "Plataforma 5" && (
-        <p style={{ display: "flex", gap: "0.4rem" }}>
-          <b>Final Jobs:</b>{" "}
+        <p className="final-jobs">
+          <b>Final Jobs:</b>
           <Link to="/experience" state={{ finalJob: 0 }}>
             <u>Carbon Copy</u>
           </Link>
