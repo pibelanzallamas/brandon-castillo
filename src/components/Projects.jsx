@@ -13,9 +13,10 @@ function Projects() {
         {projects.map((ex, i) => (
           <a
             key={i}
-            onClick={() => {
+            onClick={(e) => {
               setSelExp(ex);
               setChangeItem(!changeItem);
+              e.preventDefault();
             }}
             href="#"
           >

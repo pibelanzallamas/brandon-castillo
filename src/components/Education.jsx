@@ -12,8 +12,9 @@ function Education() {
         {edu.map((ed, i) => (
           <a
             key={i}
-            onClick={() => {
+            onClick={(e) => {
               setSelEdu(ed);
+              e.preventDefault();
             }}
             href="#"
           >

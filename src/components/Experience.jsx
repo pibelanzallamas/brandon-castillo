@@ -8,12 +8,6 @@ function Experience() {
   const [selExp, setSelExp] = useState(exp[location.state?.finalJob] || exp[0]);
   const [changeItem, setChangeItem] = useState(false);
 
-  // useEffect(() => {
-  //   if (location.state?.finalJob) {
-  //     setPreSel(location.state.finalJob);
-  //   }
-  // }, [location.state]);
-
   return (
     <main className="edu">
       <h3 className="titles">Experience</h3>
@@ -21,9 +15,10 @@ function Experience() {
         {exp.map((ex, i) => (
           <a
             key={i}
-            onClick={() => {
+            onClick={(e) => {
               setSelExp(ex);
               setChangeItem(!changeItem);
+              e.preventDefault();
             }}
             href="#"
           >
