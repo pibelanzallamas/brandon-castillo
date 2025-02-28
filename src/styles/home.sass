@@ -1,30 +1,36 @@
 .home
   display: flex 
   flex-direction: column
-  align-items: center
+  // border: 1px solid red
+  // align-items: center
+  // margin: 1rem
   gap: 1rem
 
 #hero
+  // margin-top: 0.3rem
   display: flex
   flex-direction: column
   align-items: center
   gap: 0.4rem
+  // border: 1px solid red
   .presentation
     font-size: 1.5rem
     font-weight: 700
   h1
-    text-align: center
+    // text-align: center
 
 .profile-pic
-  width: 195px
+  width: 145px
   aspect-ratio: 1/1
   border-radius: 50%
   border: 1px solid black
   img
     border-radius: 50%
+    background: linear-gradient(to bottom, #10721d, #02c4ff)
 
 #home-icons
   display: flex
+  margin-top: 0.3rem
   gap: 1rem
   figure
     width: 2rem
@@ -46,12 +52,12 @@
 
 @media (min-width: 768px)
   .profile-pic
-    width: 230px
+    width: 170px
   .charts
     margin-bottom: 1rem
 
 @media (min-width: 1024px)
   .profile-pic
-    width: 230px
+    width: 190px
   .charts
     // margin-bottom: 1rem

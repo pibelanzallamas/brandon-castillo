@@ -16,42 +16,41 @@ function Home() {
             alt="Brandon Castillo's profile picture"
           />
         </figure>
+        <div id="home-icons">
+          <a
+            href="https://drive.google.com/file/d/17QFNa-D39p_TwNwOyTISDT3r1s4g__ub/view?usp=sharing" //<-----CV
+            title="Cv"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <figure style={{ aspectRatio: " 1/1" }}>
+              <img src={cv} alt="Download CV" />
+            </figure>
+          </a>
+
+          <a
+            href="https://linkedin.com/in/brandon-castillo-dev"
+            title="LinkedIn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <figure>
+              <img src={linkedin} alt="LinkedIn profile" />
+            </figure>
+          </a>
+
+          <a
+            href="https://github.com/pibelanzallamas"
+            title="GitHub"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <figure>
+              <img src={github} alt="GitHub profile" />
+            </figure>
+          </a>
+        </div>
       </section>
-
-      <div id="home-icons">
-        <a
-          href="https://drive.google.com/file/d/17QFNa-D39p_TwNwOyTISDT3r1s4g__ub/view?usp=sharing" //<-----CV
-          title="Cv"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <figure style={{ aspectRatio: " 1/1" }}>
-            <img src={cv} alt="Download CV" />
-          </figure>
-        </a>
-
-        <a
-          href="https://linkedin.com/in/brandon-castillo-dev"
-          title="LinkedIn"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <figure>
-            <img src={linkedin} alt="LinkedIn profile" />
-          </figure>
-        </a>
-
-        <a
-          href="https://github.com/pibelanzallamas"
-          title="GitHub"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <figure>
-            <img src={github} alt="GitHub profile" />
-          </figure>
-        </a>
-      </div>
 
       <section id="about">
         <h3>Who I Am and What I Do</h3>
@@ -59,7 +58,7 @@ function Home() {
           Hello, my name is Brandon, and I'm an enthusiastic technology
           developer. I live and breathe code. I like innovation and good ideas.
           I believe that the best solutions are the simplest to implement. I
-          study software development at my local university. I completed a Full
+          study software engineer at my local university. I completed a Full
           Stack Bootcamp where I embraced the globalized world. I believe we are
           living a new industrial revolution, and I find it incredibly exciting
           for everyone.

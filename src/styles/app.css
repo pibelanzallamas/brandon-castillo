@@ -3,7 +3,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 0.85rem;
+  border: 3px green dashed;
 }
 
 .home-button {
@@ -52,7 +53,6 @@
 .home {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 1rem;
 }
 
@@ -66,22 +66,20 @@
   font-size: 1.5rem;
   font-weight: 700;
 }
-#hero h1 {
-  text-align: center;
-}
-
 .profile-pic {
-  width: 195px;
+  width: 145px;
   aspect-ratio: 1/1;
   border-radius: 50%;
   border: 1px solid black;
 }
 .profile-pic img {
   border-radius: 50%;
+  background: linear-gradient(to bottom, #10721d, #02c4ff);
 }
 
 #home-icons {
   display: flex;
+  margin-top: 0.3rem;
   gap: 1rem;
 }
 #home-icons figure {
@@ -110,7 +108,7 @@
 
 @media (min-width: 768px) {
   .profile-pic {
-    width: 230px;
+    width: 170px;
   }
   .charts {
     margin-bottom: 1rem;
@@ -118,7 +116,7 @@
 }
 @media (min-width: 1024px) {
   .profile-pic {
-    width: 230px;
+    width: 190px;
   }
 }
 .edu {
@@ -139,12 +137,6 @@
 .edu-card figure img {
   aspect-ratio: 1200/628;
   object-fit: cover;
-}
-
-.final-jobs {
-  display: flex;
-  gap: 0.4rem;
-  font-size: 0.8rem;
 }
 
 .exp {
@@ -324,13 +316,14 @@ a:hover {
   font-size: 1.7rem;
 }
 
+.sub-title {
+  font-size: 1.3rem;
+}
+
 @media (min-width: 1024px) {
   main {
     margin: 0 auto;
     width: 60vw;
-  }
-  .sub-title {
-    font-size: 1.3rem;
   }
 }
 
