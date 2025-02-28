@@ -19,7 +19,7 @@ function Education() {
             href="#"
           >
             {selEdu.title == ed.title ? (
-              <p style={{ color: "#F09440" }}>
+              <p style={{ color: "#406ff0" }}>
                 <u> {ed.title}</u>
               </p>
             ) : (
