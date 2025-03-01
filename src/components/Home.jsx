@@ -29,7 +29,7 @@ function Home() {
           </a>
 
           <a
-            href="https://linkedin.com/in/brandon-castillo-dev"
+            href="https://linkedin.com/in/bran-castillo-dev"
             title="LinkedIn"
             target="_blank"
             rel="noopener noreferrer"
