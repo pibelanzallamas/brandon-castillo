@@ -18,7 +18,7 @@ function Home() {
         </figure>
         <div id="home-icons">
           <a
-            href="https://drive.google.com/file/d/17QFNa-D39p_TwNwOyTISDT3r1s4g__ub/view?usp=sharing" //<-----CV
+            href="https://drive.google.com/file/d/1qVugpyvGeV47p5JdhU1RvcIpeixqZ_p-/view?usp=sharing" //<-----CV
             title="Cv"
             target="_blank"
             rel="noopener noreferrer"
@@ -27,7 +27,6 @@ function Home() {
               <img src={cv} alt="Download CV" />
             </figure>
           </a>
-
           <a
             href="https://linkedin.com/in/bran-castillo-dev"
             title="LinkedIn"

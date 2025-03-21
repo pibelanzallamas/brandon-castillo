@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import edu from "../utils/edu";
 import EduCard from "../commons/EduCard";
 
@@ -18,13 +18,7 @@ function Education() {
             }}
             href="#"
           >
-            {selEdu.title == ed.title ? (
-              <p style={{ color: "#406ff0" }}>
-                <u> {ed.title}</u>
-              </p>
-            ) : (
-              ed.title
-            )}
+            {selEdu.title == ed.title ? <u> {ed.title}</u> : ed.title}
           </a>
         ))}
       </div>

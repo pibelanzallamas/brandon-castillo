@@ -69,7 +69,6 @@
   width: 145px;
   aspect-ratio: 1/1;
   border-radius: 50%;
-  border: 1px solid black;
 }
 .profile-pic img {
   border-radius: 50%;
@@ -78,7 +77,7 @@
 
 #home-icons {
   display: flex;
-  margin-top: 0.3rem;
+  margin: 0 auto;
   gap: 1rem;
 }
 #home-icons figure {
