@@ -12,7 +12,7 @@ function Home() {
 
         <figure className="profile-pic">
           <img
-            src="https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1730995825/first-linkedin_1_zrrswp.png"
+            src="https://res.cloudinary.com/daynclfo8/image/upload/w_600,f_webp,q_60/v1730995825/first-linkedin_1_zrrswp.png"
             alt="Brandon Castillo's profile picture"
           />
         </figure>
