@@ -2,9 +2,9 @@ const projects = [
   {
     title: "Yu-Gi-Oh! Randomizer!",
     photos: [
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732663508/yugi.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732664481/yugi2.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732652065/yugi3.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732663508/yugi.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732664481/yugi2.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732652065/yugi3.png",
     ],
     inicio: "Jul 2024",
     final: "Jul 2024",
@@ -37,9 +37,9 @@ const projects = [
   {
     title: "Mood Checker",
     photos: [
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732664586/mood.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732664747/mood2.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732664769/mood3.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732664586/mood.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732664747/mood2.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732664769/mood3.png",
     ],
     web: "https://mood-checker.vercel.app/",
     youtube: "https://www.youtube.com/watch?v=LliCjVK8ZBQ",
@@ -59,7 +59,7 @@ const projects = [
   {
     title: "Your Elder",
     photos: [
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1739567387/elder_2.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1739567387/elder_2.png",
     ],
     inicio: "Mar 2024",
     final: "Mar 2024",

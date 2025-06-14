@@ -66,13 +66,13 @@
   font-weight: 700;
 }
 .profile-pic {
-  width: 145px;
+  width: 195px;
   aspect-ratio: 1/1;
   border-radius: 50%;
 }
 .profile-pic img {
   border-radius: 50%;
-  background: linear-gradient(to bottom, #10721d, #02c4ff);
+  border: 1px solid black;
 }
 
 #home-icons {
@@ -114,7 +114,7 @@
 }
 @media (min-width: 1024px) {
   .profile-pic {
-    width: 190px;
+    width: 200px;
   }
 }
 .edu {

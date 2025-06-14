@@ -8,13 +8,13 @@ const works = [
     github: "https://github.com/pibelanzallamas/calles-construction",
     desc: "New York City general contracting, Calle's Construction, website. It provides detailed coverage of each project realized, organized into categories according to their respective fields. The site includes an exclusive image gallery, and a section for submitting direct question to the company. Admin mode for uploading and editing projects. The website is fully developed and ready to be used, but it is currently awaiting activation by the client.",
     photos: [
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732610191/calles.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732610816/calles2.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732611117/calles3.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732611161/calles4.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1737254883/calles5.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1737254906/calles7.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1737254945/calles8.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732610191/calles.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732610816/calles2.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732611117/calles3.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732611161/calles4.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1737254883/calles5.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1737254906/calles7.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1737254945/calles8.png",
     ],
     mainFeat: [
       {
@@ -68,12 +68,11 @@ const works = [
     github: "https://github.com/pibelanzallamas/dreamers-paintings",
     desc: "A website showcasing the work of a talented artist from Buenos Aires, specializing in action painting with a consistent format and a signature color palette (black, blue, red, green). Each painting is available for purchase as a unique NFT (Non-Fungible Token). Learn about the artist’s techniques, connect through social media, and explore paintings in full resolution. The site supports English and Spanish for a broader audience.",
     photos: [
-      // "https://res.cloudinary.com/daynclfo8/image/upload/v1734135489/dreamergif.gif",
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732626769/dreamer.png",
-
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732626770/dreamer2.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732628246/dreamer3.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732626770/dreamer4.png",
+      // "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1734135489/dreamergif.gif",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732626769/dreamer.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732626770/dreamer2.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732628246/dreamer3.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732626770/dreamer4.png",
     ],
 
     mainFeat: [
