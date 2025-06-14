@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   const contact = [
-    { title: "Discord", link: "http://discord.com/users/995051014883381318" },
+    { title: "Discord", link: "http://discord.com/users/1363126156378771456" },
     {
       title: "LinkedIn",
       link: "https://www.linkedin.com/in/bran-castillo-dev",
@@ -33,8 +33,8 @@ function Contact() {
         <p>
           <u>
             <i>
-              <a href="mailto:notasbrandon@icloud.com" target="_blank">
-                notasbrandon@icloud.com
+              <a href="mailto:brancastillo.developer@gmail.com" target="_blank">
+                brancastillo.developer@gmail.com
               </a>
             </i>
           </u>

@@ -37,12 +37,12 @@ const projects = [
   {
     title: "Mood Checker",
     photos: [
-      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732664586/mood.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732664747/mood2.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732664769/mood3.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1749922132/2025-06-14_14-28_hb42xi.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1749922225/2025-06-14_14-30_cauesh.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1749922322/2025-06-14_14-31_hxnue7.png",
     ],
     web: "https://mood-checker.vercel.app/",
-    youtube: "https://www.youtube.com/watch?v=LliCjVK8ZBQ",
+    youtube: "https://www.youtube.com/watch?v=AoEKSxLDWao",
     github: "https://github.com/pibelanzallamas/mood-checker",
     desc: "A website that recommends music tailored to your mood.",
     inicio: "May 2024",
@@ -57,22 +57,24 @@ const projects = [
     techs: ["React", "Javascript", "Sass"],
   },
   {
-    title: "Your Elder",
+    title: "YouFast",
     photos: [
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1739567387/elder_2.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1749922540/2025-06-14_14-35_yit3uy.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1749923307/2025-06-14_14-48_r2pqdj.png",
     ],
     inicio: "Mar 2024",
     final: "Mar 2024",
     date: "Mar 2024",
-    web: "https://yourelder.vercel.app/",
-    youtube: "https://www.youtube.com/watch?v=VXR-ek3Ez50",
+    web: "https://youfast.vercel.app/",
+    youtube: "https://www.youtube.com/watch?v=lVOHTdXnGaI ",
     github: "http://github.com/pibelanzallamas/yourelder",
     desc: "A tool designed to help elders easily search for songs on YouTube.",
 
     mainFeat: [
       {
-        title: "Classic Songs",
-        desc: "Easily search for your favorite old songs with this intuitive tool.",
+        title: "Faster easier song searcher",
+        desc: "Easily search for your favorite songs with this intuitive tool.",
       },
     ],
     techs: [
