@@ -59,7 +59,7 @@ function Home() {
           developer. I live and breathe code. I like innovation and good ideas.
           I believe that the best solutions are the simplest to implement. I
           study software developer at my local university. I completed a Full
-          Stack Bootcamp where I embraced the globalized world. I believe we are
+          Stack Developer Bootcamp where I embraced the globalized world. I believe we are
           living a new industrial revolution, and I find it incredibly exciting
           for everyone.
           {/*I believe it's pretty exciting for everyr */}
@@ -78,11 +78,11 @@ function Home() {
             <li>Node.js</li>
           </ul>
           <ul>
-            <li>React</li>
+            <li>Python</li>
             <li>JavaScript</li>
+            <li>Sass</li>
             <li>HTML5</li>
-            <li>Tailwind CSS</li>
-            <li>Redux</li>
+            <li>React</li>
             <li>Axios</li>
           </ul>
         </div>
@@ -92,19 +92,19 @@ function Home() {
         <h3>Technologies I Have Experience With</h3>
         <div className="tech-lists">
           <ul>
-            <li>Python</li>
             <li>SQLite</li>
             <li>Express.js</li>
             <li>Sequelize</li>
             <li>JWT</li>
+            <li>Redux</li>
             <li>EmailJs</li>
           </ul>
           <ul>
             <li>Trello</li>
             <li>Figma</li>
+            <li>Tailwind CSS</li>
             <li>MUI</li>
             <li>Chakra Ux</li>
-            <li>Sass</li>
             <li>PostgreSQL</li>
           </ul>
         </div>
