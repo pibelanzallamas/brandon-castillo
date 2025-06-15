@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import works from "../utils/works";
 import ExpCard from "../commons/ExpCard";
 

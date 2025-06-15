@@ -1,5 +1,6 @@
 import React from "react";
 import cv from "../assets/cv.svg";
+import cv_eng from "../assets/cv_eng.pdf"
 import linkedin from "../assets/linkedin.svg";
 import github from "../assets/github.png";
 
@@ -18,7 +19,7 @@ function Home() {
         </figure>
         <div id="home-icons">
           <a
-            href="https://drive.google.com/file/d/1qVugpyvGeV47p5JdhU1RvcIpeixqZ_p-/view?usp=sharing" //<-----CV
+            href={cv_eng} //<-----CV
             title="Cv"
             target="_blank"
             rel="noopener noreferrer"
@@ -57,7 +58,7 @@ function Home() {
           Hello, my name is Brandon, and I'm an enthusiastic technology
           developer. I live and breathe code. I like innovation and good ideas.
           I believe that the best solutions are the simplest to implement. I
-          study software engineer at my local university. I completed a Full
+          study software developer at my local university. I completed a Full
           Stack Bootcamp where I embraced the globalized world. I believe we are
           living a new industrial revolution, and I find it incredibly exciting
           for everyone.
