@@ -1,14 +1,15 @@
-import cv from "../assets/cv.svg";
-import cv_eng from "../assets/cv_eng.pdf"
-import linkedin from "../assets/linkedin.svg";
-import github from "../assets/github.png";
+import cv from "../assets/cv_eng.pdf"
+import cv_logo from "../assets/cv.svg"
+import linkedin_logo from "../assets/linkedin.svg"
+import github_logo from "../assets/github.png"
 
 function Home() {
   return (
     <main className="home">
       <section id="hero">
         <h1 className="titles">Hi I'm Brandon Castillo 👋</h1>
-        <h2>Full Stack Developer Jr</h2>
+        
+        <h2>Full Stack Developer</h2>
 
         <figure className="profile-pic">
           <img
@@ -16,36 +17,38 @@ function Home() {
             alt="Brandon Castillo's profile picture"
           />
         </figure>
+
         <div id="home-icons">
           <a
-            href={cv_eng} //<-----CV
-            title="Cv"
+            href={cv_eng}
+            title="Download CV"
             target="_blank"
             rel="noopener noreferrer"
           >
             <figure style={{ aspectRatio: " 1/1" }}>
-              <img src={cv} alt="Download CV" />
+              <img src={cv_logo} alt="CV Logo" />
             </figure>
           </a>
+
           <a
             href="https://linkedin.com/in/bran-castillo-dev"
-            title="LinkedIn"
+            title="Let's connect!"
             target="_blank"
             rel="noopener noreferrer"
           >
             <figure>
-              <img src={linkedin} alt="LinkedIn profile" />
+              <img src={linkedin_logo} alt="LinkedIn logo" />
             </figure>
           </a>
 
           <a
             href="https://github.com/pibelanzallamas"
-            title="GitHub"
+            title="Let's follow!"
             target="_blank"
             rel="noopener noreferrer"
           >
             <figure>
-              <img src={github} alt="GitHub profile" />
+              <img src={github_logo} alt="GitHub logo" />
             </figure>
           </a>
         </div>
@@ -72,18 +75,18 @@ function Home() {
         <div className="tech-lists">
           <ul>
             <li>GNU/Linux</li>
-            <li>GitHub</li>
-            <li>Windows/Mac</li>
-            <li>Python3</li>
-            <li>HTML5</li>
-          </ul>
-          <ul>
             <li>Bash/Unix</li>
             <li>Git</li>
-            <li>Sass</li>
+            <li>GitHub</li>
+            <li>Python3</li>
+            <li>Visual Studio Code</li>
+          </ul>
+          <ul>
             <li>JavaScript</li>
+            <li>HTML5</li>
+            <li>Sass</li>
             <li>React</li>
-            <li>Node.js</li>
+            <li>Windows/Mac</li>
             <li>Axios</li>
           </ul>
         </div>
@@ -93,20 +96,20 @@ function Home() {
         <h3>Technologies I Have Experience With</h3>
         <div className="tech-lists">
           <ul>
-            <li>SQLite</li>
-            <li>Express.js</li>
-            <li>Sequelize</li>
-            <li>JWT</li>
+            <li>Figma</li>
+            <li>Trello</li>
+            <li>Tailwind CSS</li>
             <li>Redux</li>
-            <li>EmailJs</li>
+            <li>Chakra Ux</li>
+            <li>MUI</li>           
           </ul>
           <ul>
-            <li>Trello</li>
-            <li>Figma</li>
-            <li>Tailwind CSS</li>
-            <li>MUI</li>
-            <li>Chakra Ux</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>Sequelize</li>
             <li>PostgreSQL</li>
+            <li>SQLite3</li>
+            <li>JWT</li>
           </ul>
         </div>
       </section>
@@ -119,8 +122,8 @@ function Home() {
             <li>Scrum</li>
           </ul>
           <ul>
-            <li>Team Work</li>
             <li>Pair Programming</li>
+            <li>Dailys</li>
           </ul>
         </div>
       </section>
