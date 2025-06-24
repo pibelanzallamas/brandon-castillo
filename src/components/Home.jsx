@@ -1,4 +1,3 @@
-import React from "react";
 import cv from "../assets/cv.svg";
 import cv_eng from "../assets/cv_eng.pdf"
 import linkedin from "../assets/linkedin.svg";
@@ -9,7 +8,7 @@ function Home() {
     <main className="home">
       <section id="hero">
         <h1 className="titles">Hi I'm Brandon Castillo 👋</h1>
-        <h2>Full Stack Developer</h2>
+        <h2>Full Stack Developer Jr</h2>
 
         <figure className="profile-pic">
           <img
@@ -55,13 +54,15 @@ function Home() {
       <section id="about">
         <h3>Who I Am and What I Do</h3>
         <p>
-          Hello, my name is Brandon, and I'm an enthusiastic technology
+          Hello, my name is Brandon, and I'm an enthusiastic person about the future and a technology
           developer. I live and breathe code. I like innovation and good ideas.
-          I believe that the best solutions are the simplest to implement. I
-          study software developer at my local university. I completed a Full
-          Stack Developer Bootcamp where I embraced the globalized world. I believe we are
-          living a new industrial revolution, and I find it incredibly exciting
-          for everyone.
+          I believe that the best solutions are the simplest to implement. I'm
+          studing software development at my nearest university (Universidad Tecnológica Nacional), first semester, functions, lists, diccionaries, file managment (Python). I completed a Full
+          Stack Developer Bootcamp where I embrace the globalize world. 
+          {/* I believe we are */}
+          {/* living in a new industrial revolution, and I find it incredibly exciting */}
+          {/* for everyone. */}
+          We are living in a new industrial revolution and I believe it's pretty exciting for everyone.
           {/*I believe it's pretty exciting for everyr */}
         </p>
       </section>
@@ -71,18 +72,18 @@ function Home() {
         <div className="tech-lists">
           <ul>
             <li>GNU/Linux</li>
-            <li>Unix</li>
-            <li>Visual Studio Code</li>
-            <li>Git</li>
             <li>GitHub</li>
-            <li>Node.js</li>
+            <li>Windows/Mac</li>
+            <li>Python3</li>
+            <li>HTML5</li>
           </ul>
           <ul>
-            <li>Python</li>
-            <li>JavaScript</li>
+            <li>Bash/Unix</li>
+            <li>Git</li>
             <li>Sass</li>
-            <li>HTML5</li>
+            <li>JavaScript</li>
             <li>React</li>
+            <li>Node.js</li>
             <li>Axios</li>
           </ul>
         </div>
