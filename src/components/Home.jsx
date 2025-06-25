@@ -20,7 +20,7 @@ function Home() {
 
         <div id="home-icons">
           <a
-            href={cv_eng}
+            href={cv}
             title="Download CV"
             target="_blank"
             rel="noopener noreferrer"
