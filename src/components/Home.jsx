@@ -4,12 +4,17 @@ import linkedin_logo from "../assets/linkedin.svg"
 import github_logo from "../assets/github.png"
 
 function Home() {
+  function zoomPicture(){
+    // agrandar la imagén en otra imagen
+    return "echo"
+  }
+
   return (
     <main className="home">
       <section id="hero">
-        <h1 className="titles">Hi I'm Brandon Castillo 👋</h1>
+        <h1 className="titles highlight">Hi I'm Brandon Castillo 👋</h1>
         
-        <h2>Full Stack Developer</h2>
+        <h2 className="titles highlight">Full Stack Developer Jr</h2>
 
         <figure className="profile-pic">
           <img

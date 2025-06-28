@@ -72,7 +72,7 @@
 }
 .profile-pic img {
   border-radius: 50%;
-  border: 1px solid black;
+  background: #5D8ECB;
 }
 
 #home-icons {
@@ -305,9 +305,10 @@ a {
   color: inherit;
 }
 
-a:hover {
-  color: #13af20;
+a:hover, .highlight:hover {
+  color: #5D8ECB;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .titles {
