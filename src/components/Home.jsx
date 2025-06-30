@@ -66,11 +66,11 @@ function Home() {
           developer. I live and breathe code. I like innovation and good ideas.
           I believe that the best solutions are the simplest to implement. I'm
           studing software development at my nearest university (Universidad Tecnológica Nacional), first semester, functions, lists, diccionaries, file managment (Python). I completed a Full
-          Stack Developer Bootcamp where I embrace the globalize world. 
+          Stack Developer Bootcamp where I embrace the globalize world. We are living in a new industrial revolution and I believe it's pretty exciting for everyone.
           {/* I believe we are */}
           {/* living in a new industrial revolution, and I find it incredibly exciting */}
           {/* for everyone. */}
-          We are living in a new industrial revolution and I believe it's pretty exciting for everyone.
+          
           {/*I believe it's pretty exciting for everyr */}
         </p>
       </section>
