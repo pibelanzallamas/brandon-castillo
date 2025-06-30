@@ -48,7 +48,7 @@ function Home() {
 
           <a
             href="https://github.com/pibelanzallamas"
-            title="Let's work together!"
+            title="Let's work!"
             target="_blank"
             rel="noopener noreferrer"
           >
