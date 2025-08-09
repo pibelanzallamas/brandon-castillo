@@ -130,7 +130,7 @@ const exp = [
     final: "Jul 2023",
     github: "https://github.com/pibelanzallamas",
     youtube: "https://www.youtube.com/watch?v=j-qgyoaeJN4",
-    web: "https://my-movie-crib-front.vercel.app/",
+    web: "https://my-movie-crib.vercel.app/",
     desc: "Website for looking for the latest movies, search your favorites and save them. The website allows users to search for the latest releases and most popular movies, as well as filter by title using The Movie Database API. Built with React, Node.js, Express, Sequelize and Bulma. Users can register and log in.",
     photos: [
       // "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1734134428/moviegif.gif",

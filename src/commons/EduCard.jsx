@@ -34,15 +34,20 @@ function EduCard({ card }) {
         <u>{card.carrera}</u>
       </p>
       <p>{card.desc}</p>
+      
       <p>
         <b>Start Date:</b> {card.inicio} - <b>End Date:</b> {card.final}
+      </p>
+
+      <p> 
+        <b>Most Significant Works:</b>
       </p>
 
       {card.title == "Plataforma 5" && (
         <p className="final-jobs">
           <b>Final Jobs:</b>
           <Link to="/experience" state={{ finalJob: 0 }}>
-            <u>Carbon Copy</u>
+            <u> Carbon Copy</u>
           </Link>
           <Link to="/experience" state={{ finalJob: 1 }}>
             <u>House of Dev</u>

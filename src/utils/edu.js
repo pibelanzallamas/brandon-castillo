@@ -6,10 +6,16 @@ const edu = [
     final: "Dec 2027",
     res: "1600 /1067",
     encurso: false,
-    desc: "I completed the first semester of the Technical University Degree in Programming at UTN, where I gained foundational knowledge in programming, data structures, and computational logic. During this period, I worked with languages like C and Python, developing skills in problem-solving and creating efficient solutions in computing environments. This learning experience provided me with a solid foundation in software development and motivated me to continue specializing in modern technologies like Full Stack development.",
+    // desc: "I completed the first semester of the Technical University Degree in Programming at UTN, where I gained foundational knowledge in programming, data structures, and computational logic. During this period, I worked with languages like C and Python, developing skills in problem-solving and creating efficient solutions in computing environments. This learning experience provided me with a solid foundation in software development and motivated me to continue specializing in modern technologies like Full Stack development.",
+    desc: "I finished my first semester on Programmaing in the Universidad Tecnológica Nacional, I learning, studing and coding, data structures, functions, lists, parallel list, diccionaries, file managment. I got mathematics, propositional logic, sets, matrix, relations, trees, graphs. English I: Verb to Be, Pronouns, Present, Past and Future Simple, Past Continous, Present Continues, Comparatives, Superlatives. In Archittectura and OS, Docker, Asanbly, Disk Partition, Virtual Box, Vagrant, Ubuntu, Bash, Git, Github. ",
     photos: [
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1749920681/utn.jpg",
     ],
+    works: [
+      { nombre: "Segundo Parcial, Juego por consola.",
+        github: "https://github.com/soytucuenta/Anabia.Castillo.Segundo.Parcial"}, 
+      { nombe: "Primer Parcial, Gestión De Inversiones.",
+        github: "https://github.com/pibelanzallamas/Castillo.Brandon.PrimerParcial.SegundaParte}"}]
   },
   {
     title: "Plataforma 5",
