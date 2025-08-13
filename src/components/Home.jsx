@@ -1,4 +1,4 @@
-import cv from "../assets/cv_eng.pdf"
+import cv from "../assets/Brandon Castillo Resume.pdf"
 import cv_logo from "../assets/cv.svg"
 import linkedin_logo from "../assets/linkedin.svg"
 import github_logo from "../assets/github.png"
