@@ -1,5 +1,3 @@
-import React from "react";
-
 function Contact() {
   const contact = [
     { title: "Discord", link: "http://discord.com/users/1363126156378771456" },
@@ -19,11 +17,9 @@ function Contact() {
         {contact.map((ele) => (
           <p>
             <i>
-              <u>
-                <a href={ele.link} target="_blank">
-                  {ele.title}
-                </a>
-              </u>
+              <a href={ele.link} target="_blank">
+                {ele.title}
+              </a>
             </i>
           </p>
         ))}
