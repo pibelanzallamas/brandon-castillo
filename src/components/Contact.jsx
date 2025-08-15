@@ -27,13 +27,11 @@ function Contact() {
       <section>
         <h4>Email:</h4>
         <p>
-          <u>
-            <i>
-              <a href="mailto:brancastillo.developer@gmail.com" target="_blank">
-                brancastillo.developer@gmail.com
-              </a>
-            </i>
-          </u>
+          <i>
+            <a href="mailto:brancastillo.developer@gmail.com" target="_blank">
+              brancastillo.developer@gmail.com
+            </a>
+          </i>
         </p>
       </section>
     </main>
