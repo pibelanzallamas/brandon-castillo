@@ -39,6 +39,7 @@ function Footer() {
               {link == ele.title ? <u>{ele.title}</u> : ele.title}
             </Link>
           ))}
+          <p class="firma">Made with ❤️ by Brandon 🏰</p>
       </div>
     </footer>
   );

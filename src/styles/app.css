@@ -265,6 +265,9 @@ footer {
   flex-direction: column;
   gap: 0.4rem;
 }
+footer p {
+  color: #5D8ECB;
+}
 
 .footer-links {
   display: flex;
