@@ -11,10 +11,10 @@ const works = [
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732610191/calles.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732610816/calles2.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732611117/calles3.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732611161/calles4.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1737254883/calles5.png",
       // "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1737254906/calles7.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1737254945/calles8.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732611161/calles4.png",
     ],
     mainFeat: [
       {
@@ -70,9 +70,9 @@ const works = [
     photos: [
       // "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1734135489/dreamergif.gif",
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1740082053/Captura_de_Pantalla_2025-02-20_a_la_s_17.06.43_vg9yro.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1740082051/Captura_de_Pantalla_2025-02-20_a_la_s_17.07.04_fvsnow.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732626770/dreamer2.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732628246/dreamer3.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1740082051/Captura_de_Pantalla_2025-02-20_a_la_s_17.07.04_fvsnow.png",
     ],
 
     mainFeat: [
