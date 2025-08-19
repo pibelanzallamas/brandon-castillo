@@ -9,8 +9,8 @@ const works = [
     desc: "New York City general contracting, Calle's Construction, website. It provides detailed coverage of each project realized, organized into categories according to their respective fields. The site includes an exclusive image gallery, and a section for submitting direct question to the company. Admin mode for uploading and editing projects. The website is fully developed and ready to be used, but it is currently awaiting activation by the client.",
     photos: [
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732610191/calles.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732611117/calles3.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732610816/calles2.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732611117/calles3.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732611161/calles4.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1737254883/calles5.png",
       // "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1737254906/calles7.png",
