@@ -64,7 +64,7 @@ const works = [
     final: "Apr 2024",
     inicio: "May 2024",
     web: "https://dreamer-paintings.vercel.app",
-    youtube: "https://www.youtube.com/watch?v=onv0uQ7Y_1I",
+    youtube: "https://www.youtube.com/watch?v=ihcTIHnBINU",
     github: "https://github.com/pibelanzallamas/dreamers-paintings",
     desc: "A website showcasing the work of a talented artist from Buenos Aires, specializing in action painting with a consistent format and a signature color palette (black, blue, red, green). Each painting is available for purchase as a unique NFT (Non-Fungible Token). Learn about the artist’s techniques, connect through social media, and explore paintings in full resolution. The site supports English and Spanish for a broader audience.",
     photos: [
