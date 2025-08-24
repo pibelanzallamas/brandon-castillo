@@ -4,11 +4,6 @@ import linkedin_logo from "../assets/linkedin.svg"
 import github_logo from "../assets/github.png"
 
 function Home() {
-  function zoomPicture(){
-    // agrandar la imagén en otra imagen
-    return "echo"
-  }
-
   return (
     <main className="home">
       <section id="hero">
