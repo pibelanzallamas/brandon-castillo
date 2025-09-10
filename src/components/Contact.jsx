@@ -16,11 +16,9 @@ function Contact() {
         <h4>Links:</h4>
         {contact.map((ele) => (
           <p>
-            <i>
-              <a href={ele.link} target="_blank">
-                {ele.title}
-              </a>
-            </i>
+            <a href={ele.link} target="_blank">
+              {ele.title}
+            </a>
           </p>
         ))}
       </section>
