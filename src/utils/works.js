@@ -1,8 +1,8 @@
 const works = [
   {
     title: "Calles Construction",
-    inicio: "Jun 2024",
-    final: "Jul 2024",
+    inicio: "Jan 2025",
+    final: "Feb 2025",
     web: "https://calles-construction.vercel.app/",
     youtube: "https://www.youtube.com/watch?v=mOV8O6jPwC4",
     github: "https://github.com/pibelanzallamas/calles-construction",
@@ -61,8 +61,8 @@ const works = [
   },
   {
     title: "Dreamer Paintings",
-    final: "Apr 2024",
-    inicio: "May 2024",
+    final: "May 2024",
+    inicio: "Apr 2024",
     web: "https://dreamer-paintings.vercel.app",
     youtube: "https://www.youtube.com/watch?v=ihcTIHnBINU",
     github: "https://github.com/pibelanzallamas/dreamers-paintings",
