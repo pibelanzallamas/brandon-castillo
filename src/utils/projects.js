@@ -67,7 +67,7 @@ const projects = [
     final: "Mar 2024",
     date: "Mar 2024",
     web: "https://youfast.vercel.app/",
-    youtube: "https://www.youtube.com/watch?v=BS2Nkpwd1Hw",
+    youtube: "https://www.youtube.com/watch?v=pIdznUzPm54",
     github: "http://github.com/pibelanzallamas/youfast",
     desc: "A tool designed to help elders easily search for songs on YouTube.",
 
