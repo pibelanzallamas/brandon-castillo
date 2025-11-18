@@ -1,6 +1,6 @@
 function Contact() {
   const contact = [
-    { title: "Discord", link: "http://discord.com/users/1363126156378771456" },
+    { title: "Discord", link: "http://discord.com/users/995051014883381318" },
     {
       title: "LinkedIn",
       link: "https://www.linkedin.com/in/bran-castillo-dev",
@@ -25,7 +25,7 @@ function Contact() {
       <section>
         <h4>Email:</h4>
         <p>
-          <a href="mailto:brancastillo.developer@gmail.com" target="_blank">
+          <a href="mailto:brandoncastillo.09@gmail.com" target="_blank">
             brancastillo.developer@gmail.com
           </a>
         </p>
