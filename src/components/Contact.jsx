@@ -26,7 +26,7 @@ function Contact() {
         <h4>Email:</h4>
         <p>
           <a href="mailto:brandoncastillo.09@gmail.com" target="_blank">
-            brancastillo.developer@gmail.com
+            brandoncastillo.09@gmail.com
           </a>
         </p>
       </section>
