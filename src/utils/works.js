@@ -47,11 +47,10 @@ const works = [
       "Axios",
       "Sass",
     ],
-    tools: ["Scrum Methology"],
     linksTools: [
       {
-        title: "Design",
-        link: "https://res.cloudinary.com/daynclfo8/image/upload/v1765985390/2025-12-17-12-29-31_kcontq.png",
+        title: "Mobile Design",
+        link: "https://res.cloudinary.com/daynclfo8/image/upload/v1765988926/mobileHomeRework_mx7kmu.png",
       },
     ],
   },
