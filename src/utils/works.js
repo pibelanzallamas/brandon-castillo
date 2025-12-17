@@ -1,4 +1,60 @@
 const works = [
+   {
+    id: 12,
+    title: "CGC minc",
+    year: 2025,
+    inicio: "Dec 2025",
+    final: "Jan 2025",
+    author: "Brandon Castillo",
+    photos:[
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1765985390/2025-12-17-12-29-31_kcontq.png"],
+    web: "https://cgcminc.vercel.app/",
+    youtube: "https://www.youtube.com/watch?v=Q1JMp5_Ufv0",
+    github: "https://github.com/pibelanzallamas/minc.cg/",
+    desc:
+      "Website for the CGC minc store. [in progress]",
+    descripcion:
+      "Sitio web realizado para la tienda CGC minc. [in progress]",
+    mainFeat: [
+      {
+        title: "Company Information",
+        desc: "A detailed description of the company's services, projects and philosophy.",
+      },
+      {
+        title: "Detailed Products Management",
+        desc: "Add products with titles, images and details.",
+      },
+      {
+        title: "Watch Catalog",
+        desc: "Visitors can see the complete catalog and purchase items.",
+      },
+      {
+        title: "Mobile Responsive",
+        desc: "Enjoy a seamless browsing experience across all devices, ensuring accessibility for every user.",
+      },
+    ],
+
+    techs: [
+      "NodeJs",
+      "Express",
+      "PostgreSQL",
+      "Sequelize",
+      "dotEnv",
+      "bcryptJs",
+      "cors",
+      "React",
+      "Redux",
+      "Axios",
+      "Sass",
+    ],
+    tools: ["Scrum Methology"],
+    linksTools: [
+      {
+        title: "Design",
+        link: "https://res.cloudinary.com/daynclfo8/image/upload/v1765985390/2025-12-17-12-29-31_kcontq.png",
+      },
+    ],
+  },
   {
     title: "Calles Construction",
     inicio: "Jan 2025",
