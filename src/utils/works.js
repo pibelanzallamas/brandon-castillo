@@ -9,7 +9,7 @@ const works = [
     photos:[
       "https://res.cloudinary.com/daynclfo8/image/upload/v1765985390/2025-12-17-12-29-31_kcontq.png"],
     web: "https://cgcminc.vercel.app/",
-    youtube: "https://www.youtube.com/watch?v=Q1JMp5_Ufv0",
+    youtube: "https://www.youtube.com/watch?v=rwL2Xs2cmB4",
     github: "https://github.com/pibelanzallamas/minc.cg/",
     desc:
       "Website for the CGC minc store. [in progress]",
