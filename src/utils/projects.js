@@ -44,17 +44,17 @@ const projects = [
     web: "https://your-mood.vercel.app/",
     youtube: "https://www.youtube.com/watch?v=IlCOtvEfm_g",
     github: "https://github.com/pibelanzallamas/your-mood",
-    desc: "A website that plays you a song music based on your mood.",
+    desc: "A website that gives you a song based on your mood.",
     inicio: "May 2024",
     final: "May 2024",
     date: "May 2024",
     mainFeat: [
       {
         title: "Discover Random Songs",
-        desc: "Receive song recommendations based on your mood",
+        desc: "Receive song recommendations based on your mood.",
       },
     ],
-    techs: ["React", "Javascript", "Sass"],
+    techs: ["React", "Javascript", "Sass" , "HTML5", "React-Youtube"],
   },
   {
     title: "YouFast",
@@ -79,9 +79,9 @@ const projects = [
     ],
     techs: [
       "React",
-      "Javascript",
-      "Axios",
+      "HTML5",
       "dotEnv",
+      "Axios",
       "Sass",
       "youtube-api-search",
       "google-api-client",

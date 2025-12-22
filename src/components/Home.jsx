@@ -61,7 +61,7 @@ function Home() {
           development. I live and breathe code. I like innovation and good ideas.
           I believe that the best solutions are the simplest to implement. I'm
           studing software development at my local university (Universidad Tecnológica Nacional). I'm on my second semester, I learned POO with Java, FP with Python, SQL, DDL, DML, DCL.
-          I graduated as a Full Stack Developer on Plataforma 5 and I completed a <a href="https://res.cloudinary.com/daynclfo8/image/upload/v1766099125/2025-12-18-18-52-55_gvdaxt.png" target="_blank">UX Designer</a> semester where I passed with excellent qualifications. 
+          I graduated as a Full Stack Developer on <a href="https://api.constata.eu/certificate/research+riding+veal+bonfire+dedicator" target="_blank"> Plataforma 5 </a> and I completed a <a href="https://res.cloudinary.com/daynclfo8/image/upload/v1766099125/2025-12-18-18-52-55_gvdaxt.png" target="_blank">UX Designer</a> semester where I passed with excellent qualifications. 
           {/* I believe we are */}
           {/* living in a new industrial revolution, and I find it incredibly exciting */}
           {/* for everyone. */}         
