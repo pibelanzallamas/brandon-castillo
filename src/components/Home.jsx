@@ -7,9 +7,9 @@ function Home() {
   return (
     <main className="home">
       <section id="hero">
-        <h1 className="titles highlight">Hi I'm Brandon Castillo 👋</h1>
+        <h1 className="titles highlight"> <a href="https://linkedin.com/in/brandon-castillo-dev" target="_blank">Hi I'm Brandon Castillo 👋</a></h1>
         
-        <h2 className="titles highlight">Full Stack Developer Jr</h2>
+        <h2 className="titles highlight" target="_blank">Front End & UX Designer</h2>
 
         <figure className="profile-pic">
           <img
@@ -57,15 +57,14 @@ function Home() {
       <section id="about">
         <h3>Who I Am and What I Do</h3>
         <p>
-          Hello, my name is Brandon, and I'm an enthusiastic person about the future and a technology
-          developer. I live and breathe code. I like innovation and good ideas.
+          Hello, my name is Brandon, and I'm an enthusiastic person about the future and technology
+          development. I live and breathe code. I like innovation and good ideas.
           I believe that the best solutions are the simplest to implement. I'm
-          studing software development at my nearest university (Universidad Tecnológica Nacional), first semester, functions, lists, diccionaries, file managment (Python). I completed a Full
-          Stack Developer Bootcamp where I embrace the globalize world. We are living in a new industrial revolution and I believe it's pretty exciting for everyone.
+          studing software development at my local university (Universidad Tecnológica Nacional). I'm on my second semester, I learned POO with Java, FP with Python, SQL, DDL, DML, DCL.
+          I graduated as a Full Stack Developer on Plataforma 5 and I completed a <a href="https://res.cloudinary.com/daynclfo8/image/upload/v1766099125/2025-12-18-18-52-55_gvdaxt.png" target="_blank">UX Designer</a> semester where I passed with excellent qualifications. 
           {/* I believe we are */}
           {/* living in a new industrial revolution, and I find it incredibly exciting */}
-          {/* for everyone. */}
-          
+          {/* for everyone. */}         
           {/*I believe it's pretty exciting for everyr */}
         </p>
       </section>
@@ -76,10 +75,10 @@ function Home() {
           <ul>
             <li>GNU/Linux</li>
             <li>Bash/Unix</li>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>Python3</li>
+            <li>Git/GitHub</li>
+            <li>Python</li>
             <li>Visual Studio Code</li>
+            <li>ChatGPT</li>
           </ul>
           <ul>
             <li>JavaScript</li>
@@ -123,7 +122,6 @@ function Home() {
           </ul>
           <ul>
             <li>Pair Programming</li>
-            <li>Dailys</li>
           </ul>
         </div>
       </section>

@@ -12,7 +12,7 @@ const works = [
     youtube: "https://www.youtube.com/watch?v=rwL2Xs2cmB4",
     github: "https://github.com/pibelanzallamas/minc.cg/",
     desc:
-      "Website for the CGC minc store. [in progress]",
+      "Website for the CGC minc store. [in development]",
     descripcion:
       "Sitio web realizado para la tienda CGC minc. [in progress]",
     mainFeat: [
