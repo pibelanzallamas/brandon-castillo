@@ -12,9 +12,9 @@ const works = [
     youtube: "https://www.youtube.com/watch?v=d9R3duNF7eg",
     github: "https://github.com/pibelanzallamas/minc.cg/",
     desc:
-      "Website for the CGC minc enterprise. [in development]",
+      "Website developed for the company CGC Minc. Designed to connect like-minded people, build a community, share videos that reflect common values, and enable the buying and selling of unique clothing, accessories and more. [Currently in development]. Frontend: Brandon Castillo. Design UX/UI: Daniel Aziah",
     descripcion:
-      "Sitio web realizado para la corporación CGC minc. [in progress]",
+      "Sitio web realizado para la empresa CGC Minc. Diseñada para conectar gente con la misma mentalidad, crear comunidad, publicar videos compartiendo los mismos valores y vender y comprar piezas de indumentaria unicas, accesorios y más. [en desarrollo]",
     mainFeat: [
       {
         title: "Company Information",
