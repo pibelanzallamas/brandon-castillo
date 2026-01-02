@@ -7,7 +7,7 @@ const works = [
     final: "Jan 2025",
     author: "Brandon Castillo",
     photos:[
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1765985390/2025-12-17-12-29-31_kcontq.png"],
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1767315491/2026-01-01-21-57-29_c8rsci.png"],
     web: "https://cgcminc.vercel.app/",
     youtube: "https://www.youtube.com/watch?v=d9R3duNF7eg",
     github: "https://github.com/pibelanzallamas/minc.cg/",
@@ -63,7 +63,7 @@ const works = [
     github: "https://github.com/pibelanzallamas/calles-construction",
     desc: "New York City general contracting, Calle's Construction, website. It provides detailed coverage of each project realized, organized into categories according to their respective fields. The site includes an exclusive image gallery, and a section for submitting direct question to the company. Admin mode for uploading and editing projects. The website is fully developed and ready to be used, but it is currently awaiting activation by the client.",
     photos: [
-      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732610191/calles.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1767358479/2026-01-02-09-54-11_cz8zaq.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732610816/calles2.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732611117/calles3.png",
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1737254883/calles5.png",
