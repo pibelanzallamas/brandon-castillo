@@ -37,12 +37,10 @@ const projects = [
   {
     title: "Your Mood",
     photos: [
-      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1749922132/2025-06-14_14-28_hb42xi.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1749922225/2025-06-14_14-30_cauesh.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1749922322/2025-06-14_14-31_hxnue7.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1768150121/2026-01-11-13-48-29_zktvzz.png",
     ],
     web: "https://your-mood.vercel.app/",
-    youtube: "https://www.youtube.com/watch?v=IlCOtvEfm_g",
+    youtube: "https://www.youtube.com/watch?v=2PzNBIX46Wc",
     github: "https://github.com/pibelanzallamas/your-mood",
     desc: "A website that gives you a song based on your mood.",
     inicio: "May 2024",
@@ -59,15 +57,13 @@ const projects = [
   {
     title: "YouFast",
     photos: [
-      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1739567387/elder_2.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1749922540/2025-06-14_14-35_yit3uy.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1749923307/2025-06-14_14-48_r2pqdj.png",
+     "https://res.cloudinary.com/daynclfo8/image/upload/v1768158039/2026-01-11-15-57-10_wgtj9p.png"
     ],
     inicio: "Mar 2024",
     final: "Mar 2024",
     date: "Mar 2024",
     web: "https://youfast.vercel.app/",
-    youtube: "https://www.youtube.com/watch?v=pIdznUzPm54",
+    youtube: "https://www.youtube.com/watch?v=IoIIYAMlT6g",
     github: "http://github.com/pibelanzallamas/youfast",
     desc: "A tool designed to help elders easily search for songs on YouTube.",
 
