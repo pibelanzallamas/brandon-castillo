@@ -15,7 +15,7 @@ const edu = [
       { nombre: "Parallel Matrix Processing & Data Computation",
         nombreTarea: "First Assignment",
         github: "https://github.com/pibelanzallamas/Castillo.Brandon.PrimerParcial.SegundaParte}"},
-      { nombre: "",
+      { nombre: "Game with User Management and High Scores System",
         nombreTarea: "Second Assignment",
         github: "https://github.com/soytucuenta/Anabia.Castillo.Segundo.Parcial"}, 
      ]
@@ -31,6 +31,17 @@ const edu = [
     photos: [
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1749920594/p5.png",
     ],
+    works: [
+      { nombre: "Interactive Movie Search App with User Authentication and Favorite",
+        nombreTarea: "Solo Week Assignment",
+        github: "https://github.com/pibelanzallamas/my-movie-crib-client"},
+      { nombre: "Real Estate Platform with Favorites, Booking & Admin Controls",
+        nombreTarea: "Integrated Final Project",
+        github: "https://github.com/pibelanzallamas/house-of-dev-client-deploy"}, 
+      { nombre: "Carbon Copy",
+        nombreTarea: "Capsula Project",
+        github: "https://github.com/pibelanzallamas/carbon-copy"}, 
+     ]
   },
   {
     title: "National University of Lanús (UNLa)",
@@ -43,6 +54,7 @@ const edu = [
     photos: [
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1749002722/unla-pic-building_a3lakr.jpg"
     ],
+    works: []
   },
   {
     title:
@@ -56,6 +68,7 @@ const edu = [
     photos: [
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1749002708/enerc-building_uww6op.jpg",
     ],
+    works: []
   },
   {
     title: "Benito Quinquela Martín Secondary School",
@@ -68,6 +81,7 @@ const edu = [
     photos: [
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1749920605/quinquela.avif",
     ],
+    works: []
   },
 ];
 

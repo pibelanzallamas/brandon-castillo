@@ -39,6 +39,7 @@ function EduCard({ card }) {
         <b>Start Date:</b> {card.inicio} - <b>End Date:</b> {card.final}
       </p>
 
+      {card.works.length > 0 &&<> 
       <p> 
         <b>Most Significant Works:</b>
       </p>
@@ -58,8 +59,8 @@ function EduCard({ card }) {
         ))}
       </ul>
       </div>
-
-      {card.title == "Plataforma 5" && (
+      </>}
+      {/* {card.title == "Plataforma 5" && (
         <p className="final-jobs">
           <b>Final Jobs:</b>
           <Link to="/experience" state={{ finalJob: 0 }}>
@@ -69,7 +70,7 @@ function EduCard({ card }) {
             <u>House of Dev</u>
           </Link>
         </p>
-      )}
+      )} */}
     </div>
   );
 }
