@@ -17,7 +17,7 @@ function Contact() {
         {contact.map((ele) => (
           <p>
             <a href={ele.link} target="_blank">
-              {ele.title}
+              <i>{ele.title}</i>
             </a>
           </p>
         ))}
@@ -26,7 +26,7 @@ function Contact() {
         <h4>Email:</h4>
         <p>
           <a href="mailto:brandoncastillo.09@gmail.com" target="_blank">
-            brandoncastillo.09@gmail.com
+            <i>brandoncastillo.09@gmail.com</i>
           </a>
         </p>
       </section>
