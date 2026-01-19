@@ -12,10 +12,13 @@ const edu = [
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1749920681/utn.jpg",
     ],
     works: [
-      { nombre: "Segundo Parcial, Juego por consola.",
+      { nombre: "Parallel Matrix Processing & Data Computation",
+        nombreTarea: "First Assignment",
+        github: "https://github.com/pibelanzallamas/Castillo.Brandon.PrimerParcial.SegundaParte}"},
+      { nombre: "",
+        nombreTarea: "Second Assignment",
         github: "https://github.com/soytucuenta/Anabia.Castillo.Segundo.Parcial"}, 
-      { nombe: "Primer Parcial, Gestión De Inversiones.",
-        github: "https://github.com/pibelanzallamas/Castillo.Brandon.PrimerParcial.SegundaParte}"}]
+     ]
   },
   {
     title: "Plataforma 5",

@@ -137,6 +137,10 @@
   object-fit: cover;
 }
 
+.tech-lists.edu-lists {
+  grid-template-columns: 1fr;
+}
+
 .exp {
   display: flex;
   flex-direction: column;

@@ -42,6 +42,22 @@ function EduCard({ card }) {
       <p> 
         <b>Most Significant Works:</b>
       </p>
+      <div className="tech-lists edu-lists">
+      <ul >
+        {card.works.map((work, index) => (
+          <li key={index}>
+            {work.nombre}{" - "} 
+            <a
+              href={work.github}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            {work.nombreTarea}
+            </a>
+          </li>
+        ))}
+      </ul>
+      </div>
 
       {card.title == "Plataforma 5" && (
         <p className="final-jobs">
