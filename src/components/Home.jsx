@@ -86,12 +86,12 @@ function Home() {
             <li>GNU/Linux</li>
           </ul>
           <ul>
-            <li>npm / Node.js</li>
+            <li>Npm / Node.js</li>
             <li>Git / GitHub</li>
-            <li>GIMP (image editing)</li>
-            <li>OBS Studio (screen recording)</li>
-            <li>Visual Studio Code</li>
+            <li>GIMP (Image editing)</li>
+            <li>LibreOffice (Office)</li>
             <li>ChatGPT (AI-assisted workflow)</li>
+            <li>OBS Studio (Screen recording)</li>
           </ul>
         </div>
       </section>
@@ -122,10 +122,11 @@ function Home() {
         <h3>Core Professional Skills</h3>
         <div className="tech-lists">
           <ul>
+            <li>Comunication</li>
             <li>Agile Methods</li>
-            <li>Scrum</li>
           </ul>
           <ul>
+            <li>Scrum</li>
             <li>Pair Programming</li>
           </ul>
         </div>
