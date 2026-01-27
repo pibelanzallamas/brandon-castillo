@@ -58,14 +58,14 @@ function Home() {
         <h3>Who I Am and What I Do</h3>
         <p  className="about-body">
           Hello, my name is Brandon, and I'm an enthusiastic person about front-end and UX/UI design. 
-          I live in Argentina and I'm from Buenos Aires. <a href="https://brandon-portfolio-phi.vercel.app" target="_blank"></a>
+          I live in Argentina and I'm from the city of Buenos Aires. <a href="https://brandon-portfolio-phi.vercel.app" target="_blank"></a>
           I like innovation and good ideas. I believe that the best solutions are the simplest to implement. 
           I'm studing programming at <a href="https://res.cloudinary.com/daynclfo8/image/upload/v1766414118/2025-12-22-11-35-10_omiccw.png" target="_blank">Universidad Tecnológica Nacional</a>. 
           I'm on my third semester.
           I did a Bootcamp with <a href="https://api.constata.eu/certificate/research+riding+veal+bonfire+dedicator" target="_blank"> Plataforma 5. </a>
-          And I completed a <a href="https://res.cloudinary.com/daynclfo8/image/upload/v1766099125/2025-12-18-18-52-55_gvdaxt.png" target="_blank">UX Designer</a> course where I passed with excellent qualifications. 
+          And I completed a <a href="https://openbadgefactory.com/obv3/credentials/b2a9c890eba940b3747c0b7656806656e13cc539" target="_blank">UX Designer</a> course where I passed with excellent qualifications. 
           I believe we are living in a new industrial revolution, and I find it incredibly exciting. 
-          I have 1 year of experience, as a full-stack and a front-end. Please check my projects here or in my <a href="https://brandon-portfolio-phi.vercel.app" target="_blank">other site</a>.
+          I have 1 year of experience, as a full-stack and as a front-end. Please check my works here or in my <a href="https://brandon-portfolio-phi.vercel.app" target="_blank">other site</a>.
           {/* I have 1 year of experience working as a full-stack and front-end developer */}
           {/*   I have 1 year of experience, as a full-stack and a front-end. */}
           {/* for everyone.  */}         
@@ -78,20 +78,20 @@ function Home() {
         <h3>Technologies I Use Daily</h3>
         <div className="tech-lists">
           <ul>
+            <li>React</li>
+            <li>JavaScript (ES6+)</li>
+            <li>HTML5</li>
+            <li>CSS3 / Sass</li>
+            <li>Terminal (Scripts / Automation)</li>
             <li>GNU/Linux</li>
-            <li>Bash/Unix</li>
-            <li>Git/GitHub</li>
-            <li>Python</li>
-            <li>Visual Studio Code</li>
-            <li>ChatGPT</li>
           </ul>
           <ul>
-            <li>JavaScript</li>
-            <li>HTML5</li>
-            <li>Sass</li>
-            <li>React</li>
-            <li>Windows/Mac</li>
-            <li>Axios</li>
+            <li>npm / Node.js</li>
+            <li>Git / GitHub</li>
+            <li>GIMP (image editing)</li>
+            <li>OBS Studio (screen recording)</li>
+            <li>Visual Studio Code</li>
+            <li>ChatGPT (AI-assisted workflow)</li>
           </ul>
         </div>
       </section>
@@ -104,11 +104,11 @@ function Home() {
             <li>Trello</li>
             <li>Tailwind CSS</li>
             <li>Redux</li>
-            <li>Chakra Ux</li>
+            <li>Chakra UX</li>
             <li>MUI</li>           
           </ul>
           <ul>
-            <li>Node.js</li>
+            <li>Miro</li>
             <li>Express.js</li>
             <li>Sequelize</li>
             <li>PostgreSQL</li>
