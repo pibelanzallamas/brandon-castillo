@@ -57,7 +57,7 @@ function Home() {
       <section id="about">
         <h3>Who I Am and What I Do</h3>
         <p  className="about-body">
-          Hello, my name is Brandon, and I'm an enthusiastic person about front end and UX/UI designs. 
+          Hello, my name is Brandon, and I'm an enthusiastic person about front-end and UX/UI design. 
           I live in Argentina and I'm from Buenos Aires. <a href="https://brandon-portfolio-phi.vercel.app" target="_blank"></a>
           I like innovation and good ideas. I believe that the best solutions are the simplest to implement. 
           I'm studing programming at <a href="https://res.cloudinary.com/daynclfo8/image/upload/v1766414118/2025-12-22-11-35-10_omiccw.png" target="_blank">Universidad Tecnológica Nacional</a>. 
@@ -65,6 +65,9 @@ function Home() {
           I did a Bootcamp with <a href="https://api.constata.eu/certificate/research+riding+veal+bonfire+dedicator" target="_blank"> Plataforma 5. </a>
           And I completed a <a href="https://res.cloudinary.com/daynclfo8/image/upload/v1766099125/2025-12-18-18-52-55_gvdaxt.png" target="_blank">UX Designer</a> course where I passed with excellent qualifications. 
           I believe we are living in a new industrial revolution, and I find it incredibly exciting. 
+          I have 1 year of experience, as a full-stack and a front-end. Please check my projects here or in my <a href="https://brandon-portfolio-phi.vercel.app" target="_blank">other site</a>.
+          {/* I have 1 year of experience working as a full-stack and front-end developer */}
+          {/*   I have 1 year of experience, as a full-stack and a front-end. */}
           {/* for everyone.  */}         
           {/*I believe it's pretty exciting for everyr */}
           {/* I learned POO with Java, FP with Python, SQL, DDL, DML, DCL. */}
