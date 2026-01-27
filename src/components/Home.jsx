@@ -122,11 +122,11 @@ function Home() {
         <h3>Core Professional Skills</h3>
         <div className="tech-lists">
           <ul>
-            <li>Comunication</li>
             <li>Agile Methods</li>
+            <li>Scrum</li>
           </ul>
           <ul>
-            <li>Scrum</li>
+            <li>Communication</li>
             <li>Pair Programming</li>
           </ul>
         </div>
