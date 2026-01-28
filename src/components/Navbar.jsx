@@ -8,7 +8,7 @@ function Navbar() {
     { to: "/experience", title: "Experience" },
     { to: "/works", title: "Works" },
     { to: "/projects", title: "Projects" },
-    { to: "/services", title: "Services" },
+    // { to: "/services", title: "Services" },
     { to: "/contact", title: "Contact" },
   ];
   const [clicked, setClicked] = useState(false);
