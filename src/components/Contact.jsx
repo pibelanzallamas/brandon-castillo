@@ -1,10 +1,7 @@
 function Contact() {
   const contact = [
+    { title: "Behance", link: "https://www.behance.net/brandoncastillodev" },
     { title: "Discord", link: "http://discord.com/users/995051014883381318" },
-    {
-      title: "LinkedIn",
-      link: "https://www.linkedin.com/in/brandon-castillo-dev",
-    },
   ];
 
   return (
