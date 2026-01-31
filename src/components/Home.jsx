@@ -127,7 +127,6 @@ function Home() {
             <li>Scrum</li>
           </ul>
           <ul>
-            <li>Communication</li>
             <li>Pair Programming</li>
           </ul>
         </div>
