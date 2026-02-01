@@ -7,7 +7,7 @@ function Home() {
   return (
     <main className="home">
       <section id="hero">
-        <h1 className="titles highlight"> <a href="https://linkedin.com/in/brandon-castillo-dev" target="_blank">Hi I'm Brandon Castillo 👋</a></h1>
+        <h1 className="titles highlight"> <a href="https://linkedin.com/in/brandoncastillodev" target="_blank">Hi I'm Brandon Castillo 👋</a></h1>
         
         <h2 className="titles highlight" target="_blank">Front End & UX Designer</h2>
 
@@ -42,7 +42,7 @@ function Home() {
           </a>
 
           <a
-            href="https://github.com/pibelanzallamas"
+            href="https://github.com/brandoncastillodev"
             title="Let's work!"
             target="_blank"
             rel="noopener noreferrer"
