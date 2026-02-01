@@ -3,9 +3,9 @@ const edu = [
     title: "National Technological University (UTN)",
     carrera: "Technical University Degree in Programming",
     inicio: "Mar 2025",
-    final: "Dec 2027",
-    res: "1600 /1067",
-    encurso: false,
+    final: "Now",
+    res: "1600 / 1067",
+    encurso: true,
     // desc: "I completed the first semester of the Technical University Degree in Programming at UTN, where I gained foundational knowledge in programming, data structures, and computational logic. During this period, I worked with languages like C and Python, developing skills in problem-solving and creating efficient solutions in computing environments. This learning experience provided me with a solid foundation in software development and motivated me to continue specializing in modern technologies like Full Stack development.",
     desc: "I finished my year on Programmaing in the Universidad Tecnológica Nacional, I learning, studing and coding, data structures, functions, lists, parallel list, diccionaries, file managment, OOP, Java. I got mathematics, propositional logic, sets, matrix, relations, trees, graphs. English I: Verb to Be, Pronouns, Present, Past and Future Simple, Past Continous, Present Continues, Comparatives, Superlatives. In Architecture and Systems, Docker, Asanbly, Disk Partition, Virtual Box, Vagrant, Ubuntu, Bash, Git, Github. Second semester: Sql, DML, DDL, DCL, Java, OOP.",
     photos: [
@@ -14,10 +14,30 @@ const edu = [
     works: [
       { nombre: "Parallel Matrix Processing & Data Computation",
         nombreTarea: "First Assignment",
-        github: "https://github.com/brandoncastillodev/Castillo.Brandon.PrimerParcial.SegundaParte}"},
+        github: "https://github.com/brandoncastillodev/Castillo.Brandon.PrimerParcial.SegundaParte"
+      },
       { nombre: "Game with User Management and High Scores System",
         nombreTarea: "Second Assignment",
-        github: "https://github.com/soytucuenta/Anabia.Castillo.Segundo.Parcial"}, 
+        github: "https://github.com/soytucuenta/Anabia.Castillo.Segundo.Parcial"
+      }, 
+     ]
+  },
+  {
+    title: "Talento Tech",
+    carrera: "UX Design Fundaments",
+    inicio: "Agos 2025",
+    final: "Dec 2025",
+    res: "716 / 353",
+    encurso: false,
+    desc: "Introduction to human-centered user experience design. I learn to research real needs, define problems, brainstorm solutions, and design usable and accessible digital products. I work with concepts of usability, information architecture, user research, user flow, and prototyping, applicable to real digital products.",
+    photos: [
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1769973998/2026-02-01-16-25-26_dbkcdw.png",
+    ],
+    works: [
+      { nombre: "Ux Design for your app, Follow your series",
+        nombreTarea: "Final Assignment",
+        github: "https://docs.google.com/presentation/d/1sC2DVfB8RVJjuN4AhS_fn01OKIL9QZSacraMdAogOIA/edit?usp=sharing"
+      },
      ]
   },
   {
@@ -34,13 +54,16 @@ const edu = [
     works: [
       { nombre: "Interactive Movie Search App with User Authentication and Favorite",
         nombreTarea: "Solo Week Assignment",
-        github: "https://github.com/brandoncastillodev/my-movie-crib-client"},
+        github: "https://github.com/brandoncastillodev/my-movie-crib-client"
+      },
       { nombre: "Real Estate Platform with Favorites, Booking & Admin Controls",
         nombreTarea: "Integrated Final Project",
-        github: "https://github.com/brandoncastillodev/house-of-dev-client-deploy"}, 
+        github: "https://github.com/brandoncastillodev/house-of-dev-client-deploy"
+      }, 
       { nombre: "Carbon Copy",
         nombreTarea: "Capsula Project",
-        github: "https://github.com/brandoncastillodev/carbon-copy"}, 
+        github: "https://github.com/brandoncastillodev/carbon-copy"
+      }, 
      ]
   },
   {
