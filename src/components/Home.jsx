@@ -136,8 +136,8 @@ function Home() {
         <h3>Charts</h3>
         <img
           style={{ marginTop: "0.5rem" }}
-          src="http://ghchart.rshah.org/3fc761/pibelanzallamas"
-          alt="pibelanzallamas's Github chart"
+          src="http://ghchart.rshah.org/3fc761/brandoncastillodev"
+          alt="brandoncastillodev's Github chart"
         />
       </section>
     </main>
