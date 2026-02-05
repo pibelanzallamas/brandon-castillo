@@ -58,7 +58,7 @@ function Home() {
         <h3>Who I Am and What I Do</h3>
         <p  className="about-body">
           Hello, my name is Brandon, and I'm an enthusiastic person about front-end and UX/UI design. 
-          I live in Argentina and I'm from the city of Buenos Aires. <a href="https://brandon-portfolio-phi.vercel.app" target="_blank"></a>
+          I live in Buenos Aires, Argentina.
           I like innovation and good ideas. I believe that the best solutions are the simplest to implement. 
           I'm studing programming at <a href="https://res.cloudinary.com/daynclfo8/image/upload/v1766414118/2025-12-22-11-35-10_omiccw.png" target="_blank">Universidad Tecnológica Nacional</a>. 
           I'm on my third semester.
@@ -66,7 +66,7 @@ function Home() {
           And I completed a <a href="https://openbadgefactory.com/obv3/credentials/b2a9c890eba940b3747c0b7656806656e13cc539" target="_blank">UX Design</a> course where I passed with excellent qualifications. 
           I believe we are living in a new industrial revolution, and I find it incredibly exciting.
           I specialize in developing interfaces based on professional UI design using a pixel-perfect approach.
-          I have 1 year of experience, as a full-stack and as a front-end. Please check my works here or in my <a href="https://brandon-portfolio-phi.vercel.app" target="_blank">other site</a>.
+          I have 1 year of experience. Please check my works here or in my <a href="https://brandon-portfolio-phi.vercel.app" target="_blank">other site</a>.
           {/* I have 1 year of experience working as a full-stack and front-end developer */}
           {/*   I have 1 year of experience, as a full-stack and a front-end. */}
           {/* for everyone.  */}         
