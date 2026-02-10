@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap')
 
+$color-principal : #E8E6E3
+$color-secundario: #679ECE
+$fondo: #2D3133
+
 @import "navbar.sass"
 @import "home.sass"
 @import "card.sass"
@@ -18,7 +22,8 @@
 
 body
   font-family: inter
-  background-color: #D9D9D9
+  background-color: $fondo
+  color: $color-principal
 
 main
   padding: 1rem
@@ -31,11 +36,10 @@ img
 a
   text-decoration: none
   color: inherit
-  // font-weight: bold
-  color: #5D8ECB
+  color: $color-secundario
 
 a:hover, .highlight:hover
-  color: #5D8ECB
+  color: $color-secundario
   text-decoration: underline
   cursor: pointer
 

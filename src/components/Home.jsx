@@ -2,6 +2,7 @@ import cv from "../assets/Brandon Castillo Resume.pdf"
 import cv_logo from "../assets/cv.svg"
 import linkedin_logo from "../assets/linkedin.svg"
 import github_logo from "../assets/github.png"
+import { Link } from "react-router-dom"
 
 function Home() {
   return (
@@ -9,7 +10,11 @@ function Home() {
       <section id="hero">
         <h1 className="titles highlight"> <a href="https://linkedin.com/in/brandoncastillodev" target="_blank">Hi I'm Brandon Castillo 👋</a></h1>
         
-        <h2 className="titles highlight" target="_blank">Front End & UX Designer</h2>
+        <h2 className="titles highlight"> 
+          <a href="https://api.constata.eu/certificate/research+riding+veal+bonfire+dedicator" target="_blank">
+          Front End & UX Designer
+          </a>
+        </h2>
 
         <figure className="profile-pic">
           <img
@@ -66,7 +71,7 @@ function Home() {
           And I completed a <a href="https://openbadgefactory.com/obv3/credentials/b2a9c890eba940b3747c0b7656806656e13cc539" target="_blank">UX Design</a> course where I passed with excellent qualifications. 
           I believe we are living in a new industrial revolution, and I find it incredibly exciting.
           I specialize in developing interfaces based on professional UI design using a pixel-perfect approach.
-          I have 1 year of experience. Please check my works here or in my <a href="https://brandon-portfolio-phi.vercel.app" target="_blank">other site</a>.
+          I have 1 year of experience. Please check my works <Link to="/works">here</Link> or in my <a href="https://brandon-portfolio-phi.vercel.app" target="_blank">other site</a>.
           {/* I have 1 year of experience working as a full-stack and front-end developer */}
           {/*   I have 1 year of experience, as a full-stack and a front-end. */}
           {/* for everyone.  */}         
