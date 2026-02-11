@@ -10,7 +10,7 @@ function Footer() {
     { to: "/experience", title: "Experience" },
     { to: "/works", title: "Works" },
     { to: "/projects", title: "Projects" },
-    { to: "/services", title: "Services" },
+    // { to: "/services", title: "Services" },
     { to: "/contact", title: "Contact" },
   ];
 

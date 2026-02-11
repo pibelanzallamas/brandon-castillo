@@ -108,18 +108,19 @@ function Home() {
           <ul>
             <li>Figma</li>
             <li>Trello</li>
-            <li>Tailwind CSS</li>
+            <li>UXtweak</li>
+            <li>Miro</li>
             <li>Redux</li>
-            <li>Chakra UX</li>
-            <li>MUI</li>           
+            <li>Tailwind CSS</li>
           </ul>
           <ul>
-            <li>Miro</li>
+            <li>Chakra UX</li>
+            <li>MUI</li>      
             <li>Express.js</li>
             <li>Sequelize</li>
             <li>PostgreSQL</li>
             <li>SQLite3</li>
-            <li>JWT</li>
+            
           </ul>
         </div>
       </section>
