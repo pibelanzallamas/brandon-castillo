@@ -1,7 +1,7 @@
 import cv from "../assets/Brandon Castillo Resume.pdf"
-import cv_logo from "../assets/cv.svg"
-import linkedin_logo from "../assets/linkedin.svg"
-import github_logo from "../assets/github.png"
+import cv_logo from "../assets/cv.png"
+import linkedin_logo from "../assets/linkedin.png"
+import github_logo from "../assets/github-newColor.png"
 import { Link } from "react-router-dom"
 
 function Home() {
