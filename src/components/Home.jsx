@@ -70,8 +70,8 @@ function Home() {
           I did a Bootcamp with <a href="https://api.constata.eu/certificate/research+riding+veal+bonfire+dedicator" target="_blank"> Plataforma 5. </a>
           And I completed a <a href="https://openbadgefactory.com/obv3/credentials/b2a9c890eba940b3747c0b7656806656e13cc539" target="_blank">UX Design</a> course where I passed with excellent qualifications. 
           I believe we are living in a new industrial revolution, and I find it incredibly exciting.
-          I specialize in developing interfaces based on professional UI design using a pixel-perfect approach.
-          I have 1 year of experience. Please check my works <Link to="/works">here</Link> or in my <a href="https://brandon-portfolio-phi.vercel.app" target="_blank">other site</a>.
+          <b>I specialize in developing interfaces based on professional UI design using a pixel-perfect approach.
+          I have 1 year of experience.</b> Please check my works <Link to="/works">here</Link> or in my <a href="https://brandon-portfolio-phi.vercel.app" target="_blank">other site</a>.
           {/* I have 1 year of experience working as a full-stack and front-end developer */}
           {/*   I have 1 year of experience, as a full-stack and a front-end. */}
           {/* for everyone.  */}         
