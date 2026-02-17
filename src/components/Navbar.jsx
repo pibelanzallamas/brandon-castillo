@@ -5,9 +5,9 @@ function Navbar() {
   const location = useLocation();
   const links = [
     { to: "/education", title: "Education" },
-    { to: "/experience", title: "Experience" },
-    { to: "/works", title: "Works" },
-    { to: "/projects", title: "Projects" },
+    { to: "/work", title: "Work" },
+    // { to: "/works", title: "Works" },
+    // { to: "/projects", title: "Projects" },
     // { to: "/services", title: "Services" },
     { to: "/contact", title: "Contact" },
   ];

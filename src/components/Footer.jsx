@@ -7,9 +7,9 @@ function Footer() {
 
   const links = [
     { to: "/education", title: "Education" },
-    { to: "/experience", title: "Experience" },
-    { to: "/works", title: "Works" },
-    { to: "/projects", title: "Projects" },
+    // { to: "/experience", title: "Experience" },
+    { to: "/work", title: "Work" },
+    // { to: "/projects", title: "Projects" },
     // { to: "/services", title: "Services" },
     { to: "/contact", title: "Contact" },
   ];

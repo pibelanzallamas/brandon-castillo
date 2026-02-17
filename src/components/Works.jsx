@@ -1,5 +1,5 @@
 import { useState } from "react";
-import works from "../utils/works";
+import works from "../utils/exp";
 import ExpCard from "../commons/ExpCard";
 
 function Works() {
@@ -8,7 +8,7 @@ function Works() {
 
   return (
     <main className="edu">
-      <h3 className="titles">Works</h3>
+      <h3 className="titles">Work</h3>
       <div className="front-page-links footer-links">
         {works.map((ex, i) => (
           <a
