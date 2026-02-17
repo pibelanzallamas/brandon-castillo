@@ -7,7 +7,7 @@ const exp = [
     final: "Jan 2025",
     author: "Brandon Castillo",
     photos:[
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1767315491/2026-01-01-21-57-29_c8rsci.png"],
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1771345684/2026-02-17-13-11-52_crcxnp.png"],
     web: "https://cgcminc.vercel.app/",
     youtube: "https://www.youtube.com/watch?v=d9R3duNF7eg",
     github: "https://github.com/brandoncastillodev/minc.cg/",
