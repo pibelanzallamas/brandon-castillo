@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import { Link, useLocation } from "react-router-dom";
+import { setLang } from "../state/lang";
 
 function Navbar() {
   const location = useLocation();
@@ -10,24 +12,17 @@ function Navbar() {
     // { to: "/services", title: "Services" },
     { to: "/contact", title: "Contact" },
   ];
-  const [clicked, setClicked] = useState(false);
-  const [link, setLink] = useState("");
 
   const handleHambu = () => {
     setClicked(!clicked);
   };
 
-  useEffect(() => {
-    if (location.pathname == "/") {
-      setLink("");
-    }
-  }, [location]);
-
-  const [lang, setLang] = useState(false)
+  const [esp, setEsp] = useState(useSelector(state => state.lang.esp));
+  const dispatch = useDispatch();
 
   useEffect(()=>{
-    console.log(lang)
-  },[lang])
+    dispatch(setLang(esp))
+  },[esp])
 
   return (
     <>
@@ -66,9 +61,10 @@ function Navbar() {
         </Link>
 
         <div className="language">
-          <p onClick={()=>setLang(!lang)} className={lang ? "clicked" : "not-clicked"}> EN </p>
-          <p onClick={()=>setLang(!lang)} className={!lang ? "clicked" : "not-clicked"}> ES </p>
+          <p onClick={()=> setEsp(false)} className={!esp ? "clicked" : "not-clicked"}> EN </p>
+          <p onClick={()=> setEsp(true)} className={esp ? "clicked" : "not-clicked"}> ES </p>
         </div>
+        
         {/* <ul>
           {links.length > 0 &&
             links.map((ele, i) => (

@@ -3,18 +3,17 @@ import cv_logo from "../assets/cv.png"
 import linkedin_logo from "../assets/linkedin.png"
 import github_logo from "../assets/github-newColor.png"
 import { Link } from "react-router-dom"
-// import { useSelector } from "react-redux"
-// import { useState } from "react"
+import { useEffect, useState } from "react"
+import { useDispatch, useSelector } from "react-redux"
 
 function Home() {
-  const [lang, setLang] = useState(useSelector(state => state.language.value));
+  const leng = useSelector(state => state.lang.esp);
 
   return (
     <main className="home">
-      {console.log(lang)}
       <section id="hero">
         <h1>Brandon Castillo</h1>
-        <h2>Front End Developer</h2>
+        <h2>{leng ? " Desarrollador Front End" : "Front End Developer"}</h2>
         <figure className="profile-pic">
           <img
             src="https://res.cloudinary.com/daynclfo8/image/upload/w_600,f_webp,q_60/v1730995825/first-linkedin_1_zrrswp.png"
@@ -22,8 +21,10 @@ function Home() {
           />
         </figure>
         <p className="profile-description">
-          I build immersive, interactive, pixel-perfect digital experiences for the web.
-        </p>
+          {leng ? "Construyo experiencias digitales inmersivas, interactivas y con precisión pixel-perfect para la web.":
+          "I build immersive, interactive, pixel-perfect digital experiences for the web."
+          }
+          </p>
         <div className="home-icons">
           <a
             href="https://github.com/brandoncastillodev"
