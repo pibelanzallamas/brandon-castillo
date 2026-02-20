@@ -6,7 +6,6 @@ function Navbar() {
   const links = [
     { to: "/education", title: "Education" },
     { to: "/work", title: "Work" },
-    // { to: "/works", title: "Works" },
     // { to: "/projects", title: "Projects" },
     // { to: "/services", title: "Services" },
     { to: "/contact", title: "Contact" },
@@ -24,9 +23,15 @@ function Navbar() {
     }
   }, [location]);
 
+  const [lang, setLang] = useState(false)
+
+  useEffect(()=>{
+    console.log(lang)
+  },[lang])
+
   return (
     <>
-      <nav id="Navbar" className="nav nav-mobile">
+      {/* <nav id="Navbar" className="nav nav-mobile">
         <Link className="home-button" to={"/"}>
           Brandon Castillo
         </Link>
@@ -42,33 +47,36 @@ function Navbar() {
             ></img>
           </figure>
         </a>
-      </nav>
-      <ul className={clicked ? "hambu" : "notHambu"}>
+      </nav> */}
+      {/* <ul className={clicked ? "hambu" : "notHambu"}>
         {links.length > 0 &&
           links.map((ele, i) => (
             <Link to={ele.to} onClick={() => setLink(ele.title)} key={i}>
               {link == ele.title ? <u>{ele.title}</u> : ele.title}
             </Link>
           ))}
-      </ul>
-      <nav className="nav nav-desktop">
+      </ul> */}
+      <nav className="nav-desktop">
         <Link
           className="home-button"
           to={"/"}
-          onClick={() => {
-            setLink("Home");
-          }}
+          onClick={() => {setLink("Home")}}
         >
-          Brandon Castillo
+          
         </Link>
-        <ul>
+
+        <div className="language">
+          <p onClick={()=>setLang(!lang)} className={lang ? "clicked" : "not-clicked"}> EN </p>
+          <p onClick={()=>setLang(!lang)} className={!lang ? "clicked" : "not-clicked"}> ES </p>
+        </div>
+        {/* <ul>
           {links.length > 0 &&
             links.map((ele, i) => (
               <Link to={ele.to} onClick={() => setLink(ele.title)} key={i}>
                 {link == ele.title ? <u>{ele.title}</u> : ele.title}
               </Link>
             ))}
-        </ul>
+        </ul> */}
       </nav>
     </>
   );

@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-.nav {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,6 +9,24 @@
 .home-button {
   font-weight: 600;
   font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.language {
+  display: flex;
+  gap: 0.8rem;
+  font-size: 0.9rem;
+}
+.language p {
+  cursor: pointer;
+}
+
+.clicked {
+  color: #FFFFFF;
+}
+
+.not-clicked {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .nav-mobile figure {
@@ -26,10 +44,6 @@
 }
 .hambu a {
   font-size: 1.2rem;
-}
-
-.notHambu, .nav-desktop {
-  display: none;
 }
 
 @media (min-width: 1024px) {
@@ -55,42 +69,47 @@
   gap: 1rem;
 }
 
-#about {
-  text-align: center;
-}
-
 #hero {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 0.4rem;
+  justify-content: flex-start;
 }
 #hero .presentation {
   font-size: 1.5rem;
   font-weight: 700;
 }
-#hero h2 a {
-  color: #E8E6E3;
+
+h1 {
+  font-size: 2.34rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin-top: 0.9rem;
+}
+
+.profile-description {
+  margin-top: 0.7rem;
+  width: 33ch;
 }
 
 .profile-pic {
-  width: 195px;
+  display: none;
+  margin-top: 0.5rem;
+  width: 140px;
+  border-radius: 80%;
   aspect-ratio: 1/1;
-  border-radius: 50%;
 }
 .profile-pic img {
-  border-radius: 50%;
-  border: 1px solid #E8E6E3;
-  background: #2C5588;
+  border-radius: 80%;
 }
 
-#home-icons {
+.home-icons {
+  margin-top: 1.4rem;
   display: flex;
-  margin: 0 auto;
-  margin-top: 0.2rem;
   gap: 1rem;
 }
-#home-icons figure {
+.home-icons figure, .home-icons svg {
   width: 2rem;
 }
 
@@ -302,6 +321,12 @@ footer p {
   box-sizing: border-box;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
 body {
   font-family: inter;
   background-color: #2D3133;
@@ -309,33 +334,12 @@ body {
 }
 
 main {
-  padding: 1rem;
-}
-
-img {
-  width: 100%;
-  height: 100%;
-  display: block;
+  padding: 0rem 1rem;
 }
 
 a {
   text-decoration: none;
   color: inherit;
-  color: #679ECE;
-}
-
-a:hover, .highlight:hover {
-  color: #679ECE;
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-.titles {
-  font-size: 1.7rem;
-}
-
-.sub-title {
-  font-size: 1.3rem;
 }
 
 @media (min-width: 1024px) {
