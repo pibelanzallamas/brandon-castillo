@@ -88,20 +88,8 @@ h2 {
   margin-top: 0.9rem;
 }
 
-.profile-description {
-  margin-top: 0.7rem;
-  width: 33ch;
-}
-
-.profile-pic {
-  display: none;
-  margin-top: 0.5rem;
-  width: 140px;
-  border-radius: 80%;
-  aspect-ratio: 1/1;
-}
-.profile-pic img {
-  border-radius: 80%;
+h3 {
+  font-size: 1rem;
 }
 
 .home-icons {
@@ -111,6 +99,11 @@ h2 {
 }
 .home-icons figure, .home-icons svg {
   width: 2rem;
+}
+
+.profile-description {
+  margin-top: 0.7rem;
+  width: 33ch;
 }
 
 .technologies {

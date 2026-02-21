@@ -9,7 +9,7 @@ function Experience() {
   const [changeItem, setChangeItem] = useState(false);
 
   return (
-    <main className="edu">
+    <section className="edu">
       <h3 className="titles">Experience</h3>
       <div className="front-page-links footer-links">
         {exp.map((ex, i) => (
@@ -27,7 +27,7 @@ function Experience() {
         ))}
       </div>
       <ExpCard card={selExp} disparador={changeItem} />
-    </main>
+    </section>
   );
 }
 

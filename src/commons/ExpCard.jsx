@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import left from "../assets/arrow-left-circle.svg";
-import right from "../assets/arrow-right-circle.svg";
+import left from "../assets/icons/arrow-left-circle.svg";
+import right from "../assets/icons/arrow-right-circle.svg";
 
 function ExpCard({ card, disparador }) {
   const [numImg, setNumImg] = useState(0);
