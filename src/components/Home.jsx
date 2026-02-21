@@ -52,25 +52,43 @@ function Home() {
 
       <section id="about">
         <h3>ABOUT</h3>
-        <p  className="about-body">
+        <p className="about-body">
           {leng ? 
-          `Soy desarrollador frontend con especialidad en interactividad web,
-          enfocado en construir interfaces de usuario intuitivas y pixel-perfect. 
-          Disfruto trabajar en la intersección entre diseño y desarrollo, 
-          donde una gran experiencia de usuario se encuentra con código robusto, limpio y escalable.
-          Actualmente, soy frontend en CGC MINC, donde traduzco diseños de alta fidelidad en experiencias 
-          responsivas, incluyendo animaciones 3D y 2D.`:
-         
-          `I’m a frontend developer specializing in web interactivity, 
-          focused on building intuitive, pixel-perfect user interfaces. 
-          I enjoy working at the intersection of design and development, 
-          where great user experience meets robust, clean, and scalable code. 
-          Currently, I’m a frontend developer at CGC MINC, where I translate high-fidelity 
-          designs into responsive experiences, including 3D and 2D animations.`}
+          <> 
+            Soy Desarrollador Front End con especialidad en interactividad web,
+            enfocado en construir interfaces de usuario intuitivas y pixel-perfect. 
+            Disfruto trabajar en la intersección entre diseño y desarrollo, 
+            donde una gran experiencia de usuario se encuentra con código robusto, limpio y escalable.
+            Actualmente, soy frontend en{" "}
+            <a 
+              href="https://cgcminc.vercel.app" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              CGC MINC
+            </a>, 
+            donde traduzco diseños de alta fidelidad en experiencias 
+            responsivas, incluyendo animaciones 3D y 2D.
+          </> 
+          :
+          <> 
+            I’m a Front End Developer specializing in web interactivity, 
+            focused on building intuitive, pixel-perfect user interfaces. 
+            I enjoy working at the intersection of design and development, 
+            where great user experience meets robust, clean, and scalable code. 
+            Currently, I’m a frontend developer at{" "}
+            <a 
+              href="https://cgcminc.vercel.app" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              CGC MINC
+            </a>, 
+            where I translate high-fidelity designs into responsive experiences, 
+            including 3D and 2D animations.
+          </>}
         </p>
       </section>
-
-      <Experience/>
 
       <section className="technologies">
         <h3>Technologies I Use Daily</h3>
