@@ -13,11 +13,12 @@ header
   h2
     font-size: 1.3rem
     margin-top: 0.8rem
+  margin-bottom: -1rem
 
 .profile-description
   color: $color-texto
   margin-top: 1rem
-  font-size: 1.02rem
+  font-size: 1.05rem
   width: 33ch
 
 .home-icons
@@ -31,7 +32,7 @@ header
 
 .section-title
   margin-top: 3rem
-  h3
+  h2
     font-size: 1.4rem
     margin-bottom: 1.5rem
 
@@ -39,10 +40,10 @@ header
   color: $color-texto
   font-size: 1rem
   a
-    color: $color-secundario
+    color: $color-titulo
 
 .exp-card
-  margin-bottom: 2rem
+  margin-bottom: 3rem
   color: $color-texto
 
 .exp-card__date
@@ -112,14 +113,23 @@ header
     margin-bottom: 1rem
 
 @media (min-width: 1024px)
+  nav
+    padding: 1.4rem
+
+  #hero
+    margin: 0 auto
+    margin-top: 2rem
+    width: 60%
   #about
     margin-top: 1rem
     p
       width: 64ch
-
-  .profile-pic
-    width: 200px
-
+  #experience
+    p
+      width: 64ch
+  #projects
+    p
+      width: 40ch
 // .profile-pic
 //   display: none
 //   margin-top: 0.5rem

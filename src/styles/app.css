@@ -72,6 +72,7 @@ header {
 #hero {
   display: flex;
   flex-direction: column;
+  margin-bottom: -1rem;
 }
 #hero h1 {
   font-size: 2.34rem;
@@ -84,7 +85,7 @@ header {
 .profile-description {
   color: #B0A99F;
   margin-top: 1rem;
-  font-size: 1.02rem;
+  font-size: 1.05rem;
   width: 33ch;
 }
 
@@ -100,7 +101,7 @@ header {
 .section-title {
   margin-top: 3rem;
 }
-.section-title h3 {
+.section-title h2 {
   font-size: 1.4rem;
   margin-bottom: 1.5rem;
 }
@@ -110,11 +111,11 @@ header {
   font-size: 1rem;
 }
 .about-body a {
-  color: #679ECE;
+  color: #C9D7E3;
 }
 
 .exp-card {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   color: #B0A99F;
 }
 
@@ -201,14 +202,25 @@ header {
   }
 }
 @media (min-width: 1024px) {
+  nav {
+    padding: 1.4rem;
+  }
+  #hero {
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 60%;
+  }
   #about {
     margin-top: 1rem;
   }
   #about p {
     width: 64ch;
   }
-  .profile-pic {
-    width: 200px;
+  #experience p {
+    width: 64ch;
+  }
+  #projects p {
+    width: 40ch;
   }
 }
 .edu {
@@ -357,7 +369,7 @@ header {
   }
 }
 footer {
-  margin-top: 1rem;
+  margin-top: 1.7rem;
   padding: 1rem;
   padding-top: 0rem;
   display: flex;
@@ -406,6 +418,10 @@ main {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+a:hover, .highlight:hover {
+  color: #31a594;
 }
 
 @media (min-width: 1024px) {

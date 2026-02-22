@@ -8,9 +8,8 @@ function Home() {
   const leng = useSelector(state => state.lang.esp);
 
   return (
+    <>
     <main className="home">
-     
-
       <section id="about" className="section-title">
         <h2>{leng ? "Acerca" : "About"}</h2>
         <p className="about-body">
@@ -73,6 +72,19 @@ function Home() {
         />
       </section>
     </main>
+    <footer>
+      {/* <h3>More About</h3> */}
+      <div className="footer-links">
+        {/* {links.length > 0 &&
+          links.map((ele, i) => (
+          <Link to={ele.to} onClick={() => setLink(ele.title)} key={i}>
+            {link == ele.title ? <u>{ele.title}</u> : ele.title}
+          </Link>
+        ))} */}
+          <p class="firma">Made with ❤️ by Brandon 🏰</p>
+      </div>
+    </footer>
+    </>
   );
 }
 

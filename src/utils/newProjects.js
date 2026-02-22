@@ -5,13 +5,7 @@ const projects = [
     desc: "Built in 1 hour, it gives you a total random card, maybe it will give you luck.",
     descEs: "Hecho en 1 hora, obtené una carta totalmente random, tal vez te dé suerte.",
     image: "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732664481/yugi2.png",
-    title: "Yu-Gi-Oh! Randomizer!",
-    photos: [
-      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732663508/yugi.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732664481/yugi2.png",
-      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732652065/yugi3.png",
-    ],
-    inicio: "Jul 2024",
+
     final: "Jul 2024",
     date: "Jul 2024",
     web: "https://givemeayugiohcard.vercel.app/",
