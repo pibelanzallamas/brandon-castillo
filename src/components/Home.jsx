@@ -1,6 +1,4 @@
 import { useSelector } from "react-redux"
-import cvEn from "../assets/cvs/Brandon Castillo Resume.pdf"
-import cvEs from "../assets/cvs/Brandon Castillo.pdf"
 import exp from "../utils/newExp"
 import projects from "../utils/newProjects"
 import NewExpCard from "../commons/NewExpCard"
@@ -11,68 +9,15 @@ function Home() {
 
   return (
     <main className="home">
-      <section id="hero">
-        <h1>Brandon Castillo</h1>
-        <h2>{leng ? " Desarrollador Front End" : "Front End Developer"}</h2>
-        
-        <p className="profile-description">
-          {leng ? "Construyo experiencias digitales inmersivas, interactivas y pixel-perfect para la web.":
-          "I build immersive, interactive, pixel-perfect digital experiences for the web."}
-        </p>
-
-        <div className="home-icons">
-          <a
-            href="https://github.com/brandoncastillodev"
-            title="Let's work!"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 16 16"
-              fill="#B0A99F"
-              class="h-6 w-6"
-              aria-hidden="true">
-            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">  </path></svg>
-          </a>
-          <a
-            href="https://linkedin.com/in/brandoncastillodev"
-            title="Let's connect!"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="#B0A99F"
-                class="h-6 w-6"
-                aria-hidden="true">
-              <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z">
-              </path>
-            </svg>
-          </a>
-         <a
-            href={leng?cvEs:cvEn}
-            title="Download CV"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="#B0A99F"
-                class="h-6 w-6"
-                aria-hidden="true">
-              <path d="M6 2.25A2.25 2.25 0 003.75 4.5v15A2.25 2.25 0 006 21.75h12A2.25 2.25 0 0020.25 19.5v-15A2.25 2.25 0 0018 2.25H6zm3 5.25h6a.75.75 0 010 1.5H9a.75.75 0 010-1.5zm0 3h6a.75.75 0 010 1.5H9a.75.75 0 010-1.5zm0 3h4.5a.75.75 0 010 1.5H9a.75.75 0 010-1.5z"/>
-            </svg>
-          </a> 
-        </div>
-      </section>
+     
 
       <section id="about" className="section-title">
-        <h3>{leng ? "Acerca" : "About"}</h3>
+        <h2>{leng ? "Acerca" : "About"}</h2>
         <p className="about-body">
           {leng ? 
           <> 
             Soy Desarrollador Front End con especialidad en interactividad web,
-            enfocado en construir interfaces de usuario intuitivas y pixel-perfect. 
+            enfocado en construir interfaces de usuario intuitivas, inmersivas y pixel-perfect. 
             Disfruto trabajar en la intersección entre diseño y desarrollo, 
             donde una gran experiencia de usuario se encuentra con código robusto, limpio y escalable.
             Actualmente, soy frontend en{" "}
@@ -89,7 +34,7 @@ function Home() {
           :
           <> 
             I’m a Front End Developer specializing in web interactivity, 
-            focused on building intuitive, pixel-perfect user interfaces. 
+            focused on building intuitive, inmersive, pixel-perfect user interfaces. 
             I enjoy working at the intersection of design and development, 
             where great user experience meets robust, clean, and scalable code. 
             Currently, I’m a frontend developer at{" "}
@@ -107,21 +52,21 @@ function Home() {
       </section>
 
       <section id="experience" className="section-title">
-        <h3>{leng?"Experiencia":"Experience"}</h3>
+        <h2>{leng?"Experiencia":"Experience"}</h2>
         {exp.map((ele,i)=>(
           <NewExpCard exp={ele} key={i}/>
         ))}
       </section>
 
       <section id="projects" className="section-title">
-        <h3>{leng ? "Proyectos":"Projects"}</h3>
+        <h2>{leng ? "Proyectos":"Projects"}</h2>
         {projects.map((ele,i)=>(
           <NewProjectCard proj={ele} key={i}/>
         ))}
       </section>
 
       <section id="charts" className="section-title">
-        <h3>Charts</h3>
+        <h2>Charts</h2>
         <img
           src="http://ghchart.rshah.org/3fc761/brandoncastillodev"
           alt="brandoncastillodev's Github chart"
