@@ -16,23 +16,25 @@ h1
 
 h2
   font-size: 1.3rem
-  margin-top: 0.9rem
+  margin-top: 0.8rem
 
 .about-body
+  color: $color-texto
   a
     color: $color-secundario
 
 .home-icons
-  margin-top: 1.4rem
+  margin-top: 1.2rem
   display: flex
   gap: 1rem
   figure, svg
     width: 2rem
 
 .profile-description
-  margin-top: 0.7rem
+  color: $color-texto
+  margin-top: 1rem
+  font-size: 1rem
   width: 33ch
-
 
 .technologies
   width: 100%
@@ -49,13 +51,88 @@ h2
 #soft-skills
   width: 100%
 
+.section-title
+  margin-top: 3rem
+  h3
+    font-size: 1.4rem
+    margin-bottom: 1.5rem
+
+.exp-card
+  margin-bottom: 2rem
+  color: $color-texto
+
+.exp-card__date
+  margin-bottom: 0.7rem
+  
+.exp-card__title
+  margin-top: 0.6rem
+  font-size: 1.4rem
+  font-weight: 400
+  color: $color-titulo
+
+.exp-card__descr
+  margin-top: 0.5rem
+  color: $color-texto
+
+.exp-card__techs
+  list-style: none
+  display: flex
+  gap: 0.6rem
+  margin-top: 0.7rem
+
+.exp-car__tech
+  border-radius:  15px
+  background-color: #0E2230
+  color: #61EAD5
+  padding: 0.45rem 0.55rem
+  font-size: 0.9rem
+
+#projects
+  margin-top: 1rem
+
+.proj-card
+  margin-bottom: 3rem
+
+.proj-card__title
+  display: flex
+  align-items: flex-end
+  gap: 0.2rem
+  h4
+    font-size: 1.1rem
+    font-weight: 400
+    color: $color-titulo
+  svg
+    width: 1.1rem
+
+.proj-card__desc
+  margin-top: 0.5rem
+  color: $color-texto
+
+.proj-card__image
+  margin-top: 0.9rem
+  width: 50%
+  border-radius: 2%
+  img
+    border-radius: 2%
+
+#charts
+  margin-top: 0rem
+  img
+    margin-top: -1rem
+
+
 @media (min-width: 768px)
   .profile-pic
     width: 170px
-  .charts
+  #charts
     margin-bottom: 1rem
 
 @media (min-width: 1024px)
+  #about
+    margin-top: 1rem
+    p
+      width: 64ch
+
   .profile-pic
     width: 200px
 

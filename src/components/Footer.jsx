@@ -31,14 +31,14 @@ function Footer() {
 
   return (
     <footer>
-      <h3>More About</h3>
+      {/* <h3>More About</h3> */}
       <div className="footer-links">
-        {links.length > 0 &&
+        {/* {links.length > 0 &&
           links.map((ele, i) => (
-            <Link to={ele.to} onClick={() => setLink(ele.title)} key={i}>
-              {link == ele.title ? <u>{ele.title}</u> : ele.title}
-            </Link>
-          ))}
+          <Link to={ele.to} onClick={() => setLink(ele.title)} key={i}>
+            {link == ele.title ? <u>{ele.title}</u> : ele.title}
+          </Link>
+        ))} */}
           <p class="firma">Made with ❤️ by Brandon 🏰</p>
       </div>
     </footer>

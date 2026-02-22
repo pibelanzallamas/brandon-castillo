@@ -5,6 +5,8 @@ const exp = [
     year: 2025,
     inicio: "Dec 2025",
     final: "Jan 2025",
+    date: "DEC - JAN 2026",
+    fecha: "DIC - ENE 2026",
     author: "Brandon Castillo",
     photos:[
       "https://res.cloudinary.com/daynclfo8/image/upload/v1767360213/2026-01-02-10-21-18_t8acgo.png"],
@@ -58,6 +60,8 @@ const exp = [
     title: "Calles Construction",
     inicio: "Jan 2025",
     final: "Feb 2025",
+    date: "JAN - FEB 2025",
+    fecha: "JAN - FEB 2025",
     web: "https://calles-construction.vercel.app/",
     youtube: "https://www.youtube.com/watch?v=mOV8O6jPwC4",
     github: "https://github.com/pibelanzallamas/calles-construction",
