@@ -28,12 +28,12 @@ function Home() {
               CGC MINC
             </a>, 
             donde traduzco diseños de alta fidelidad en experiencias 
-            responsivas, incluyendo animaciones 3D y 2D.
+            responsivas y accesibles, incluyendo animaciones 3D y 2D.
           </> 
           :
           <> 
             I’m a Front End Developer specializing in web interactivity, 
-            focused on building intuitive, inmersive, pixel-perfect user interfaces. 
+            focused on building intuitive, immersive, pixel-perfect user interfaces. 
             I enjoy working at the intersection of design and development, 
             where great user experience meets robust, clean, and scalable code. 
             Currently, I’m a frontend developer at{" "}
@@ -44,7 +44,7 @@ function Home() {
             >
               CGC MINC
             </a>, 
-            where I translate high-fidelity designs into responsive experiences, 
+            where I translate high-fidelity designs into responsive and accessible experiences, 
             including 3D and 2D animations.
           </>}
         </p>
@@ -73,15 +73,8 @@ function Home() {
       </section>
     </main>
     <footer>
-      {/* <h3>More About</h3> */}
       <div className="footer-links">
-        {/* {links.length > 0 &&
-          links.map((ele, i) => (
-          <Link to={ele.to} onClick={() => setLink(ele.title)} key={i}>
-            {link == ele.title ? <u>{ele.title}</u> : ele.title}
-          </Link>
-        ))} */}
-          <p class="firma">Made with ❤️ by Brandon 🏰</p>
+        <p class="firma">Made with ❤️ by Brandon 🏰</p>
       </div>
     </footer>
     </>
