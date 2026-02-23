@@ -4,16 +4,18 @@ const exp = [
     fecha: "DIC - Actualidad",
     title: "CGC minc",
     web: "https://cgcminc.vercel.app/",
-    descEs: `Realicé la optimización de las animaciones y aseguré su funcionamiento en todos los dispositivos  
-    y exploradores (Safari, Chrome, Firefox). Diseñé la base de datos. Implementación pixel-perfect. Optimización general. 
-    Diseño UX/UI: Daniel Aziah. Sigue en desarrollo.`,
-    desc: `I optimized the animations and ensured they work on all devices and browsers (Safari, Chrome, Firefox). 
-    I designed the database. Pixel-perfect implementation. General optimization. UX/UI Design: Daniel Aziah. Still in development.`,
+    descEs: `Ecommerce de indumentaria y accesorios. Realicé la optimización de las animaciones y aseguré 
+    su funcionamiento en todos los dispositivos y principales navegadores (Chrome, Safari), tanto en mobile como en desktop. Diseño de base de datos. 
+    Implementación de manera pixel-perfect. Pequeño servidor con Node.js. Diseño UX/UI: Daniel Aziah. Sigue en desarrollo.`,
+    desc: `E-commerce for clothing and accessories. I optimized the animations and ensured their functionality across
+     all devices and major browsers (Chrome, Safari) on mobile and desktop. Database design. Pixel-perfect implementation.
+     UX/UI design: Daniel Aziah. Still in development.`,
     techs: [
       "JavaScript",
       "React",
-      "Redux",
-      "Sass",
+      "VP9",
+      "H265",
+      "SASS"
     ],
     linksTools: [
       {
@@ -53,7 +55,7 @@ const exp = [
      "JavaScript",
       "React",
       "Redux",
-      "Sass",
+      "SASS",
     ],
     tools: ["Scrum Methology"],
     linksTools: [
@@ -95,7 +97,7 @@ const exp = [
       "JavaScript",
       "React",
       "Redux",
-      "Sass",
+      "SASS",
     ],
   },
 ];
