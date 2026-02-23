@@ -17,12 +17,7 @@ nav {
   font-size: 0.9rem;
 }
 .set-lang p {
-  transition: transform 0.3s ease, color 0.3s ease;
   cursor: pointer;
-}
-.set-lang p:hover {
-  color: #61EAD5;
-  transform: scale(1.1);
 }
 
 .clicked {
@@ -164,9 +159,11 @@ main {
   font-size: 1.1rem;
   font-weight: 400;
   color: #C9D7E3;
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 .proj-card__title h4:hover {
   color: #31a594;
+  transform: scale(1.02);
 }
 .proj-card__title svg {
   width: 1.1rem;
