@@ -2,8 +2,8 @@ const projects = [
   {
     name: "Get a Yu-Gi-Oh! card",
     nombre: "Obtené una carta Yu-Gi-Oh!",
-    desc: "Built in 1 hour, it gives you a total random card, maybe it will give you luck.",
-    descEs: "Hecho en 1 hora, obtené una carta totalmente random, tal vez te dé suerte.",
+    desc: "Built in 1 hour. It uses YGOPRODeck API. It gives you a total random Yu-Gi-Oh! card from the whole collection. Sometimes it can be slow.",
+    descEs: "Construido en 1 hora. Usa la API de YGOPRODeck. Te da una carta totalmente random de Yu-Gi-Oh! de toda la colección. A veces puede ser lento.",
     image: "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732664481/yugi2.png",
 
     final: "Jul 2024",
@@ -24,10 +24,10 @@ const projects = [
     
   },
   {
-    name: "Song recommendation by mood",
-    nombre: "Recomienda música de acuerdo al mood",
-    desc: "Built in 2 days, is a website where you choose a mood and plays a song based on that choice. All songs are from my library.",
-    descEs: "Construido en 2 días, es un sitio web donde eliges un estado de ánimo y reproduce una canción basada en esa elección. Todas las canciones son de mi biblioteca.",
+    name: "Music curation by mood",
+    nombre: "Curaduría de música por emociones",
+    desc: "Built in 2 hours, is a website where you choose a mood and plays a song based on that choice. Focus on smooth user experience and instant song playback from a curated library.",
+    descEs: "Construido en 2 horas: un sitio web donde eliges un estado de ánimo y reproduce una canción basada en esa elección. Enfocado en una experiencia de usuario fluida y reproducción instantánea desde una biblioteca musical seleccionada.",
     image: "https://res.cloudinary.com/daynclfo8/image/upload/v1768150121/2026-01-11-13-48-29_zktvzz.png",
     title: "Your Mood",
     photos: [
