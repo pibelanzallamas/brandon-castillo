@@ -2,10 +2,10 @@ import { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import cvEn from "../assets/cvs/Brandon Castillo Resume.pdf"
 import cvEs from "../assets/cvs/Brandon Castillo.pdf"
-import { Link, useLocation } from "react-router-dom";
+import { Link} from "react-router-dom";
 import { setLang } from "../state/lang";
 
-function Navbar() {
+function Main() {
   const [esp, setEsp] = useState(useSelector(state => state.lang.esp));
   const leng = useSelector(state => state.lang.esp);
 
@@ -17,7 +17,7 @@ function Navbar() {
 
   return (
     <header>
-      <nav className="nav-desktop">
+      <nav>
         <Link
           className="home-button"
           to={"/"}
@@ -27,8 +27,9 @@ function Navbar() {
           <p onClick={()=> setEsp(false)} className={!esp ? "clicked" : "not-clicked"}> EN </p>
           <p onClick={()=> setEsp(true)} className={esp ? "clicked" : "not-clicked"}> ES </p>
         </div>
-      </nav>
-     <div id="hero">
+      </nav> 
+
+      <div id="hero">
         <h1>Brandon Castillo</h1>
         <h2>{leng ? " Desarrollador Front End" : "Front End Developer"}</h2>
         <p className="profile-description">
@@ -81,11 +82,12 @@ function Navbar() {
           </a> 
         </div>
       </div>
+
     </header>
   );
 }
 
-export default Navbar;
+export default Main;
 
 
   // const location = useLocation();

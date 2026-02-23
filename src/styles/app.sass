@@ -32,6 +32,9 @@ body
   background-color: $fondo
   color: $color-principal
 
+.layout
+  min-height: 100vh
+
 main
   padding: 0rem 1rem
 
@@ -43,6 +46,5 @@ a:hover, .highlight:hover
   color: #31a594
 
 @media (min-width: 1024px)
-  main
-    margin: 0 auto
-    width: 60vw
+  .layout
+    display: flex
