@@ -28,9 +28,9 @@ const exp = [
     fecha: "JAN - FEB 2025",
     web: "https://calles-construction.vercel.app/",
     desc: `I did the UX/UI design with Miro, consulting with the company about business needs,
-     database design, connection with server, Front End development, maintenance and hosting in general.`,
-    descEs: `Realicé el diseño UX/UI con Miro, consultando con la empresa sobre las necesidades comerciales, el diseño de la base de datos, 
-    conexión con el servidor, desarrollo Front End, mantenimiento y alojamiento en general.`,
+     I did the scheema desgin for the database, the connection to the server, front end development, maintenance and hosting in general.`,
+    descEs: `Realicé el diseño UX/UI con Miro, consultando con la empresa sobre las necesidades comerciales, realicé el diseño de la base de datos, 
+    conexión con el servidor, desarrollo front end, mantenimiento y alojamiento en general.`,
     mainFeat: [
       {
         title: "Company Information",
