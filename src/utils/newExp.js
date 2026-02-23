@@ -69,10 +69,10 @@ const exp = [
     title: "Dreamer Paintings",
     web: "https://dreamer-paintings.vercel.app",
     github: "https://github.com/brandoncastillodev/dreamers-paintings",
-    desc: `A website showcasing the work of a talented painter from Buenos Aires. We worked together to define the needs and the design.
-    We were building and making changes on the go. I developed everything with React, JavaScript and Sass.`,
-    descEs: `Un sitio web que muestra el trabajo de un talentoso pintor de Buenos Aires. Trabajamos juntos para definir
-     las necesidades y el diseño. Fuimos construyendo y haciendo cambios sobre la marcha. Desarrollé todo con React, JavaScript y Sass.`,
+    desc: `Website to showcase Dreamer Paintings' artwork. We worked together to define the needs and the UX/UI design. 
+    We built and made changes on the fly. Everything was developed with React, JavaScript, and Sass."`,
+    descEs: `Sitio web para mostrar las obras de Dreamer Paintings. Trabajamos juntos para definir
+     las necesidades y el diseño UX/UI. Fuimos construyendo y haciendo cambios sobre la marcha. Se desarrollo todo con React, JavaScript y Sass.`,
     mainFeat: [
       {
         title: "Gallery Exploration",
