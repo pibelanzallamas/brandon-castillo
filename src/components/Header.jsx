@@ -23,7 +23,7 @@ function Main() {
           to={"/"}
           onClick={() => {setLink("Home")}}
         ></Link>
-        <div className="language">
+        <div className="set-lang">
           <p onClick={()=> setEsp(false)} className={!esp ? "clicked" : "not-clicked"}> EN </p>
           <p onClick={()=> setEsp(true)} className={esp ? "clicked" : "not-clicked"}> ES </p>
         </div>
@@ -32,12 +32,12 @@ function Main() {
       <div id="hero">
         <h1>Brandon Castillo</h1>
         <h2>{leng ? " Desarrollador Front End" : "Front End Developer"}</h2>
-        <p className="profile-description">
+        <p className="hero-description">
           {leng ? "Construyo experiencias digitales inmersivas, interactivas y pixel-perfect para la web.":
           "I build immersive, interactive, pixel-perfect digital experiences for the web."}
         </p>
 
-        <div className="home-icons">
+        <div className="hero-icons">
           <a
             href="https://github.com/brandoncastillodev"
             title="GitHub"
@@ -82,7 +82,6 @@ function Main() {
           </a> 
         </div>
       </div>
-
     </header>
   );
 }
