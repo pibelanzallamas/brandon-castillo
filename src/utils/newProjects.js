@@ -26,8 +26,8 @@ const projects = [
   {
     name: "Music curation by mood",
     nombre: "Curaduría de música por emociones",
-    desc: "Built in 2 hours, is a website where you choose a mood and plays a song based on that choice. Focus on smooth user experience and instant song playback from a curated library.",
-    descEs: "Construido en 2 horas: un sitio web donde eliges un estado de ánimo y reproduce una canción basada en esa elección. Enfocado en una experiencia de usuario fluida y reproducción instantánea desde una biblioteca musical seleccionada.",
+    desc: "Built in 2 hours. It's a website where you choose a mood and plays a song based on that choice. Focus on smooth user experience and instant song playback from a curated library.",
+    descEs: "Construido en 2 horas. Es un sitio web donde eliges un estado de ánimo y reproduce una canción basada en esa elección. Enfoque en una experiencia de usuario fluida y reproducción instantánea desde una biblioteca musical seleccionada.",
     image: "https://res.cloudinary.com/daynclfo8/image/upload/v1768150121/2026-01-11-13-48-29_zktvzz.png",
     title: "Your Mood",
     photos: [
