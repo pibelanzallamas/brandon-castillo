@@ -105,6 +105,10 @@ main {
 }
 .about-body a {
   color: #C9D7E3;
+  transition: color 0.3s ease;
+}
+.about-body a:hover {
+  color: #31a594;
 }
 
 .exp-card {
@@ -160,6 +164,11 @@ main {
   font-size: 1.1rem;
   font-weight: 400;
   color: #C9D7E3;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.proj-card__title h4:hover {
+  color: #31a594;
+  transform: scale(1.1);
 }
 .proj-card__title svg {
   width: 1.1rem;
@@ -400,10 +409,6 @@ body {
 a {
   text-decoration: none;
   color: inherit;
-}
-
-a:hover, .highlight:hover {
-  color: #31a594;
 }
 
 @media (min-width: 1024px) {
