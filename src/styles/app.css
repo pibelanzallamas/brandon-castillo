@@ -211,7 +211,7 @@ footer p {
 
 @media (min-width: 840px) {
   main {
-    margin-top: 3rem;
+    margin-top: 8rem;
     margin-left: 30rem;
   }
   #about {
@@ -227,7 +227,7 @@ footer p {
     width: 40ch;
   }
   #charts {
-    width: 37rem;
+    width: 40rem;
   }
   footer {
     margin-top: 2rem;
