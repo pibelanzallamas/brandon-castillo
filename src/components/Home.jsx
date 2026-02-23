@@ -15,8 +15,7 @@ function Home() {
         <p className="about-body">
           {leng ? 
           <> 
-            Soy Desarrollador Front End con especialidad en interactividad web,
-            enfocado en construir interfaces de usuario intuitivas, inmersivas y pixel-perfect. 
+            Soy Desarrollador Front End con especialidad en construir interfaces de usuario intuitivas, inmersivas y pixel-perfect. 
             Disfruto trabajar en la intersección entre diseño y desarrollo, 
             donde una gran experiencia de usuario se encuentra con código robusto, limpio y escalable.
             Actualmente, soy frontend en{" "}
@@ -32,8 +31,7 @@ function Home() {
           </> 
           :
           <> 
-            I’m a Front End Developer specializing in web interactivity, 
-            focused on building intuitive, immersive, pixel-perfect user interfaces. 
+            I’m a Front End Developer specializing building intuitive, immersive, pixel-perfect user interfaces. 
             I enjoy working at the intersection of design and development, 
             where great user experience meets robust, clean, and scalable code. 
             Currently, I’m a frontend developer at{" "}
