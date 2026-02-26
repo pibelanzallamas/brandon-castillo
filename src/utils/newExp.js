@@ -32,10 +32,14 @@ const exp = [
     date: "JAN - FEB 2025",
     fecha: "JAN - FEB 2025",
     web: "https://calles-construction.vercel.app/",
-    desc: `I did the UX/UI design with Miro, consulting with the company about business needs,
-     I did the scheema desgin for the database, the connection to the server, front end development, maintenance and hosting in general.`,
-    descEs: `Realicé el diseño UX/UI con Miro, consultando con la empresa sobre las necesidades comerciales, realicé el diseño de la base de datos, 
-    conexión con el servidor, desarrollo front end, mantenimiento y alojamiento en general.`,
+    desc:`Freelance project where the company needed a custom solution 
+    to manage their own projects through a structured and easy-to-use interface. 
+    My solution was a simple CRUD for Jobs and Gallery, where the company can upload, modify and delete works based on different 
+    categories (drywall, painter, utilities, etc).`,
+    descEs: `Proyecto freelance en el que la empresa necesitaba una solución personalizada para gestionar sus
+     propios proyectos a través de una interfaz estructurada y fácil de usar.
+    Mi solución fue un CRUD simple para las secciones de Trabajos y Galería, donde la compañia puede subir, 
+    modificar y eliminar proyectos según distintas categorías (drywall, pintura, servicios, etc.).`,
     mainFeat: [
       {
         title: "Company Information",
