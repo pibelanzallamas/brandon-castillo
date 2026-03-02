@@ -1,11 +1,11 @@
-import { useSelector } from "react-redux"
 import exp from "../utils/newExp"
 import projects from "../utils/newProjects"
 import NewExpCard from "../commons/NewExpCard"
 import NewProjectCard from "../commons/NewProjectCard"
+import { useAppSelector } from "../hooks/hooks";
 
 function Main() {
-  const leng = useSelector(state => state.lang.esp);
+  const leng = useAppSelector(state => state.lang.esp);
 
   return (
     <>
@@ -73,7 +73,7 @@ function Main() {
       
       <footer>
         <div className="footer-links">
-          <p class="firma">Made with ❤️ by Brandon 🏰</p>
+          <p className="firma">Made with ❤️ by Brandon 🏰</p>
         </div>
       </footer>
     </>
