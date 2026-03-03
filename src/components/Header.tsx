@@ -33,8 +33,23 @@ function Main() {
         <h1>Brandon Castillo</h1>
         <h2>{leng ? " Desarrollador Front End" : "Front End Developer"}</h2>
         <p className="hero-description">
-          {leng ? "Construyo experiencias digitales inmersivas, interactivas y pixel-perfect para la web.":
-          "I build immersive, interactive, pixel-perfect digital experiences for the web."}
+          {
+            leng
+              ? (
+                <>
+                  Construyo experiencias digitales inmersivas,
+                  <span className="rainbow-hover"> interactivas</span>,
+                  y pixel-perfect para la web.
+                </>
+              )
+              : (
+                <>
+                  I build immersive,
+                  <span className="rainbow-hover"> interactive</span>,
+                  pixel-perfect digital experiences for the web.
+                </>
+              )
+          }
         </p>
 
         <div className="hero-icons">
