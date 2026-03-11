@@ -62,13 +62,13 @@ function Main() {
           ))}
         </section>
 
-        <section id="charts" className="section-title">
+        {/* <section id="charts" className="section-title">
           <h2>Charts</h2>
           <img
             src="http://ghchart.rshah.org/3fc761/brandoncastillodev"
             alt="brandoncastillodev's Github chart"
           />
-        </section>
+        </section> */}
       </main>
       
       <footer>
