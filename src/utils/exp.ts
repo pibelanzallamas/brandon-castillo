@@ -10,7 +10,7 @@ const exp = [
     author: "Brandon Castillo",
     photos:[
       "https://res.cloudinary.com/daynclfo8/image/upload/v1767360213/2026-01-02-10-21-18_t8acgo.png"],
-    web: "https://cgcminc.vercel.app/",
+    web: "https://minc-cg.com/",
     youtube: "https://www.youtube.com/watch?v=d9R3duNF7eg",
     github: "https://github.com/brandoncastillodev/minc.cg/",
     desc:

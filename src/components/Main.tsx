@@ -20,7 +20,7 @@ function Main() {
               donde una gran experiencia de usuario se encuentra con código robusto, limpio y escalable.
               Actualmente, soy frontend en{" "}
               <a 
-                href="https://cgcminc.vercel.app" 
+                href="https://minc-cg.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -36,7 +36,7 @@ function Main() {
               where great user experience meets robust, clean, and scalable code. 
               Currently, I’m a frontend developer at{" "}
               <a 
-                href="https://cgcminc.vercel.app" 
+                href="https://minc-cg.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
