@@ -97,6 +97,13 @@ function Main() {
           </a> 
         </div>
       </div>
+
+      <div className="navbar-links">
+        <a href="#about">{leng ? "Sobre mí" : "About"}</a>
+        <a href="#experience">{leng ? "Experiencia" : "Experience"}</a>
+        <a href="#projects">{leng ? "Proyectos" : "Projects"}</a>
+        <a href="#charts">Charts</a>
+      </div>
     </header>
   );
 }

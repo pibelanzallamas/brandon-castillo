@@ -54,6 +54,9 @@ nav
     fill: #61EAD5
     transform: scale(1.1)
 
+.navbar-links
+  display: none
+
 @media (min-width: 840px)
   header
     padding: 0rem
@@ -63,6 +66,14 @@ nav
   nav
     padding: 1rem
 
+  .navbar-links
+    display: flex
+    flex-direction: column
+    gap: 1rem
+    margin: 0 auto
+    width: 70%
+    margin-top: 1.5rem
+
   #hero
     margin: 0 auto
     margin-top: 5rem
@@ -71,8 +82,6 @@ nav
       width: 20ch
     p
       width: 30ch
-
-
 
 
 

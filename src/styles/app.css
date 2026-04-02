@@ -66,6 +66,10 @@ nav {
   transform: scale(1.1);
 }
 
+.navbar-links {
+  display: none;
+}
+
 @media (min-width: 840px) {
   header {
     padding: 0rem;
@@ -74,6 +78,14 @@ nav {
   }
   nav {
     padding: 1rem;
+  }
+  .navbar-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 1.5rem;
   }
   #hero {
     margin: 0 auto;
@@ -159,17 +171,20 @@ main {
   align-items: flex-end;
   gap: 0.2rem;
 }
-.proj-card__title h4 {
+
+h4, .navbar-links a {
   font-size: 1.1rem;
   font-weight: 400;
   color: #C9D7E3;
   transition: transform 0.3s ease, color 0.3s ease;
 }
-.proj-card__title h4:hover {
+
+h4:hover, .navbar-links a:hover {
   color: #31a594;
   transform: scale(1.02);
 }
-.proj-card__title svg {
+
+svg {
   width: 1.1rem;
 }
 
@@ -383,6 +398,10 @@ footer p {
     width: 100%;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   padding: 0;
   margin: 0;

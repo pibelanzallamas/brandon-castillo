@@ -11,7 +11,7 @@ function Main() {
     <>
       <main className="home">
         <section id="about" className="section-title">
-          <h2>{leng ? "Acerca" : "About"}</h2>
+          <h2>{leng ? "Sobre mí" : "About"}</h2>
           <p className="about-body">
             {leng ? 
             <> 
@@ -27,7 +27,7 @@ function Main() {
                 CGC MINC
               </a>, 
               donde traduzco diseños de alta fidelidad en experiencias 
-              responsivas y accesibles, incluyendo animaciones 3D y 2D.
+              responsivas y accesibles, incluyendo animaciones en 2D y 3D.
             </> 
             :
             <> 
@@ -43,7 +43,7 @@ function Main() {
                 CGC MINC
               </a>, 
               where I translate high-fidelity designs into responsive and accessible experiences, 
-              including 3D and 2D animations.
+              including 2D and 3D animations.
             </>}
           </p>
         </section>
@@ -62,13 +62,13 @@ function Main() {
           ))}
         </section>
 
-        {/* <section id="charts" className="section-title">
+        <section id="charts" className="section-title">
           <h2>Charts</h2>
           <img
             src="http://ghchart.rshah.org/3fc761/brandoncastillodev"
             alt="brandoncastillodev's Github chart"
           />
-        </section> */}
+        </section>
       </main>
       
       <footer>
