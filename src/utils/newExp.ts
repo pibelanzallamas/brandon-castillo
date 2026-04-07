@@ -1,8 +1,8 @@
 const exp = [
   {
-    date: "DEC - Now",
+    date: "Dec - Now",
     fecha: "DIC - Actualidad",
-    title: "MINC CG Official Website",
+    title: "MINC CG",
     web: "https://cgcminc.vercel.app/",
     descEs: `Ecommerce de indumentaria y accesorios. Realicé la optimización de las animaciones y aseguré 
     su funcionamiento en todos los dispositivos y principales navegadores (Chrome, Safari). 

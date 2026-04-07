@@ -95,12 +95,16 @@ nav {
     margin-top: 1.2rem;
     width: 70%;
   }
+  #hero h1 {
+    font-size: 2.1rem;
+  }
   #hero h2 {
     margin-top: 1.8rem;
-    font-size: 1.1;
-    width: 20ch;
   }
-  #hero p {
+  .hero-photo {
+    margin-top: 1.8rem;
+  }
+  .hero-description {
     margin-top: 0.8rem;
     width: 30ch;
   }
@@ -121,7 +125,7 @@ main {
 }
 
 .section-title {
-  margin-top: 7.5rem;
+  margin-top: 8rem;
 }
 .section-title h2 {
   font-size: 0.9rem;
@@ -148,11 +152,13 @@ main {
 }
 
 .exp-card__date {
-  margin-bottom: 0.7rem;
+  font-size: 0.85rem;
 }
 
 .exp-card__title {
-  margin-top: 0.6rem;
+  display: flex;
+  align-items: flex-end;
+  gap: 0.2rem;
   font-size: 1.4rem;
   font-weight: 400;
   color: #C9D7E3;
@@ -176,10 +182,6 @@ main {
   color: #61EAD5;
   padding: 0.45rem 0.55rem;
   font-size: 0.9rem;
-}
-
-#projects {
-  margin-top: 4rem;
 }
 
 .proj-card {
@@ -222,9 +224,6 @@ svg {
   border-radius: 2%;
 }
 
-#charts {
-  margin-top: 0rem;
-}
 #charts img {
   margin-top: -1rem;
 }

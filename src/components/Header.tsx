@@ -31,7 +31,7 @@ function Main() {
       </nav> 
 
       <div id="hero">
-          <figure className="hero-photo">
+        <figure className="hero-photo">
           <img src={heroPhoto} alt="Brandon Castillo profile picture" />
         </figure>
         <h1>Brandon Castillo</h1>
