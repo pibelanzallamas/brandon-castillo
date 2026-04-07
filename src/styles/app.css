@@ -106,10 +106,10 @@ nav {
     display: block;
     width: 8rem;
     aspect-ratio: 1/1;
-    background-color: transparent;
     border-radius: 50%;
     overflow: hidden;
-    margin-top: 1rem;
+    filter: contrast(0.85) brightness(0.9);
+    margin-top: 1.25rem;
   }
   .hero-photo img {
     width: 100%;
