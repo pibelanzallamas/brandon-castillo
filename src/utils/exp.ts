@@ -1,7 +1,7 @@
 const exp = [
   {
     id: 12,
-    title: "CGC minc",
+    title: "MINC CG",
     year: 2025,
     inicio: "Dec 2025",
     final: "Jan 2025",

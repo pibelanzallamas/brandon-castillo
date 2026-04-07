@@ -2,7 +2,7 @@ const exp = [
   {
     date: "DEC - Now",
     fecha: "DIC - Actualidad",
-    title: "CGC minc",
+    title: "MINC CG Official Website",
     web: "https://cgcminc.vercel.app/",
     descEs: `Ecommerce de indumentaria y accesorios. Realicé la optimización de las animaciones y aseguré 
     su funcionamiento en todos los dispositivos y principales navegadores (Chrome, Safari). 
@@ -25,7 +25,7 @@ const exp = [
     ],
   },
   {
-    title: "Calles Construction",
+    title: "Calles Construction Official Website",
     date: "JAN - FEB 2025",
     fecha: "JAN - FEB 2025",
     web: "https://calles-construction.vercel.app/",

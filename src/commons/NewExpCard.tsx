@@ -13,7 +13,7 @@ function NewExpCard({exp}){
       </div>
       <p className="exp-card__descr">{leng?exp.descEs:exp.desc}</p>
       <ul className="exp-card__techs"> 
-        {exp.techs.map((ele)=>(
+        {exp.techs.map((ele:string)=>(
         <li className="exp-car__tech">{ele}</li>))}
       </ul>
     </div>

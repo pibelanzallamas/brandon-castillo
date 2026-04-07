@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import cvEn from "../assets/cvs/Brandon Castillo Resume.pdf"
 import cvEs from "../assets/cvs/Brandon Castillo.pdf";
-import heroPhoto from "../assets/images/pp-transparent.jpg";
+import heroPhoto from "../assets/images/pp.webp";
 import { Link} from "react-router-dom";
 import { setLang } from "../state/lang";
 import { useAppSelector } from "../hooks/hooks";
@@ -31,11 +31,12 @@ function Main() {
       </nav> 
 
       <div id="hero">
-        <h1>Brandon Castillo</h1>
-        <h2>{leng ? " Desarrollador Front End" : "Front End Developer"}</h2>
-        <figure className="hero-photo">
+          <figure className="hero-photo">
           <img src={heroPhoto} alt="Brandon Castillo profile picture" />
         </figure>
+        <h1>Brandon Castillo</h1>
+        <h2>{leng ? " Desarrollador Front End" : "Front End Developer"}</h2>
+     
         <p className="hero-description">
             {
               leng
