@@ -34,6 +34,9 @@ nav
     font-size: 1.3rem
     margin-top: 0.8rem
 
+.hero-photo
+  display: none
+
 .hero-description
   color: $color-texto
   margin-top: 1rem
@@ -76,14 +79,26 @@ nav
 
   #hero
     margin: 0 auto
-    margin-top: 5rem
+    margin-top: 2rem
     width: 70%
     h2
       width: 20ch
     p
       width: 30ch
 
-
+  .hero-photo
+    display: block
+    width: 8rem
+    aspect-ratio: 1 / 1
+    background-color: transparent
+    border-radius: 50%
+    overflow: hidden
+    // margin-bottom: 1.2rem
+    margin-top: 1rem
+    img
+      width: 100%
+      height: 100%
+      object-fit: cover
 
 
 
