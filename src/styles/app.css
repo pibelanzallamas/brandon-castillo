@@ -480,6 +480,8 @@ a {
 @media (min-width: 840px) {
   .layout {
     display: flex;
+    width: 90vw;
+    margin: 0 auto;
   }
 }
 
