@@ -11,7 +11,7 @@ function Main() {
     <>
       <main className="home">
         <section id="about" className="section-title">
-          <h2>{leng ? "SOBRE MÍ" : "About me"}</h2>
+          <h2>{leng ? "SOBRE" : "About"}</h2>
           <p className="about-body">
             {leng ? 
             <> 

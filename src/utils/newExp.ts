@@ -10,6 +10,10 @@ const exp = [
     desc: `E-commerce for clothing and accessories. I optimized the animations and ensured their functionality across
     all devices (Mobile, Dekstop) and major browsers (Chrome, Safari). Database design for products. Pixel-perfect implementation. Optimización.
     UX/UI design: Daniel Aziah. Still in development.`,
+    extra: [
+      {name: "Figma", link: "https://www.figma.com/design/qPTA14mF6TFzwutCQ5f7PY/Minc-Designs?node-id=0-1&p=f&t=zJ6jqMvFwvZ3MxWJ-0"}
+      
+    ],
     techs: [
       "JavaScript",
       "React",
@@ -25,7 +29,7 @@ const exp = [
     ],
   },
   {
-    title: "Calles Construction Official Website",
+    title: "Calles Construction",
     date: "JAN - FEB 2025",
     fecha: "JAN - FEB 2025",
     web: "https://calles-construction.vercel.app/",
