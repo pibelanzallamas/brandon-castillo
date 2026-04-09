@@ -130,7 +130,6 @@ section {
 
 .section-title h2 {
   font-size: 0.9rem;
-  text-decoration: underline;
   margin-bottom: 2.5rem;
   font-weight: 800 !important;
   letter-spacing: 0.1rem;
@@ -269,20 +268,21 @@ footer p {
 
 @media (min-width: 840px) {
   main {
-    margin-top: 0rem;
+    margin-top: 5.5rem;
     margin-left: 30rem;
   }
   main {
-    padding: 3rem 0rem 0rem 0rem;
+    padding: 0rem 0rem 0rem 0rem;
   }
   .section-title h2 {
+    font-size: 1.2rem;
     margin-bottom: 2rem;
   }
-  section {
-    margin-bottom: 6rem;
+  .exp-card__descr {
+    width: 100px;
   }
-  #about {
-    margin-top: 1rem;
+  section {
+    margin-bottom: 7rem;
   }
   #about p {
     width: 64ch;
@@ -294,10 +294,10 @@ footer p {
     width: 40ch;
   }
   #charts {
+    margin-bottom: 5rem;
     width: 40rem;
   }
   footer {
-    margin-top: 2rem;
     margin-left: 30rem;
   }
 }
@@ -480,7 +480,7 @@ a {
 @media (min-width: 840px) {
   .layout {
     display: flex;
-    width: 90vw;
+    width: 60vw;
     margin: 0 auto;
   }
 }

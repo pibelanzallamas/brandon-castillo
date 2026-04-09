@@ -10,7 +10,7 @@ import { useAppSelector } from "../hooks/hooks";
 function Main() {
   const [esp, setEsp] = useState(useAppSelector(state => state.lang.esp));
   const leng = useAppSelector(state => state.lang.esp)
-
+  const [active, setActive] = useState(false)
   const dispatch = useDispatch();
 
   useEffect(()=>{

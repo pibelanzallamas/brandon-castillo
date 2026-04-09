@@ -1,7 +1,7 @@
 const exp = [
   {
     date: "DEC - NOW",
-    fecha: "DIC - Actualidad",
+    fecha: "DIC - ACTUALIDAD",
     title: "MINC CG",
     web: "https://cgcminc.vercel.app/",
     descEs: `Ecommerce de indumentaria y accesorios. Realicé la optimización de las animaciones y aseguré 
