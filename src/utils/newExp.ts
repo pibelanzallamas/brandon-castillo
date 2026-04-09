@@ -1,6 +1,6 @@
 const exp = [
   {
-    date: "Dec - Now",
+    date: "DEC - NOW",
     fecha: "DIC - Actualidad",
     title: "MINC CG",
     web: "https://cgcminc.vercel.app/",
