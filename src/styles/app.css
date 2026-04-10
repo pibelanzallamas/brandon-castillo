@@ -243,6 +243,18 @@ svg {
   border-radius: 2%;
 }
 
+.extra-project-links {
+  display: flex;
+  gap: 1rem;
+}
+.extra-project-links a {
+  font-size: 0.9rem;
+  color: #C9D7E3;
+}
+.extra-project-links a:hover {
+  color: #31a594;
+}
+
 #charts img {
   margin-top: -1rem;
 }

@@ -28,6 +28,38 @@ const exp = [
       },
     ],
   },
+      {
+    name: "Create and share images of your source code.",
+    nombre: "Crea y comparte imágenes de tu código fuente.",
+    desc: "Pixel-perfect, responsive, interactive, user login, save favorite styles. Deployed with Vercel/Render.",
+    descEs: "Pixel-perfect, responsivo, interactivo, logueo de usuario, guardado de estilos favoritos. Deployado con Vercel/Render.",
+    date: "JUN - JUL 2025",
+    fecha: "JUN - JUL 2025",
+    image: "https://res.cloudinary.com/daynclfo8/image/upload/v1775835932/2026-04-10-12-43-36_w16r1p.webp",
+    title: "Carbon Copy",
+    photos: [
+     "https://res.cloudinary.com/daynclfo8/image/upload/v1768158039/2026-01-11-15-57-10_wgtj9p.png"
+    ],
+    web: "https://carbon-copy-omega.vercel.app/",
+    youtube: "https://www.youtube.com/watch?v=bb8RomFHFdg",
+    github: "http://github.com/brandoncastillodev/carbon-copy",
+    extra: [
+      {name: "Figma", link: "https://www.figma.com/design/9mFFJxLH0ydY1XPal0tKy9/CarbonCopy?node-id=0-1&t=T7pLs7cSGXYY4Rgv-1"}
+    ],
+    mainFeat: [
+      {
+        title: "Faster easier song searcher",
+        desc: "Easily search for your favorite songs with this intuitive tool.",
+      },
+    ],
+    techs: [
+      "JavaScript",
+      "React",
+      "Redux",
+      "SASS",
+      "Node.js",
+    ],
+  },
   {
     title: "Calles Construction",
     date: "JAN - FEB 2025",
@@ -73,9 +105,10 @@ const exp = [
       },
     ],
   },
+
   {
-    date: "APRIL - MAY 2024",
-    fecha: "ABRIL - MAYO 2024",
+    date: "APR - MAY 2024",
+    fecha: "ABR - MAY 2024",
     title: "Dreamer Paintings",
     web: "https://dreamer-paintings.vercel.app",
     github: "https://github.com/brandoncastillodev/dreamers-paintings",

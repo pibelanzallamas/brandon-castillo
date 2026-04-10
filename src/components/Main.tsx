@@ -60,6 +60,10 @@ function Main() {
           {projects.map((ele,i)=>(
             <NewProjectCard proj={ele} key={i}/>
           ))}
+          {/* <div className="extra-project-links">
+            
+            <a href={""} target="_blank" rel="noopener noreferrer"> adsfasd</a>
+          </div> */}
         </section>
 
         <section id="charts" className="section-title">
