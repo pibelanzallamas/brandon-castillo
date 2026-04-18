@@ -56,7 +56,6 @@ const exp = [
       "JavaScript",
       "React",
       "Redux",
-      "SASS",
       "Node.js",
     ],
   },
