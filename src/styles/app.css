@@ -489,6 +489,11 @@ a {
   color: inherit;
 }
 
+section,
+[id] {
+  scroll-margin-top: 80px;
+}
+
 @media (min-width: 840px) {
   .layout {
     display: flex;
