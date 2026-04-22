@@ -61,6 +61,7 @@ nav {
 
 .rainbow-hover:hover {
   color: pink;
+  cursor: pointer;
 }
 
 .hero-icons {
@@ -491,7 +492,7 @@ a {
 
 section,
 [id] {
-  scroll-margin-top: 80px;
+  scroll-margin-top: 60px;
 }
 
 @media (min-width: 840px) {
