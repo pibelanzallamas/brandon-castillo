@@ -82,11 +82,10 @@ nav {
   display: none;
 }
 
-@media (min-width: 840px) {
+@media (min-width: 1100px) {
   header {
     padding: 0rem;
     position: fixed;
-    width: 30rem;
   }
   nav {
     padding: 1rem;
@@ -279,7 +278,7 @@ footer p {
   row-gap: 0.3rem;
 }
 
-@media (min-width: 840px) {
+@media (min-width: 1100px) {
   main {
     margin-top: 5.5rem;
     margin-left: 30rem;
@@ -297,11 +296,20 @@ footer p {
   section {
     margin-bottom: 7rem;
   }
+  #about {
+    width: 45rem;
+  }
   #about p {
     width: 64ch;
   }
+  #experience {
+    width: 45rem;
+  }
   #experience p {
     width: 64ch;
+  }
+  #projects {
+    width: 45rem;
   }
   #projects p {
     width: 40ch;
@@ -459,6 +467,11 @@ footer p {
     width: 100%;
   }
 }
+footer {
+  border: 1px solid green;
+  display: grid;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -495,11 +508,11 @@ section,
   scroll-margin-top: 60px;
 }
 
-@media (min-width: 840px) {
+@media (min-width: 1100px) {
   .layout {
     display: flex;
-    width: 60vw;
-    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
   }
 }
 
