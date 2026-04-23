@@ -468,7 +468,6 @@ footer p {
   }
 }
 footer {
-  border: 1px solid green;
   display: grid;
 }
 
