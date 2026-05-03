@@ -9,7 +9,7 @@ function Main() {
 
   return (
     <>
-      <main className="home">
+      <main>
         <section id="about" className="section-title">
           <h2>{leng ? "SOBRE MÍ" : "About"}</h2>
           <p className="about-body">
