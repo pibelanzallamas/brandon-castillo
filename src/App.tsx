@@ -6,12 +6,13 @@ import Main from "./components/Main";
 function App() {
   return (
     <div className="layout">
-      <div className="tye">
-        <Analytics />
+      <div className="centered-content">
         <Header />
         <div className="content" style={{ flex: "1" }}>
           <Main/>
         </div>
+        {/* for stats */}
+        <Analytics />
       </div>
     </div>
   );
