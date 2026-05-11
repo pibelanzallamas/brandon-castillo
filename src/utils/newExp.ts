@@ -96,6 +96,9 @@ const exp = [
       "Redux",
       "SASS",
     ],
+    extra: [
+      {name: "Miro", link: "https://miro.com/app/board/uXjVKCUE658=/?share_link_id=159283481386"}
+    ],
     tools: ["Scrum Methology"],
     linksTools: [
       {
