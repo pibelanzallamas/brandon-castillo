@@ -86,8 +86,10 @@ h2 {
 @media (min-width: 1150px) {
   header {
     position: fixed;
-    min-height: 100vh;
     width: 25rem;
+    height: 100vh;
+    overflow-y: auto;
+    padding-bottom: 3rem;
   }
   #hero {
     margin-top: 1.2rem;
