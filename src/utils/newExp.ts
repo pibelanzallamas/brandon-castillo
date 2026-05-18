@@ -35,8 +35,10 @@ const exp = [
       {
     name: "Create and share images of your source code.",
     nombre: "Crea y comparte imágenes de tu código fuente.",
-    desc: "Pixel-perfect, responsive, interactive, user login, save favorite styles. Deployed with Vercel/Render.",
-    descEs: "Pixel-perfect, responsivo, interactivo, logueo de usuario, guardado de estilos favoritos. Deployado con Vercel/Render.",
+    desc: `Website that exports snippets of your source code with differents color palletes and highlight sintaxis. Pixel-perfect, responsive and interactive development. 
+    It includes user login and favorite style saving.`,
+    descEs: `Desarrollé un sitio web que exporta fragmentos de tu código fuente con diferentes paletas de colores y resaltado de sintaxis. 
+    Desarrollo pixel-perfect, responsivo e interactivo. Incluye inicio de sesión de usuario y guardado de estilos a favoritos. `,
     date: "JUN - JUL 2025",
     fecha: "JUN - JUL 2025",
     image: "https://res.cloudinary.com/daynclfo8/image/upload/v1775835932/2026-04-10-12-43-36_w16r1p.webp",
@@ -70,12 +72,12 @@ const exp = [
     web: "https://calles-construction.vercel.app/",
     desc:`Freelance project where the company needed a custom solution 
     to manage their own projects through a structured and easy-to-use interface. 
-    My solution was a simple CRUD for Jobs and Gallery, where the company can upload, modify and delete works based on different 
+    My solution was a simple but powerful site where the company can upload, modify and delete works based on different 
     categories (drywall, painter, utilities, etc).`,
     descEs: `Proyecto freelance en el que la empresa necesitaba una solución personalizada para gestionar sus
-     propios proyectos a través de una interfaz estructurada y fácil de usar.
-    Mi solución fue un CRUD simple para las secciones de Trabajos y Galería, donde la compañia puede subir, 
-    modificar y eliminar proyectos según distintas categorías (drywall, pintura, servicios, etc.).`,
+    propios proyectos a través de una interfaz estructurada y fácil de usar.
+    Mi solución fue un sitio web simple pero potente donde la compañia puede subir, 
+    modificar y eliminar proyectos según distintas categorías (drywall, pintura, plomería, etc.).`,
     mainFeat: [
       {
         title: "Company Information",
