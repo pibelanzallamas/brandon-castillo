@@ -4,12 +4,16 @@ const exp = [
     fecha: "DIC - ACTUALIDAD",
     title: "MINC CG",
     web: "https://cgcminc.vercel.app/",
-    descEs: `Ecommerce de indumentaria y accesorios. Realicé la optimización de las animaciones y aseguré 
-    su funcionamiento en todos los dispositivos y principales navegadores (Chrome, Safari). 
-    Diseño de base de datos para los productos. Implementación de manera pixel-perfect. Optimization. Diseño UX/UI: Daniel Aziah. Sigue en desarrollo.`,
-    desc: `E-commerce for clothing and accessories. I optimized the animations and ensured their functionality across
-    all devices (Mobile, Dekstop) and major browsers (Chrome, Safari). Database design for products. Pixel-perfect implementation. Optimización.
-    UX/UI design: Daniel Aziah. Still in development.`,
+    descEs: `Estudio multidisciplinario que produce entornos digitales estilizados y una plataforma de retail curada.
+    Desarrollé el sitio completo usando solo Sass y React en colaboración con el diseñador UX/UI. 
+    Optimicé las animaciones 3D y aseguré su funcionamiento en todos los dispositivos (móvil, escritorio) y navegadores (Chrome, Safari).
+    También diseñé la base de datos del e-commerce y gestioné la integración con Snipcart, con una implementación responsive y pixel-perfect.
+    Diseño UX/UI: Daniel Aziah. En desarrollo`,
+    desc: `Multidisciplinary studio producing stylised digital environments and a curated retail platform. 
+    I developed the entire site using Sass and React, collaborating with UX/UI designer. 
+    I optimized the 3D animations and ensured their functionality across all devices (Mobile, Desktop) and browsers (Chrome, Safari).
+    I designed the e-commerce database and managed the Snipcart integration, with responsive pixel-perfect implementation. 
+    UX/UI design by Daniel Aziah. Still in development.`,
     extra: [
       {name: "Figma", link: "https://www.figma.com/design/qPTA14mF6TFzwutCQ5f7PY/Minc-Designs?node-id=0-1&p=f&t=zJ6jqMvFwvZ3MxWJ-0"}
       
